@@ -120,6 +120,9 @@
                                 <frame key="frameInset" minX="16" minY="585" width="111" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Calculate Result"/>
+                                <connections>
+                                    <action selector="calculateAnxietyScore:" destination="lPr-X9-aph" eventType="touchUpInside" id="hVt-As-KW2"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="6. Easily annoyed or iritable?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ugY-MP-c0W">
                                 <frame key="frameInset" minX="14" minY="323" width="218" height="21"/>
@@ -128,10 +131,11 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Result" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jhN-PC-hhE">
-                                <frame key="frameInset" minX="311" minY="589" width="48" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jhN-PC-hhE">
+                                <frame key="frameInset" minX="135" minY="589" width="224" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -140,6 +144,9 @@
                     <navigationItem key="navigationItem" title="Anxiety (GAD-7)" id="d9v-lf-ixx">
                         <barButtonItem key="backBarButtonItem" title="Back" id="mVq-XI-M4H"/>
                     </navigationItem>
+                    <connections>
+                        <outlet property="displayAnxietyScore" destination="jhN-PC-hhE" id="MH7-gb-Y7M"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dL1-HC-KJk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -148,7 +155,7 @@
         <!--Depression (PHQ-9)-->
         <scene sceneID="7nL-Jj-oPb">
             <objects>
-                <viewController id="UMf-1q-LKx" customClass="depression1" sceneMemberID="viewController">
+                <viewController id="UMf-1q-LKx" customClass="depression1ViewController" customModule="Final_Quiz" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="lvp-YQ-FEk"/>
                         <viewControllerLayoutGuide type="bottom" id="ZjW-q0-G3P"/>
@@ -231,12 +238,15 @@
                                 <frame key="frameInset" minX="16" minY="585" width="111" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Calculate Result"/>
+                                <connections>
+                                    <action selector="calculateDepressionScore:" destination="UMf-1q-LKx" eventType="touchUpInside" id="rGh-Fx-510"/>
+                                </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Result" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HfA-rg-0VJ">
-                                <frame key="frameInset" minX="311" minY="589" width="48" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HfA-rg-0VJ">
+                                <frame key="frameInset" minX="135" minY="589" width="224" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -245,6 +255,9 @@
                     <navigationItem key="navigationItem" title="Depression (PHQ-9)" id="zay-Yx-n5e">
                         <barButtonItem key="backBarButtonItem" title="Back" id="ryA-Lb-GQy"/>
                     </navigationItem>
+                    <connections>
+                        <outlet property="displayDepressionScore" destination="HfA-rg-0VJ" id="xkg-DO-Yp0"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yR9-H4-EFE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

@@ -11,14 +11,29 @@ import UIKit
 class anxiety1ViewController: UIViewController {
 
     // Set total score to zero
-    var totalAnxietyScore = 0
+    var totalAnxietyScore = 10
+    
+    // Anxiety score label
+    @IBOutlet weak var displayAnxietyScore: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
-
+    
+    // Calculate the anxiety score on button tap
+    @IBAction func calculateAnxietyScore(_ sender: AnyObject) {
+        // Evaluate score
+        if totalAnxietyScore < 5 {
+            displayAnxietyScore.text = "Mild Anxiety"
+        } else if totalAnxietyScore >= 5 && totalAnxietyScore < 10 {
+            displayAnxietyScore.text = "Moderate Anxiety"
+        } else if totalAnxietyScore >= 10 {
+            displayAnxietyScore.text = "Severe Anxiety"
+        }
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
