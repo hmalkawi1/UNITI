@@ -8,11 +8,36 @@
 
 import UIKit
 
-class SecondViewController: UIViewController {
+class TimerSecondViewController: UIViewController {
 
-    @IBOutlet weak var label: UILabel!
+    
     
     var Timer_Value = 0
+    var timer = Timer()
+    
+    @IBOutlet weak var label: UILabel!
+    
+    @IBAction func START(_ sender: UIButton) {
+        
+        timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(TimerSecondViewController.countdown), userInfo: nil, repeats: true)
+    }
+
+    
+    func countdown (){
+
+        Timer_Value = Timer_Value - 1
+        label.text = String(Timer_Value)
+
+        if (Timer_Value == 0){
+            timer.invalidate()
+        }
+    }
+
+    
+    @IBAction func STOP(_ sender: UIButton) {
+                timer.invalidate()
+    }
+    
     
     
     
