@@ -8,7 +8,7 @@
 
 import UIKit
 
-class TimerViewController: UIViewController {
+class ViewController: UIViewController {
     //Starting value for Time_Selected is 30 minutes
     var Time_Selected = 30
     
@@ -17,19 +17,14 @@ class TimerViewController: UIViewController {
     
     //This is how users select the duration - also sets Time_Selected to an int value.
     //Time Slider Value Range [30,240]
-
-
     @IBAction func Time_Slider(_ sender: UISlider) {
         Time_Selected = Int(sender.value)
         Timer_Display.text = String(Time_Selected)
     }
     
-    
-    
-    
     //Prepare the Time value (Duration) to be sent to the second view controller.
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let secondVC : TimerSecondViewController = segue.destination as! TimerSecondViewController
+        let secondVC : SecondViewController = segue.destination as! SecondViewController
         secondVC.Timer_Value = Time_Selected
     }
     
@@ -47,5 +42,5 @@ class TimerViewController: UIViewController {
     }
 
 
-
 }
+
