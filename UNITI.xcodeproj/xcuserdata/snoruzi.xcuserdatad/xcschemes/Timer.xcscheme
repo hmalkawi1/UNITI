@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "96393F1D1E6E2B2B00B29B96"
+               BlueprintIdentifier = "72B80C731E6E5AF10093CAF5"
                BuildableName = "UNITI.app"
                BlueprintName = "UNITI"
                ReferencedContainer = "container:UNITI.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "96393F311E6E2B2B00B29B96"
+               BlueprintIdentifier = "72B80C871E6E5AF10093CAF5"
                BuildableName = "UNITITests.xctest"
                BlueprintName = "UNITITests"
                ReferencedContainer = "container:UNITI.xcodeproj">
@@ -42,7 +42,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "96393F3C1E6E2B2B00B29B96"
+               BlueprintIdentifier = "72B80C921E6E5AF10093CAF5"
                BuildableName = "UNITIUITests.xctest"
                BlueprintName = "UNITIUITests"
                ReferencedContainer = "container:UNITI.xcodeproj">
@@ -52,7 +52,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "96393F1D1E6E2B2B00B29B96"
+            BlueprintIdentifier = "72B80C731E6E5AF10093CAF5"
             BuildableName = "UNITI.app"
             BlueprintName = "UNITI"
             ReferencedContainer = "container:UNITI.xcodeproj">
@@ -75,7 +75,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "96393F1D1E6E2B2B00B29B96"
+            BlueprintIdentifier = "72B80C731E6E5AF10093CAF5"
             BuildableName = "UNITI.app"
             BlueprintName = "UNITI"
             ReferencedContainer = "container:UNITI.xcodeproj">
@@ -94,7 +94,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "96393F1D1E6E2B2B00B29B96"
+            BlueprintIdentifier = "72B80C731E6E5AF10093CAF5"
             BuildableName = "UNITI.app"
             BlueprintName = "UNITI"
             ReferencedContainer = "container:UNITI.xcodeproj">

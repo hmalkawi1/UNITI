@@ -7,64 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		96393F221E6E2B2B00B29B96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96393F211E6E2B2B00B29B96 /* AppDelegate.swift */; };
-		96393F241E6E2B2B00B29B96 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96393F231E6E2B2B00B29B96 /* ViewController.swift */; };
-		96393F271E6E2B2B00B29B96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96393F251E6E2B2B00B29B96 /* Main.storyboard */; };
-		96393F291E6E2B2B00B29B96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96393F281E6E2B2B00B29B96 /* Assets.xcassets */; };
-		96393F2C1E6E2B2B00B29B96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96393F2A1E6E2B2B00B29B96 /* LaunchScreen.storyboard */; };
-		96393F371E6E2B2B00B29B96 /* UNITITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96393F361E6E2B2B00B29B96 /* UNITITests.swift */; };
-		96393F421E6E2B2B00B29B96 /* UNITIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96393F411E6E2B2B00B29B96 /* UNITIUITests.swift */; };
+		723917111E6E6BE700B880AE /* TimerSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723917101E6E6BE700B880AE /* TimerSecondViewController.swift */; };
+		72B80C781E6E5AF10093CAF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B80C771E6E5AF10093CAF5 /* AppDelegate.swift */; };
+		72B80C7A1E6E5AF10093CAF5 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B80C791E6E5AF10093CAF5 /* TimerViewController.swift */; };
+		72B80C7D1E6E5AF10093CAF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72B80C7B1E6E5AF10093CAF5 /* Main.storyboard */; };
+		72B80C7F1E6E5AF10093CAF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72B80C7E1E6E5AF10093CAF5 /* Assets.xcassets */; };
+		72B80C821E6E5AF10093CAF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72B80C801E6E5AF10093CAF5 /* LaunchScreen.storyboard */; };
+		72B80C8D1E6E5AF10093CAF5 /* UNITITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B80C8C1E6E5AF10093CAF5 /* UNITITests.swift */; };
+		72B80C981E6E5AF10093CAF5 /* UNITIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B80C971E6E5AF10093CAF5 /* UNITIUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		96393F331E6E2B2B00B29B96 /* PBXContainerItemProxy */ = {
+		72B80C891E6E5AF10093CAF5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 96393F161E6E2B2B00B29B96 /* Project object */;
+			containerPortal = 72B80C6C1E6E5AF10093CAF5 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 96393F1D1E6E2B2B00B29B96;
-			remoteInfo = UNITI;
+			remoteGlobalIDString = 72B80C731E6E5AF10093CAF5;
+			remoteInfo = Timer;
 		};
-		96393F3E1E6E2B2B00B29B96 /* PBXContainerItemProxy */ = {
+		72B80C941E6E5AF10093CAF5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 96393F161E6E2B2B00B29B96 /* Project object */;
+			containerPortal = 72B80C6C1E6E5AF10093CAF5 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 96393F1D1E6E2B2B00B29B96;
-			remoteInfo = UNITI;
+			remoteGlobalIDString = 72B80C731E6E5AF10093CAF5;
+			remoteInfo = Timer;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		96393F1E1E6E2B2B00B29B96 /* UNITI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UNITI.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		96393F211E6E2B2B00B29B96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		96393F231E6E2B2B00B29B96 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		96393F261E6E2B2B00B29B96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		96393F281E6E2B2B00B29B96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		96393F2B1E6E2B2B00B29B96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		96393F2D1E6E2B2B00B29B96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		96393F321E6E2B2B00B29B96 /* UNITITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UNITITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		96393F361E6E2B2B00B29B96 /* UNITITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UNITITests.swift; sourceTree = "<group>"; };
-		96393F381E6E2B2B00B29B96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		96393F3D1E6E2B2B00B29B96 /* UNITIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UNITIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		96393F411E6E2B2B00B29B96 /* UNITIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UNITIUITests.swift; sourceTree = "<group>"; };
-		96393F431E6E2B2B00B29B96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		723917101E6E6BE700B880AE /* TimerSecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerSecondViewController.swift; sourceTree = "<group>"; };
+		72B80C741E6E5AF10093CAF5 /* UNITI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UNITI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		72B80C771E6E5AF10093CAF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		72B80C791E6E5AF10093CAF5 /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		72B80C7C1E6E5AF10093CAF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		72B80C7E1E6E5AF10093CAF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		72B80C811E6E5AF10093CAF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		72B80C831E6E5AF10093CAF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72B80C881E6E5AF10093CAF5 /* UNITITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UNITITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		72B80C8C1E6E5AF10093CAF5 /* UNITITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UNITITests.swift; sourceTree = "<group>"; };
+		72B80C8E1E6E5AF10093CAF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72B80C931E6E5AF10093CAF5 /* UNITIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UNITIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		72B80C971E6E5AF10093CAF5 /* UNITIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UNITIUITests.swift; sourceTree = "<group>"; };
+		72B80C991E6E5AF10093CAF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		96393F1B1E6E2B2B00B29B96 /* Frameworks */ = {
+		72B80C711E6E5AF10093CAF5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		96393F2F1E6E2B2B00B29B96 /* Frameworks */ = {
+		72B80C851E6E5AF10093CAF5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		96393F3A1E6E2B2B00B29B96 /* Frameworks */ = {
+		72B80C901E6E5AF10093CAF5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -74,140 +76,144 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		96393F151E6E2B2B00B29B96 = {
+		72B80C6B1E6E5AF10093CAF5 = {
 			isa = PBXGroup;
 			children = (
-				96393F201E6E2B2B00B29B96 /* UNITI */,
-				96393F351E6E2B2B00B29B96 /* UNITITests */,
-				96393F401E6E2B2B00B29B96 /* UNITIUITests */,
-				96393F1F1E6E2B2B00B29B96 /* Products */,
+				72B80C761E6E5AF10093CAF5 /* UNITI */,
+				72B80C8B1E6E5AF10093CAF5 /* UNITITests */,
+				72B80C961E6E5AF10093CAF5 /* UNITIUITests */,
+				72B80C751E6E5AF10093CAF5 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		96393F1F1E6E2B2B00B29B96 /* Products */ = {
+		72B80C751E6E5AF10093CAF5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				96393F1E1E6E2B2B00B29B96 /* UNITI.app */,
-				96393F321E6E2B2B00B29B96 /* UNITITests.xctest */,
-				96393F3D1E6E2B2B00B29B96 /* UNITIUITests.xctest */,
+				72B80C741E6E5AF10093CAF5 /* UNITI.app */,
+				72B80C881E6E5AF10093CAF5 /* UNITITests.xctest */,
+				72B80C931E6E5AF10093CAF5 /* UNITIUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		96393F201E6E2B2B00B29B96 /* UNITI */ = {
+		72B80C761E6E5AF10093CAF5 /* UNITI */ = {
 			isa = PBXGroup;
 			children = (
-				96393F211E6E2B2B00B29B96 /* AppDelegate.swift */,
-				96393F231E6E2B2B00B29B96 /* ViewController.swift */,
-				96393F251E6E2B2B00B29B96 /* Main.storyboard */,
-				96393F281E6E2B2B00B29B96 /* Assets.xcassets */,
-				96393F2A1E6E2B2B00B29B96 /* LaunchScreen.storyboard */,
-				96393F2D1E6E2B2B00B29B96 /* Info.plist */,
+				72B80C771E6E5AF10093CAF5 /* AppDelegate.swift */,
+				72B80C791E6E5AF10093CAF5 /* TimerViewController.swift */,
+				72B80C7B1E6E5AF10093CAF5 /* Main.storyboard */,
+				723917101E6E6BE700B880AE /* TimerSecondViewController.swift */,
+				72B80C7E1E6E5AF10093CAF5 /* Assets.xcassets */,
+				72B80C801E6E5AF10093CAF5 /* LaunchScreen.storyboard */,
+				72B80C831E6E5AF10093CAF5 /* Info.plist */,
 			);
-			path = UNITI;
+			name = UNITI;
+			path = Timer;
 			sourceTree = "<group>";
 		};
-		96393F351E6E2B2B00B29B96 /* UNITITests */ = {
+		72B80C8B1E6E5AF10093CAF5 /* UNITITests */ = {
 			isa = PBXGroup;
 			children = (
-				96393F361E6E2B2B00B29B96 /* UNITITests.swift */,
-				96393F381E6E2B2B00B29B96 /* Info.plist */,
+				72B80C8C1E6E5AF10093CAF5 /* UNITITests.swift */,
+				72B80C8E1E6E5AF10093CAF5 /* Info.plist */,
 			);
-			path = UNITITests;
+			name = UNITITests;
+			path = TimerTests;
 			sourceTree = "<group>";
 		};
-		96393F401E6E2B2B00B29B96 /* UNITIUITests */ = {
+		72B80C961E6E5AF10093CAF5 /* UNITIUITests */ = {
 			isa = PBXGroup;
 			children = (
-				96393F411E6E2B2B00B29B96 /* UNITIUITests.swift */,
-				96393F431E6E2B2B00B29B96 /* Info.plist */,
+				72B80C971E6E5AF10093CAF5 /* UNITIUITests.swift */,
+				72B80C991E6E5AF10093CAF5 /* Info.plist */,
 			);
-			path = UNITIUITests;
+			name = UNITIUITests;
+			path = TimerUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		96393F1D1E6E2B2B00B29B96 /* UNITI */ = {
+		72B80C731E6E5AF10093CAF5 /* UNITI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 96393F461E6E2B2B00B29B96 /* Build configuration list for PBXNativeTarget "UNITI" */;
+			buildConfigurationList = 72B80C9C1E6E5AF10093CAF5 /* Build configuration list for PBXNativeTarget "UNITI" */;
 			buildPhases = (
-				96393F1A1E6E2B2B00B29B96 /* Sources */,
-				96393F1B1E6E2B2B00B29B96 /* Frameworks */,
-				96393F1C1E6E2B2B00B29B96 /* Resources */,
+				72B80C701E6E5AF10093CAF5 /* Sources */,
+				72B80C711E6E5AF10093CAF5 /* Frameworks */,
+				72B80C721E6E5AF10093CAF5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = UNITI;
-			productName = UNITI;
-			productReference = 96393F1E1E6E2B2B00B29B96 /* UNITI.app */;
+			productName = Timer;
+			productReference = 72B80C741E6E5AF10093CAF5 /* UNITI.app */;
 			productType = "com.apple.product-type.application";
 		};
-		96393F311E6E2B2B00B29B96 /* UNITITests */ = {
+		72B80C871E6E5AF10093CAF5 /* UNITITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 96393F491E6E2B2B00B29B96 /* Build configuration list for PBXNativeTarget "UNITITests" */;
+			buildConfigurationList = 72B80C9F1E6E5AF10093CAF5 /* Build configuration list for PBXNativeTarget "UNITITests" */;
 			buildPhases = (
-				96393F2E1E6E2B2B00B29B96 /* Sources */,
-				96393F2F1E6E2B2B00B29B96 /* Frameworks */,
-				96393F301E6E2B2B00B29B96 /* Resources */,
+				72B80C841E6E5AF10093CAF5 /* Sources */,
+				72B80C851E6E5AF10093CAF5 /* Frameworks */,
+				72B80C861E6E5AF10093CAF5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				96393F341E6E2B2B00B29B96 /* PBXTargetDependency */,
+				72B80C8A1E6E5AF10093CAF5 /* PBXTargetDependency */,
 			);
 			name = UNITITests;
-			productName = UNITITests;
-			productReference = 96393F321E6E2B2B00B29B96 /* UNITITests.xctest */;
+			productName = TimerTests;
+			productReference = 72B80C881E6E5AF10093CAF5 /* UNITITests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		96393F3C1E6E2B2B00B29B96 /* UNITIUITests */ = {
+		72B80C921E6E5AF10093CAF5 /* UNITIUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 96393F4C1E6E2B2B00B29B96 /* Build configuration list for PBXNativeTarget "UNITIUITests" */;
+			buildConfigurationList = 72B80CA21E6E5AF10093CAF5 /* Build configuration list for PBXNativeTarget "UNITIUITests" */;
 			buildPhases = (
-				96393F391E6E2B2B00B29B96 /* Sources */,
-				96393F3A1E6E2B2B00B29B96 /* Frameworks */,
-				96393F3B1E6E2B2B00B29B96 /* Resources */,
+				72B80C8F1E6E5AF10093CAF5 /* Sources */,
+				72B80C901E6E5AF10093CAF5 /* Frameworks */,
+				72B80C911E6E5AF10093CAF5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				96393F3F1E6E2B2B00B29B96 /* PBXTargetDependency */,
+				72B80C951E6E5AF10093CAF5 /* PBXTargetDependency */,
 			);
 			name = UNITIUITests;
-			productName = UNITIUITests;
-			productReference = 96393F3D1E6E2B2B00B29B96 /* UNITIUITests.xctest */;
+			productName = TimerUITests;
+			productReference = 72B80C931E6E5AF10093CAF5 /* UNITIUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		96393F161E6E2B2B00B29B96 /* Project object */ = {
+		72B80C6C1E6E5AF10093CAF5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
 				LastUpgradeCheck = 0800;
-				ORGANIZATIONNAME = "Mike Bassili";
+				ORGANIZATIONNAME = "Shawn Noruzi";
 				TargetAttributes = {
-					96393F1D1E6E2B2B00B29B96 = {
+					72B80C731E6E5AF10093CAF5 = {
 						CreatedOnToolsVersion = 8.0;
 						ProvisioningStyle = Automatic;
 					};
-					96393F311E6E2B2B00B29B96 = {
+					72B80C871E6E5AF10093CAF5 = {
 						CreatedOnToolsVersion = 8.0;
 						ProvisioningStyle = Automatic;
-						TestTargetID = 96393F1D1E6E2B2B00B29B96;
+						TestTargetID = 72B80C731E6E5AF10093CAF5;
 					};
-					96393F3C1E6E2B2B00B29B96 = {
+					72B80C921E6E5AF10093CAF5 = {
 						CreatedOnToolsVersion = 8.0;
 						ProvisioningStyle = Automatic;
-						TestTargetID = 96393F1D1E6E2B2B00B29B96;
+						TestTargetID = 72B80C731E6E5AF10093CAF5;
 					};
 				};
 			};
-			buildConfigurationList = 96393F191E6E2B2B00B29B96 /* Build configuration list for PBXProject "UNITI" */;
+			buildConfigurationList = 72B80C6F1E6E5AF10093CAF5 /* Build configuration list for PBXProject "UNITI" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -215,37 +221,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 96393F151E6E2B2B00B29B96;
-			productRefGroup = 96393F1F1E6E2B2B00B29B96 /* Products */;
+			mainGroup = 72B80C6B1E6E5AF10093CAF5;
+			productRefGroup = 72B80C751E6E5AF10093CAF5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				96393F1D1E6E2B2B00B29B96 /* UNITI */,
-				96393F311E6E2B2B00B29B96 /* UNITITests */,
-				96393F3C1E6E2B2B00B29B96 /* UNITIUITests */,
+				72B80C731E6E5AF10093CAF5 /* UNITI */,
+				72B80C871E6E5AF10093CAF5 /* UNITITests */,
+				72B80C921E6E5AF10093CAF5 /* UNITIUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		96393F1C1E6E2B2B00B29B96 /* Resources */ = {
+		72B80C721E6E5AF10093CAF5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96393F2C1E6E2B2B00B29B96 /* LaunchScreen.storyboard in Resources */,
-				96393F291E6E2B2B00B29B96 /* Assets.xcassets in Resources */,
-				96393F271E6E2B2B00B29B96 /* Main.storyboard in Resources */,
+				72B80C821E6E5AF10093CAF5 /* LaunchScreen.storyboard in Resources */,
+				72B80C7F1E6E5AF10093CAF5 /* Assets.xcassets in Resources */,
+				72B80C7D1E6E5AF10093CAF5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		96393F301E6E2B2B00B29B96 /* Resources */ = {
+		72B80C861E6E5AF10093CAF5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		96393F3B1E6E2B2B00B29B96 /* Resources */ = {
+		72B80C911E6E5AF10093CAF5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -255,59 +261,60 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		96393F1A1E6E2B2B00B29B96 /* Sources */ = {
+		72B80C701E6E5AF10093CAF5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96393F241E6E2B2B00B29B96 /* ViewController.swift in Sources */,
-				96393F221E6E2B2B00B29B96 /* AppDelegate.swift in Sources */,
+				723917111E6E6BE700B880AE /* TimerSecondViewController.swift in Sources */,
+				72B80C7A1E6E5AF10093CAF5 /* TimerViewController.swift in Sources */,
+				72B80C781E6E5AF10093CAF5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		96393F2E1E6E2B2B00B29B96 /* Sources */ = {
+		72B80C841E6E5AF10093CAF5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96393F371E6E2B2B00B29B96 /* UNITITests.swift in Sources */,
+				72B80C8D1E6E5AF10093CAF5 /* UNITITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		96393F391E6E2B2B00B29B96 /* Sources */ = {
+		72B80C8F1E6E5AF10093CAF5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96393F421E6E2B2B00B29B96 /* UNITIUITests.swift in Sources */,
+				72B80C981E6E5AF10093CAF5 /* UNITIUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		96393F341E6E2B2B00B29B96 /* PBXTargetDependency */ = {
+		72B80C8A1E6E5AF10093CAF5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 96393F1D1E6E2B2B00B29B96 /* UNITI */;
-			targetProxy = 96393F331E6E2B2B00B29B96 /* PBXContainerItemProxy */;
+			target = 72B80C731E6E5AF10093CAF5 /* UNITI */;
+			targetProxy = 72B80C891E6E5AF10093CAF5 /* PBXContainerItemProxy */;
 		};
-		96393F3F1E6E2B2B00B29B96 /* PBXTargetDependency */ = {
+		72B80C951E6E5AF10093CAF5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 96393F1D1E6E2B2B00B29B96 /* UNITI */;
-			targetProxy = 96393F3E1E6E2B2B00B29B96 /* PBXContainerItemProxy */;
+			target = 72B80C731E6E5AF10093CAF5 /* UNITI */;
+			targetProxy = 72B80C941E6E5AF10093CAF5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		96393F251E6E2B2B00B29B96 /* Main.storyboard */ = {
+		72B80C7B1E6E5AF10093CAF5 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				96393F261E6E2B2B00B29B96 /* Base */,
+				72B80C7C1E6E5AF10093CAF5 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		96393F2A1E6E2B2B00B29B96 /* LaunchScreen.storyboard */ = {
+		72B80C801E6E5AF10093CAF5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				96393F2B1E6E2B2B00B29B96 /* Base */,
+				72B80C811E6E5AF10093CAF5 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -315,7 +322,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		96393F441E6E2B2B00B29B96 /* Debug */ = {
+		72B80C9A1E6E5AF10093CAF5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -365,7 +372,7 @@
 			};
 			name = Debug;
 		};
-		96393F451E6E2B2B00B29B96 /* Release */ = {
+		72B80C9B1E6E5AF10093CAF5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -408,121 +415,124 @@
 			};
 			name = Release;
 		};
-		96393F471E6E2B2B00B29B96 /* Debug */ = {
+		72B80C9D1E6E5AF10093CAF5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = UNITI/Info.plist;
+				INFOPLIST_FILE = Timer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = uniti.UNITI;
+				PRODUCT_BUNDLE_IDENTIFIER = PO2.Timer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		96393F481E6E2B2B00B29B96 /* Release */ = {
+		72B80C9E1E6E5AF10093CAF5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = UNITI/Info.plist;
+				INFOPLIST_FILE = Timer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = uniti.UNITI;
+				PRODUCT_BUNDLE_IDENTIFIER = PO2.Timer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
-		96393F4A1E6E2B2B00B29B96 /* Debug */ = {
+		72B80CA01E6E5AF10093CAF5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = UNITITests/Info.plist;
+				INFOPLIST_FILE = TimerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = uniti.UNITITests;
+				PRODUCT_BUNDLE_IDENTIFIER = PO2.TimerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UNITI.app/UNITI";
 			};
 			name = Debug;
 		};
-		96393F4B1E6E2B2B00B29B96 /* Release */ = {
+		72B80CA11E6E5AF10093CAF5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = UNITITests/Info.plist;
+				INFOPLIST_FILE = TimerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = uniti.UNITITests;
+				PRODUCT_BUNDLE_IDENTIFIER = PO2.TimerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UNITI.app/UNITI";
 			};
 			name = Release;
 		};
-		96393F4D1E6E2B2B00B29B96 /* Debug */ = {
+		72B80CA31E6E5AF10093CAF5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				INFOPLIST_FILE = UNITIUITests/Info.plist;
+				INFOPLIST_FILE = TimerUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = uniti.UNITIUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = PO2.TimerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = UNITI;
+				TEST_TARGET_NAME = Timer;
 			};
 			name = Debug;
 		};
-		96393F4E1E6E2B2B00B29B96 /* Release */ = {
+		72B80CA41E6E5AF10093CAF5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				INFOPLIST_FILE = UNITIUITests/Info.plist;
+				INFOPLIST_FILE = TimerUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = uniti.UNITIUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = PO2.TimerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = UNITI;
+				TEST_TARGET_NAME = Timer;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		96393F191E6E2B2B00B29B96 /* Build configuration list for PBXProject "UNITI" */ = {
+		72B80C6F1E6E5AF10093CAF5 /* Build configuration list for PBXProject "UNITI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				96393F441E6E2B2B00B29B96 /* Debug */,
-				96393F451E6E2B2B00B29B96 /* Release */,
+				72B80C9A1E6E5AF10093CAF5 /* Debug */,
+				72B80C9B1E6E5AF10093CAF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		96393F461E6E2B2B00B29B96 /* Build configuration list for PBXNativeTarget "UNITI" */ = {
+		72B80C9C1E6E5AF10093CAF5 /* Build configuration list for PBXNativeTarget "UNITI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				96393F471E6E2B2B00B29B96 /* Debug */,
-				96393F481E6E2B2B00B29B96 /* Release */,
+				72B80C9D1E6E5AF10093CAF5 /* Debug */,
+				72B80C9E1E6E5AF10093CAF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		96393F491E6E2B2B00B29B96 /* Build configuration list for PBXNativeTarget "UNITITests" */ = {
+		72B80C9F1E6E5AF10093CAF5 /* Build configuration list for PBXNativeTarget "UNITITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				96393F4A1E6E2B2B00B29B96 /* Debug */,
-				96393F4B1E6E2B2B00B29B96 /* Release */,
+				72B80CA01E6E5AF10093CAF5 /* Debug */,
+				72B80CA11E6E5AF10093CAF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		96393F4C1E6E2B2B00B29B96 /* Build configuration list for PBXNativeTarget "UNITIUITests" */ = {
+		72B80CA21E6E5AF10093CAF5 /* Build configuration list for PBXNativeTarget "UNITIUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				96393F4D1E6E2B2B00B29B96 /* Debug */,
-				96393F4E1E6E2B2B00B29B96 /* Release */,
+				72B80CA31E6E5AF10093CAF5 /* Debug */,
+				72B80CA41E6E5AF10093CAF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 96393F161E6E2B2B00B29B96 /* Project object */;
+	rootObject = 72B80C6C1E6E5AF10093CAF5 /* Project object */;
 }

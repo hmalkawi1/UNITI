@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  UNITI
+//  Timer
 //
-//  Created by Mike Bassili on 2017-03-06.
-//  Copyright © 2017 Mike Bassili. All rights reserved.
+//  Created by Shawn Noruzi on 2017-03-06.
+//  Copyright © 2017 Shawn Noruzi. All rights reserved.
 //
 
 import UIKit
