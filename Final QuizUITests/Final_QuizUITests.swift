@@ -1,14 +1,14 @@
 //
-//  UNITIUITests.swift
-//  UNITIUITests
+//  Final_QuizUITests.swift
+//  Final QuizUITests
 //
-//  Created by Mike Bassili on 2017-03-06.
-//  Copyright © 2017 Mike Bassili. All rights reserved.
+//  Created by wei yao on 2017-03-06.
+//  Copyright © 2017 wei yao. All rights reserved.
 //
 
 import XCTest
 
-class UNITIUITests: XCTestCase {
+class Final_QuizUITests: XCTestCase {
         
     override func setUp() {
         super.setUp()

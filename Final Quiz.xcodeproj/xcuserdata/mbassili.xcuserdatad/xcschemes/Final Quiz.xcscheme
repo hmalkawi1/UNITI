@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "96393F1D1E6E2B2B00B29B96"
-               BuildableName = "UNITI.app"
-               BlueprintName = "UNITI"
-               ReferencedContainer = "container:UNITI.xcodeproj">
+               BlueprintIdentifier = "A6366E901E6E553C005B0540"
+               BuildableName = "Final Quiz.app"
+               BlueprintName = "Final Quiz"
+               ReferencedContainer = "container:Final Quiz.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,30 +32,30 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "96393F311E6E2B2B00B29B96"
-               BuildableName = "UNITITests.xctest"
-               BlueprintName = "UNITITests"
-               ReferencedContainer = "container:UNITI.xcodeproj">
+               BlueprintIdentifier = "A6366EA71E6E553C005B0540"
+               BuildableName = "Final QuizTests.xctest"
+               BlueprintName = "Final QuizTests"
+               ReferencedContainer = "container:Final Quiz.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "96393F3C1E6E2B2B00B29B96"
-               BuildableName = "UNITIUITests.xctest"
-               BlueprintName = "UNITIUITests"
-               ReferencedContainer = "container:UNITI.xcodeproj">
+               BlueprintIdentifier = "A6366EB21E6E553C005B0540"
+               BuildableName = "Final QuizUITests.xctest"
+               BlueprintName = "Final QuizUITests"
+               ReferencedContainer = "container:Final Quiz.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "96393F1D1E6E2B2B00B29B96"
-            BuildableName = "UNITI.app"
-            BlueprintName = "UNITI"
-            ReferencedContainer = "container:UNITI.xcodeproj">
+            BlueprintIdentifier = "A6366E901E6E553C005B0540"
+            BuildableName = "Final Quiz.app"
+            BlueprintName = "Final Quiz"
+            ReferencedContainer = "container:Final Quiz.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -75,10 +75,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "96393F1D1E6E2B2B00B29B96"
-            BuildableName = "UNITI.app"
-            BlueprintName = "UNITI"
-            ReferencedContainer = "container:UNITI.xcodeproj">
+            BlueprintIdentifier = "A6366E901E6E553C005B0540"
+            BuildableName = "Final Quiz.app"
+            BlueprintName = "Final Quiz"
+            ReferencedContainer = "container:Final Quiz.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,10 +94,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "96393F1D1E6E2B2B00B29B96"
-            BuildableName = "UNITI.app"
-            BlueprintName = "UNITI"
-            ReferencedContainer = "container:UNITI.xcodeproj">
+            BlueprintIdentifier = "A6366E901E6E553C005B0540"
+            BuildableName = "Final Quiz.app"
+            BlueprintName = "Final Quiz"
+            ReferencedContainer = "container:Final Quiz.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
