@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		723917111E6E6BE700B880AE /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723917101E6E6BE700B880AE /* SecondViewController.swift */; };
+		723917111E6E6BE700B880AE /* TimerSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723917101E6E6BE700B880AE /* TimerSecondViewController.swift */; };
 		72B80C781E6E5AF10093CAF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B80C771E6E5AF10093CAF5 /* AppDelegate.swift */; };
-		72B80C7A1E6E5AF10093CAF5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B80C791E6E5AF10093CAF5 /* ViewController.swift */; };
+		72B80C7A1E6E5AF10093CAF5 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B80C791E6E5AF10093CAF5 /* TimerViewController.swift */; };
 		72B80C7D1E6E5AF10093CAF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72B80C7B1E6E5AF10093CAF5 /* Main.storyboard */; };
 		72B80C7F1E6E5AF10093CAF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72B80C7E1E6E5AF10093CAF5 /* Assets.xcassets */; };
 		72B80C821E6E5AF10093CAF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72B80C801E6E5AF10093CAF5 /* LaunchScreen.storyboard */; };
-		72B80C8D1E6E5AF10093CAF5 /* TimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B80C8C1E6E5AF10093CAF5 /* TimerTests.swift */; };
-		72B80C981E6E5AF10093CAF5 /* TimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B80C971E6E5AF10093CAF5 /* TimerUITests.swift */; };
+		72B80C8D1E6E5AF10093CAF5 /* UNITITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B80C8C1E6E5AF10093CAF5 /* UNITITests.swift */; };
+		72B80C981E6E5AF10093CAF5 /* UNITIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B80C971E6E5AF10093CAF5 /* UNITIUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,19 +35,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		723917101E6E6BE700B880AE /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		72B80C741E6E5AF10093CAF5 /* Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Timer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		723917101E6E6BE700B880AE /* TimerSecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerSecondViewController.swift; sourceTree = "<group>"; };
+		72B80C741E6E5AF10093CAF5 /* UNITI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UNITI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72B80C771E6E5AF10093CAF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		72B80C791E6E5AF10093CAF5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		72B80C791E6E5AF10093CAF5 /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
 		72B80C7C1E6E5AF10093CAF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		72B80C7E1E6E5AF10093CAF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		72B80C811E6E5AF10093CAF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		72B80C831E6E5AF10093CAF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		72B80C881E6E5AF10093CAF5 /* TimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		72B80C8C1E6E5AF10093CAF5 /* TimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerTests.swift; sourceTree = "<group>"; };
+		72B80C881E6E5AF10093CAF5 /* UNITITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UNITITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		72B80C8C1E6E5AF10093CAF5 /* UNITITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UNITITests.swift; sourceTree = "<group>"; };
 		72B80C8E1E6E5AF10093CAF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		72B80C931E6E5AF10093CAF5 /* TimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		72B80C971E6E5AF10093CAF5 /* TimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerUITests.swift; sourceTree = "<group>"; };
+		72B80C931E6E5AF10093CAF5 /* UNITIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UNITIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		72B80C971E6E5AF10093CAF5 /* UNITIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UNITIUITests.swift; sourceTree = "<group>"; };
 		72B80C991E6E5AF10093CAF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -79,9 +79,9 @@
 		72B80C6B1E6E5AF10093CAF5 = {
 			isa = PBXGroup;
 			children = (
-				72B80C761E6E5AF10093CAF5 /* Timer */,
-				72B80C8B1E6E5AF10093CAF5 /* TimerTests */,
-				72B80C961E6E5AF10093CAF5 /* TimerUITests */,
+				72B80C761E6E5AF10093CAF5 /* UNITI */,
+				72B80C8B1E6E5AF10093CAF5 /* UNITITests */,
+				72B80C961E6E5AF10093CAF5 /* UNITIUITests */,
 				72B80C751E6E5AF10093CAF5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,51 +89,54 @@
 		72B80C751E6E5AF10093CAF5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				72B80C741E6E5AF10093CAF5 /* Timer.app */,
-				72B80C881E6E5AF10093CAF5 /* TimerTests.xctest */,
-				72B80C931E6E5AF10093CAF5 /* TimerUITests.xctest */,
+				72B80C741E6E5AF10093CAF5 /* UNITI.app */,
+				72B80C881E6E5AF10093CAF5 /* UNITITests.xctest */,
+				72B80C931E6E5AF10093CAF5 /* UNITIUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		72B80C761E6E5AF10093CAF5 /* Timer */ = {
+		72B80C761E6E5AF10093CAF5 /* UNITI */ = {
 			isa = PBXGroup;
 			children = (
 				72B80C771E6E5AF10093CAF5 /* AppDelegate.swift */,
-				72B80C791E6E5AF10093CAF5 /* ViewController.swift */,
+				72B80C791E6E5AF10093CAF5 /* TimerViewController.swift */,
 				72B80C7B1E6E5AF10093CAF5 /* Main.storyboard */,
-				723917101E6E6BE700B880AE /* SecondViewController.swift */,
+				723917101E6E6BE700B880AE /* TimerSecondViewController.swift */,
 				72B80C7E1E6E5AF10093CAF5 /* Assets.xcassets */,
 				72B80C801E6E5AF10093CAF5 /* LaunchScreen.storyboard */,
 				72B80C831E6E5AF10093CAF5 /* Info.plist */,
 			);
+			name = UNITI;
 			path = Timer;
 			sourceTree = "<group>";
 		};
-		72B80C8B1E6E5AF10093CAF5 /* TimerTests */ = {
+		72B80C8B1E6E5AF10093CAF5 /* UNITITests */ = {
 			isa = PBXGroup;
 			children = (
-				72B80C8C1E6E5AF10093CAF5 /* TimerTests.swift */,
+				72B80C8C1E6E5AF10093CAF5 /* UNITITests.swift */,
 				72B80C8E1E6E5AF10093CAF5 /* Info.plist */,
 			);
+			name = UNITITests;
 			path = TimerTests;
 			sourceTree = "<group>";
 		};
-		72B80C961E6E5AF10093CAF5 /* TimerUITests */ = {
+		72B80C961E6E5AF10093CAF5 /* UNITIUITests */ = {
 			isa = PBXGroup;
 			children = (
-				72B80C971E6E5AF10093CAF5 /* TimerUITests.swift */,
+				72B80C971E6E5AF10093CAF5 /* UNITIUITests.swift */,
 				72B80C991E6E5AF10093CAF5 /* Info.plist */,
 			);
+			name = UNITIUITests;
 			path = TimerUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		72B80C731E6E5AF10093CAF5 /* Timer */ = {
+		72B80C731E6E5AF10093CAF5 /* UNITI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 72B80C9C1E6E5AF10093CAF5 /* Build configuration list for PBXNativeTarget "Timer" */;
+			buildConfigurationList = 72B80C9C1E6E5AF10093CAF5 /* Build configuration list for PBXNativeTarget "UNITI" */;
 			buildPhases = (
 				72B80C701E6E5AF10093CAF5 /* Sources */,
 				72B80C711E6E5AF10093CAF5 /* Frameworks */,
@@ -143,14 +146,14 @@
 			);
 			dependencies = (
 			);
-			name = Timer;
+			name = UNITI;
 			productName = Timer;
-			productReference = 72B80C741E6E5AF10093CAF5 /* Timer.app */;
+			productReference = 72B80C741E6E5AF10093CAF5 /* UNITI.app */;
 			productType = "com.apple.product-type.application";
 		};
-		72B80C871E6E5AF10093CAF5 /* TimerTests */ = {
+		72B80C871E6E5AF10093CAF5 /* UNITITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 72B80C9F1E6E5AF10093CAF5 /* Build configuration list for PBXNativeTarget "TimerTests" */;
+			buildConfigurationList = 72B80C9F1E6E5AF10093CAF5 /* Build configuration list for PBXNativeTarget "UNITITests" */;
 			buildPhases = (
 				72B80C841E6E5AF10093CAF5 /* Sources */,
 				72B80C851E6E5AF10093CAF5 /* Frameworks */,
@@ -161,14 +164,14 @@
 			dependencies = (
 				72B80C8A1E6E5AF10093CAF5 /* PBXTargetDependency */,
 			);
-			name = TimerTests;
+			name = UNITITests;
 			productName = TimerTests;
-			productReference = 72B80C881E6E5AF10093CAF5 /* TimerTests.xctest */;
+			productReference = 72B80C881E6E5AF10093CAF5 /* UNITITests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		72B80C921E6E5AF10093CAF5 /* TimerUITests */ = {
+		72B80C921E6E5AF10093CAF5 /* UNITIUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 72B80CA21E6E5AF10093CAF5 /* Build configuration list for PBXNativeTarget "TimerUITests" */;
+			buildConfigurationList = 72B80CA21E6E5AF10093CAF5 /* Build configuration list for PBXNativeTarget "UNITIUITests" */;
 			buildPhases = (
 				72B80C8F1E6E5AF10093CAF5 /* Sources */,
 				72B80C901E6E5AF10093CAF5 /* Frameworks */,
@@ -179,9 +182,9 @@
 			dependencies = (
 				72B80C951E6E5AF10093CAF5 /* PBXTargetDependency */,
 			);
-			name = TimerUITests;
+			name = UNITIUITests;
 			productName = TimerUITests;
-			productReference = 72B80C931E6E5AF10093CAF5 /* TimerUITests.xctest */;
+			productReference = 72B80C931E6E5AF10093CAF5 /* UNITIUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -210,7 +213,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 72B80C6F1E6E5AF10093CAF5 /* Build configuration list for PBXProject "Timer" */;
+			buildConfigurationList = 72B80C6F1E6E5AF10093CAF5 /* Build configuration list for PBXProject "UNITI" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -223,9 +226,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				72B80C731E6E5AF10093CAF5 /* Timer */,
-				72B80C871E6E5AF10093CAF5 /* TimerTests */,
-				72B80C921E6E5AF10093CAF5 /* TimerUITests */,
+				72B80C731E6E5AF10093CAF5 /* UNITI */,
+				72B80C871E6E5AF10093CAF5 /* UNITITests */,
+				72B80C921E6E5AF10093CAF5 /* UNITIUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -262,8 +265,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				723917111E6E6BE700B880AE /* SecondViewController.swift in Sources */,
-				72B80C7A1E6E5AF10093CAF5 /* ViewController.swift in Sources */,
+				723917111E6E6BE700B880AE /* TimerSecondViewController.swift in Sources */,
+				72B80C7A1E6E5AF10093CAF5 /* TimerViewController.swift in Sources */,
 				72B80C781E6E5AF10093CAF5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,7 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72B80C8D1E6E5AF10093CAF5 /* TimerTests.swift in Sources */,
+				72B80C8D1E6E5AF10093CAF5 /* UNITITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72B80C981E6E5AF10093CAF5 /* TimerUITests.swift in Sources */,
+				72B80C981E6E5AF10093CAF5 /* UNITIUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,12 +292,12 @@
 /* Begin PBXTargetDependency section */
 		72B80C8A1E6E5AF10093CAF5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 72B80C731E6E5AF10093CAF5 /* Timer */;
+			target = 72B80C731E6E5AF10093CAF5 /* UNITI */;
 			targetProxy = 72B80C891E6E5AF10093CAF5 /* PBXContainerItemProxy */;
 		};
 		72B80C951E6E5AF10093CAF5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 72B80C731E6E5AF10093CAF5 /* Timer */;
+			target = 72B80C731E6E5AF10093CAF5 /* UNITI */;
 			targetProxy = 72B80C941E6E5AF10093CAF5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -446,7 +449,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = PO2.TimerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Timer.app/Timer";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UNITI.app/UNITI";
 			};
 			name = Debug;
 		};
@@ -460,7 +463,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = PO2.TimerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Timer.app/Timer";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UNITI.app/UNITI";
 			};
 			name = Release;
 		};
@@ -493,7 +496,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		72B80C6F1E6E5AF10093CAF5 /* Build configuration list for PBXProject "Timer" */ = {
+		72B80C6F1E6E5AF10093CAF5 /* Build configuration list for PBXProject "UNITI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				72B80C9A1E6E5AF10093CAF5 /* Debug */,
@@ -502,7 +505,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		72B80C9C1E6E5AF10093CAF5 /* Build configuration list for PBXNativeTarget "Timer" */ = {
+		72B80C9C1E6E5AF10093CAF5 /* Build configuration list for PBXNativeTarget "UNITI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				72B80C9D1E6E5AF10093CAF5 /* Debug */,
@@ -511,7 +514,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		72B80C9F1E6E5AF10093CAF5 /* Build configuration list for PBXNativeTarget "TimerTests" */ = {
+		72B80C9F1E6E5AF10093CAF5 /* Build configuration list for PBXNativeTarget "UNITITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				72B80CA01E6E5AF10093CAF5 /* Debug */,
@@ -520,7 +523,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		72B80CA21E6E5AF10093CAF5 /* Build configuration list for PBXNativeTarget "TimerUITests" */ = {
+		72B80CA21E6E5AF10093CAF5 /* Build configuration list for PBXNativeTarget "UNITIUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				72B80CA31E6E5AF10093CAF5 /* Debug */,

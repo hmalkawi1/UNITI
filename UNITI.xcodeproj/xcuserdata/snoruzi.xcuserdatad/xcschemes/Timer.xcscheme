@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "72B80C731E6E5AF10093CAF5"
-               BuildableName = "Timer.app"
-               BlueprintName = "Timer"
-               ReferencedContainer = "container:Timer.xcodeproj">
+               BuildableName = "UNITI.app"
+               BlueprintName = "UNITI"
+               ReferencedContainer = "container:UNITI.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "72B80C871E6E5AF10093CAF5"
-               BuildableName = "TimerTests.xctest"
-               BlueprintName = "TimerTests"
-               ReferencedContainer = "container:Timer.xcodeproj">
+               BuildableName = "UNITITests.xctest"
+               BlueprintName = "UNITITests"
+               ReferencedContainer = "container:UNITI.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "72B80C921E6E5AF10093CAF5"
-               BuildableName = "TimerUITests.xctest"
-               BlueprintName = "TimerUITests"
-               ReferencedContainer = "container:Timer.xcodeproj">
+               BuildableName = "UNITIUITests.xctest"
+               BlueprintName = "UNITIUITests"
+               ReferencedContainer = "container:UNITI.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "72B80C731E6E5AF10093CAF5"
-            BuildableName = "Timer.app"
-            BlueprintName = "Timer"
-            ReferencedContainer = "container:Timer.xcodeproj">
+            BuildableName = "UNITI.app"
+            BlueprintName = "UNITI"
+            ReferencedContainer = "container:UNITI.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "72B80C731E6E5AF10093CAF5"
-            BuildableName = "Timer.app"
-            BlueprintName = "Timer"
-            ReferencedContainer = "container:Timer.xcodeproj">
+            BuildableName = "UNITI.app"
+            BlueprintName = "UNITI"
+            ReferencedContainer = "container:UNITI.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "72B80C731E6E5AF10093CAF5"
-            BuildableName = "Timer.app"
-            BlueprintName = "Timer"
-            ReferencedContainer = "container:Timer.xcodeproj">
+            BuildableName = "UNITI.app"
+            BlueprintName = "UNITI"
+            ReferencedContainer = "container:UNITI.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
