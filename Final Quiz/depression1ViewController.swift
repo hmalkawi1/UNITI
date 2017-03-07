@@ -1,5 +1,5 @@
 //
-//  anxiety2ViewController.swift
+//  depression1ViewController.swift
 //  Final Quiz
 //
 //  Created by Mike Bassili on 3/7/17.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class anxiety2ViewController: UIViewController {
+class depression1ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

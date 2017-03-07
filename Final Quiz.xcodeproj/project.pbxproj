@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		962FB7861E6F4CA1008BB77E /* anxiety1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962FB7851E6F4CA1008BB77E /* anxiety1ViewController.swift */; };
-		962FB7881E6F4E5B008BB77E /* anxiety2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962FB7871E6F4E5B008BB77E /* anxiety2ViewController.swift */; };
+		962FB78C1E6F6983008BB77E /* depression1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962FB78B1E6F6983008BB77E /* depression1ViewController.swift */; };
 		A6366E951E6E553C005B0540 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6366E941E6E553C005B0540 /* AppDelegate.swift */; };
 		A6366E971E6E553C005B0540 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6366E961E6E553C005B0540 /* ViewController.swift */; };
 		A6366E9A1E6E553C005B0540 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6366E981E6E553C005B0540 /* Main.storyboard */; };
@@ -39,7 +39,7 @@
 
 /* Begin PBXFileReference section */
 		962FB7851E6F4CA1008BB77E /* anxiety1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = anxiety1ViewController.swift; sourceTree = "<group>"; };
-		962FB7871E6F4E5B008BB77E /* anxiety2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = anxiety2ViewController.swift; sourceTree = "<group>"; };
+		962FB78B1E6F6983008BB77E /* depression1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = depression1ViewController.swift; sourceTree = "<group>"; };
 		A6366E911E6E553C005B0540 /* Final Quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Final Quiz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6366E941E6E553C005B0540 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A6366E961E6E553C005B0540 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -85,7 +85,6 @@
 		A6366E881E6E553C005B0540 = {
 			isa = PBXGroup;
 			children = (
-				962FB7871E6F4E5B008BB77E /* anxiety2ViewController.swift */,
 				A6366E931E6E553C005B0540 /* Final Quiz */,
 				A6366EAB1E6E553C005B0540 /* Final QuizTests */,
 				A6366EB61E6E553C005B0540 /* Final QuizUITests */,
@@ -109,6 +108,7 @@
 				A6366E941E6E553C005B0540 /* AppDelegate.swift */,
 				A6366E961E6E553C005B0540 /* ViewController.swift */,
 				A6366E981E6E553C005B0540 /* Main.storyboard */,
+				962FB78B1E6F6983008BB77E /* depression1ViewController.swift */,
 				A6366EC51E6E5612005B0540 /* secondViewController.swift */,
 				962FB7851E6F4CA1008BB77E /* anxiety1ViewController.swift */,
 				A6366E9E1E6E553C005B0540 /* Assets.xcassets */,
@@ -278,7 +278,7 @@
 				A6366E971E6E553C005B0540 /* ViewController.swift in Sources */,
 				A6366E9D1E6E553C005B0540 /* Final_Quiz.xcdatamodeld in Sources */,
 				A6366E951E6E553C005B0540 /* AppDelegate.swift in Sources */,
-				962FB7881E6F4E5B008BB77E /* anxiety2ViewController.swift in Sources */,
+				962FB78C1E6F6983008BB77E /* depression1ViewController.swift in Sources */,
 				962FB7861E6F4CA1008BB77E /* anxiety1ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
