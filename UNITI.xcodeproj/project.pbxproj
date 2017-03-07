@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		723917111E6E6BE700B880AE /* TimerSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723917101E6E6BE700B880AE /* TimerSecondViewController.swift */; };
+		7295BE0D1E6F74B7005A96E4 /* UNITI in Resources */ = {isa = PBXBuildFile; fileRef = 7295BE0C1E6F74B7005A96E4 /* UNITI */; };
 		72B80C781E6E5AF10093CAF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B80C771E6E5AF10093CAF5 /* AppDelegate.swift */; };
 		72B80C7A1E6E5AF10093CAF5 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B80C791E6E5AF10093CAF5 /* TimerViewController.swift */; };
 		72B80C7D1E6E5AF10093CAF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72B80C7B1E6E5AF10093CAF5 /* Main.storyboard */; };
@@ -36,6 +37,7 @@
 
 /* Begin PBXFileReference section */
 		723917101E6E6BE700B880AE /* TimerSecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerSecondViewController.swift; sourceTree = "<group>"; };
+		7295BE0C1E6F74B7005A96E4 /* UNITI */ = {isa = PBXFileReference; lastKnownFileType = folder; name = UNITI; path = ../UNITI; sourceTree = "<group>"; };
 		72B80C741E6E5AF10093CAF5 /* UNITI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UNITI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72B80C771E6E5AF10093CAF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		72B80C791E6E5AF10093CAF5 /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 		72B80C6B1E6E5AF10093CAF5 = {
 			isa = PBXGroup;
 			children = (
+				7295BE0C1E6F74B7005A96E4 /* UNITI */,
 				72B80C761E6E5AF10093CAF5 /* UNITI */,
 				72B80C8B1E6E5AF10093CAF5 /* UNITITests */,
 				72B80C961E6E5AF10093CAF5 /* UNITIUITests */,
@@ -240,6 +243,7 @@
 			files = (
 				72B80C821E6E5AF10093CAF5 /* LaunchScreen.storyboard in Resources */,
 				72B80C7F1E6E5AF10093CAF5 /* Assets.xcassets in Resources */,
+				7295BE0D1E6F74B7005A96E4 /* UNITI in Resources */,
 				72B80C7D1E6E5AF10093CAF5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
