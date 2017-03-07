@@ -107,8 +107,7 @@
 				72B80C801E6E5AF10093CAF5 /* LaunchScreen.storyboard */,
 				72B80C831E6E5AF10093CAF5 /* Info.plist */,
 			);
-			name = UNITI;
-			path = Timer;
+			path = UNITI;
 			sourceTree = "<group>";
 		};
 		72B80C8B1E6E5AF10093CAF5 /* UNITITests */ = {
@@ -117,8 +116,7 @@
 				72B80C8C1E6E5AF10093CAF5 /* UNITITests.swift */,
 				72B80C8E1E6E5AF10093CAF5 /* Info.plist */,
 			);
-			name = UNITITests;
-			path = TimerTests;
+			path = UNITITests;
 			sourceTree = "<group>";
 		};
 		72B80C961E6E5AF10093CAF5 /* UNITIUITests */ = {
@@ -127,8 +125,7 @@
 				72B80C971E6E5AF10093CAF5 /* UNITIUITests.swift */,
 				72B80C991E6E5AF10093CAF5 /* Info.plist */,
 			);
-			name = UNITIUITests;
-			path = TimerUITests;
+			path = UNITIUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
