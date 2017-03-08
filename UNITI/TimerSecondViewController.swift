@@ -10,11 +10,14 @@ import UIKit
 
 class SecondViewController: UIViewController {
 
-    @IBOutlet weak var label: UILabel!
+
+    @IBOutlet weak var secondsLabel: UILabel!
+    @IBOutlet weak var minutesLabel: UILabel!
     
     
     //Holds value thats segued from TimerViewController
     var Timer_Value = 0
+    var seconds = 60
     
     //Instantiates timer variable to the Timer() function
     var timer = Timer()
@@ -24,8 +27,7 @@ class SecondViewController: UIViewController {
         
         timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector:#selector(SecondViewController.countdown), userInfo: nil, repeats: true)
         
-        
-        sender.setTitle("Continue", for: .normal) // after the click the start button changed into continue
+        //sender.setTitle("Continue", for: .normal) // after the click the start button changed into continue
         
         
         
@@ -41,9 +43,16 @@ class SecondViewController: UIViewController {
     
     //Decrements the value of Timer_Value by 1 every time countdown is run. If Timer_Value reaches 0 then the scheduledTimer will stop running by invalidating the timer.
     func countdown() {
-        
-        Timer_Value = Timer_Value - 1
-        label.text = String(Timer_Value)
+    
+        if (seconds==60){
+         Timer_Value = Timer_Value - 1
+         minutesLabel.text = String (Timer_Value)
+        }
+        seconds = seconds - 1
+        secondsLabel.text = String(seconds)
+        if (seconds == 0 ){
+            seconds = 60
+        }
         
         if (Timer_Value==0)
         { timer.invalidate() }
@@ -54,7 +63,7 @@ class SecondViewController: UIViewController {
         
         super.viewDidLoad()
         //Loads the value passed from the slider in TimerViewController into label as a string.
-        label.text = String(Timer_Value)
+        minutesLabel.text = String(Timer_Value)
         // Do any additional setup after loading the view.
     }
 
