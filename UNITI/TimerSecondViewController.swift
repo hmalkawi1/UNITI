@@ -23,12 +23,20 @@ class SecondViewController: UIViewController {
     @IBAction func START(_ sender: UIButton) {
         
         timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector:#selector(SecondViewController.countdown), userInfo: nil, repeats: true)
+        
+        
+        sender.setTitle("Continue", for: .normal) // after the click the start button changed into continue
+        
+        
+        
+        
     }
     
     //Stops the scheduledTimer from running every second.
     @IBAction func STOP(_ sender: UIButton) {
         
         timer.invalidate()
+    
     }
     
     //Decrements the value of Timer_Value by 1 every time countdown is run. If Timer_Value reaches 0 then the scheduledTimer will stop running by invalidating the timer.
