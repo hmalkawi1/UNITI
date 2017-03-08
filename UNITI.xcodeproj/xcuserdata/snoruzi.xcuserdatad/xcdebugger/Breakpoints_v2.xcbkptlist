@@ -83,5 +83,83 @@
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UNITI/TimerViewController.swift"
+            timestampString = "510705583.158159"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UNITI.ViewController.Timer_Display.getter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UILabel&gt;"
+                  moduleName = "UNITI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/snoruzi/Desktop/git/ProjectGroup2/UNITI/TimerViewController.swift"
+                  timestampString = "510708972.979493"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "27">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UNITI.ViewController.Timer_Display.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UILabel&gt;"
+                  moduleName = "UNITI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/snoruzi/Desktop/git/ProjectGroup2/UNITI/TimerViewController.swift"
+                  timestampString = "510708972.982437"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "42">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UNITI.ViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; UNITI.ViewController"
+                  moduleName = "UNITI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/snoruzi/Desktop/git/ProjectGroup2/UNITI/TimerViewController.swift"
+                  timestampString = "510708972.985012"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "85">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UNITI.ViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;UNITI.ViewController&gt;"
+                  moduleName = "UNITI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/snoruzi/Desktop/git/ProjectGroup2/UNITI/TimerViewController.swift"
+                  timestampString = "510708972.987977"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "43">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>
