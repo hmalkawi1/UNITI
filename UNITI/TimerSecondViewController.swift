@@ -24,7 +24,7 @@ class SecondViewController: UIViewController {
     
     //Enables the scheduledTimer of the Timer() function - every second the countdown function is called and is repeated every second.
     @IBAction func START(_ sender: UIButton) {
-        
+        timer.invalidate() 
         timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector:#selector(SecondViewController.countdown), userInfo: nil, repeats: true)
         
         //sender.setTitle("Continue", for: .normal) // after the click the start button changed into continue
