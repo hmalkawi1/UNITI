@@ -10,6 +10,10 @@ import UIKit
 
 class anxiety1ViewController: UIViewController {
 
+    @IBOutlet weak var Scroll: UIScrollView!
+    
+    
+    
     // Set total score to zero
     var totalAnxietyScore = 10
     
@@ -18,6 +22,8 @@ class anxiety1ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        Scroll.contentSize.height = 1000
 
         // Do any additional setup after loading the view.
     }
