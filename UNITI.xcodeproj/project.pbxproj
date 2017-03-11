@@ -11,11 +11,20 @@
 		7213AC761E70AD19008B904E /* maxresdefault.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7213AC731E70AD19008B904E /* maxresdefault.jpg */; };
 		7213AC771E70AD19008B904E /* relaxing_nature.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7213AC741E70AD19008B904E /* relaxing_nature.jpg */; };
 		723917111E6E6BE700B880AE /* TimerSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723917101E6E6BE700B880AE /* TimerSecondViewController.swift */; };
+		725B6A5D1E748DA500194DC0 /* Meditation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 725B6A5C1E748DA500194DC0 /* Meditation.storyboard */; };
+		725B6A5F1E748F7100194DC0 /* SelfAnalysis.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 725B6A5E1E748F7100194DC0 /* SelfAnalysis.storyboard */; };
+		725B6A631E74938300194DC0 /* SelfTherapy.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 725B6A621E74938300194DC0 /* SelfTherapy.storyboard */; };
+		725B6A651E7493C600194DC0 /* SelfTherapyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725B6A641E7493C600194DC0 /* SelfTherapyViewController.swift */; };
+		725B6A671E74947400194DC0 /* Tasks.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 725B6A661E74947400194DC0 /* Tasks.storyboard */; };
+		725B6A691E74952E00194DC0 /* Tasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725B6A681E74952E00194DC0 /* Tasks.swift */; };
+		725B6A6B1E74956500194DC0 /* Resources.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 725B6A6A1E74956500194DC0 /* Resources.storyboard */; };
+		725B6A6D1E74957600194DC0 /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725B6A6C1E74957600194DC0 /* Resources.swift */; };
+		725B6A6F1E74958700194DC0 /* Diary.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 725B6A6E1E74958700194DC0 /* Diary.storyboard */; };
+		725B6A711E74959C00194DC0 /* Diary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725B6A701E74959C00194DC0 /* Diary.swift */; };
 		72B80C781E6E5AF10093CAF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B80C771E6E5AF10093CAF5 /* AppDelegate.swift */; };
 		72B80C7A1E6E5AF10093CAF5 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B80C791E6E5AF10093CAF5 /* TimerViewController.swift */; };
 		72B80C7D1E6E5AF10093CAF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72B80C7B1E6E5AF10093CAF5 /* Main.storyboard */; };
 		72B80C7F1E6E5AF10093CAF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72B80C7E1E6E5AF10093CAF5 /* Assets.xcassets */; };
-		72B80C821E6E5AF10093CAF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72B80C801E6E5AF10093CAF5 /* LaunchScreen.storyboard */; };
 		72B80C8D1E6E5AF10093CAF5 /* UNITITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B80C8C1E6E5AF10093CAF5 /* UNITITests.swift */; };
 		72B80C981E6E5AF10093CAF5 /* UNITIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B80C971E6E5AF10093CAF5 /* UNITIUITests.swift */; };
 		A6FF46701E702A090006680A /* anxiety1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FF466F1E702A090006680A /* anxiety1ViewController.swift */; };
@@ -47,13 +56,22 @@
 		7213AC721E70AD19008B904E /* 94-great-atmosphere-nature-landscape-mood-relaxing-water-lake-jasper-national-park-alberta-canada-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "94-great-atmosphere-nature-landscape-mood-relaxing-water-lake-jasper-national-park-alberta-canada-2.jpg"; path = "UNITI/Assets.xcassets/AppIcon.appiconset/94-great-atmosphere-nature-landscape-mood-relaxing-water-lake-jasper-national-park-alberta-canada-2.jpg"; sourceTree = "<group>"; };
 		7213AC731E70AD19008B904E /* maxresdefault.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = maxresdefault.jpg; path = UNITI/Assets.xcassets/AppIcon.appiconset/maxresdefault.jpg; sourceTree = "<group>"; };
 		7213AC741E70AD19008B904E /* relaxing_nature.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = relaxing_nature.jpg; path = UNITI/Assets.xcassets/AppIcon.appiconset/relaxing_nature.jpg; sourceTree = "<group>"; };
-		723917101E6E6BE700B880AE /* TimerSecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerSecondViewController.swift; sourceTree = "<group>"; };
+		723917101E6E6BE700B880AE /* TimerSecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TimerSecondViewController.swift; path = UNITI/TimerSecondViewController.swift; sourceTree = "<group>"; };
+		725B6A5C1E748DA500194DC0 /* Meditation.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Meditation.storyboard; sourceTree = "<group>"; };
+		725B6A5E1E748F7100194DC0 /* SelfAnalysis.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SelfAnalysis.storyboard; sourceTree = "<group>"; };
+		725B6A621E74938300194DC0 /* SelfTherapy.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SelfTherapy.storyboard; sourceTree = "<group>"; };
+		725B6A641E7493C600194DC0 /* SelfTherapyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelfTherapyViewController.swift; sourceTree = "<group>"; };
+		725B6A661E74947400194DC0 /* Tasks.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Tasks.storyboard; sourceTree = "<group>"; };
+		725B6A681E74952E00194DC0 /* Tasks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tasks.swift; sourceTree = "<group>"; };
+		725B6A6A1E74956500194DC0 /* Resources.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Resources.storyboard; sourceTree = "<group>"; };
+		725B6A6C1E74957600194DC0 /* Resources.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
+		725B6A6E1E74958700194DC0 /* Diary.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Diary.storyboard; sourceTree = "<group>"; };
+		725B6A701E74959C00194DC0 /* Diary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Diary.swift; sourceTree = "<group>"; };
 		72B80C741E6E5AF10093CAF5 /* UNITI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UNITI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72B80C771E6E5AF10093CAF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		72B80C791E6E5AF10093CAF5 /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		72B80C791E6E5AF10093CAF5 /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TimerViewController.swift; path = UNITI/TimerViewController.swift; sourceTree = "<group>"; };
 		72B80C7C1E6E5AF10093CAF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		72B80C7E1E6E5AF10093CAF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		72B80C811E6E5AF10093CAF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		72B80C831E6E5AF10093CAF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		72B80C881E6E5AF10093CAF5 /* UNITITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UNITITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		72B80C8C1E6E5AF10093CAF5 /* UNITITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UNITITests.swift; sourceTree = "<group>"; };
@@ -61,8 +79,8 @@
 		72B80C931E6E5AF10093CAF5 /* UNITIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UNITIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		72B80C971E6E5AF10093CAF5 /* UNITIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UNITIUITests.swift; sourceTree = "<group>"; };
 		72B80C991E6E5AF10093CAF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A6FF466F1E702A090006680A /* anxiety1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = anxiety1ViewController.swift; sourceTree = "<group>"; };
-		A6FF46731E702A2F0006680A /* depression1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = depression1ViewController.swift; sourceTree = "<group>"; };
+		A6FF466F1E702A090006680A /* anxiety1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = anxiety1ViewController.swift; path = UNITI/anxiety1ViewController.swift; sourceTree = "<group>"; };
+		A6FF46731E702A2F0006680A /* depression1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = depression1ViewController.swift; path = UNITI/depression1ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,12 +108,98 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		72B80C6B1E6E5AF10093CAF5 = {
+		725B6A4F1E748BFD00194DC0 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
 				7213AC721E70AD19008B904E /* 94-great-atmosphere-nature-landscape-mood-relaxing-water-lake-jasper-national-park-alberta-canada-2.jpg */,
 				7213AC731E70AD19008B904E /* maxresdefault.jpg */,
 				7213AC741E70AD19008B904E /* relaxing_nature.jpg */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		725B6A501E748C1F00194DC0 /* MultipleStoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				725B6A531E748C4100194DC0 /* Features */,
+			);
+			name = MultipleStoryBoards;
+			sourceTree = "<group>";
+		};
+		725B6A531E748C4100194DC0 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				725B6A591E748CF600194DC0 /* Resources */,
+				725B6A581E748CE900194DC0 /* SelfAnalysis */,
+				725B6A571E748CE500194DC0 /* Tasks */,
+				725B6A561E748CD300194DC0 /* SelfTherapy */,
+				725B6A551E748C5F00194DC0 /* Diary */,
+				725B6A541E748C4D00194DC0 /* Meditation */,
+			);
+			name = Features;
+			sourceTree = "<group>";
+		};
+		725B6A541E748C4D00194DC0 /* Meditation */ = {
+			isa = PBXGroup;
+			children = (
+				725B6A5C1E748DA500194DC0 /* Meditation.storyboard */,
+				72B80C791E6E5AF10093CAF5 /* TimerViewController.swift */,
+				723917101E6E6BE700B880AE /* TimerSecondViewController.swift */,
+			);
+			name = Meditation;
+			sourceTree = "<group>";
+		};
+		725B6A551E748C5F00194DC0 /* Diary */ = {
+			isa = PBXGroup;
+			children = (
+				725B6A6E1E74958700194DC0 /* Diary.storyboard */,
+				725B6A701E74959C00194DC0 /* Diary.swift */,
+			);
+			name = Diary;
+			sourceTree = "<group>";
+		};
+		725B6A561E748CD300194DC0 /* SelfTherapy */ = {
+			isa = PBXGroup;
+			children = (
+				725B6A621E74938300194DC0 /* SelfTherapy.storyboard */,
+				725B6A641E7493C600194DC0 /* SelfTherapyViewController.swift */,
+			);
+			name = SelfTherapy;
+			sourceTree = "<group>";
+		};
+		725B6A571E748CE500194DC0 /* Tasks */ = {
+			isa = PBXGroup;
+			children = (
+				725B6A661E74947400194DC0 /* Tasks.storyboard */,
+				725B6A681E74952E00194DC0 /* Tasks.swift */,
+			);
+			name = Tasks;
+			sourceTree = "<group>";
+		};
+		725B6A581E748CE900194DC0 /* SelfAnalysis */ = {
+			isa = PBXGroup;
+			children = (
+				725B6A5E1E748F7100194DC0 /* SelfAnalysis.storyboard */,
+				A6FF466F1E702A090006680A /* anxiety1ViewController.swift */,
+				A6FF46731E702A2F0006680A /* depression1ViewController.swift */,
+			);
+			name = SelfAnalysis;
+			sourceTree = "<group>";
+		};
+		725B6A591E748CF600194DC0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				725B6A6A1E74956500194DC0 /* Resources.storyboard */,
+				725B6A6C1E74957600194DC0 /* Resources.swift */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		72B80C6B1E6E5AF10093CAF5 = {
+			isa = PBXGroup;
+			children = (
+				725B6A4F1E748BFD00194DC0 /* Assets */,
+				725B6A501E748C1F00194DC0 /* MultipleStoryBoards */,
 				72B80C761E6E5AF10093CAF5 /* UNITI */,
 				72B80C8B1E6E5AF10093CAF5 /* UNITITests */,
 				72B80C961E6E5AF10093CAF5 /* UNITIUITests */,
@@ -117,13 +221,8 @@
 			isa = PBXGroup;
 			children = (
 				72B80C771E6E5AF10093CAF5 /* AppDelegate.swift */,
-				72B80C791E6E5AF10093CAF5 /* TimerViewController.swift */,
-				723917101E6E6BE700B880AE /* TimerSecondViewController.swift */,
 				72B80C7B1E6E5AF10093CAF5 /* Main.storyboard */,
-				A6FF466F1E702A090006680A /* anxiety1ViewController.swift */,
-				A6FF46731E702A2F0006680A /* depression1ViewController.swift */,
 				72B80C7E1E6E5AF10093CAF5 /* Assets.xcassets */,
-				72B80C801E6E5AF10093CAF5 /* LaunchScreen.storyboard */,
 				72B80C831E6E5AF10093CAF5 /* Info.plist */,
 			);
 			path = UNITI;
@@ -254,9 +353,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72B80C821E6E5AF10093CAF5 /* LaunchScreen.storyboard in Resources */,
 				72B80C7F1E6E5AF10093CAF5 /* Assets.xcassets in Resources */,
 				7213AC761E70AD19008B904E /* maxresdefault.jpg in Resources */,
+				725B6A5D1E748DA500194DC0 /* Meditation.storyboard in Resources */,
+				725B6A671E74947400194DC0 /* Tasks.storyboard in Resources */,
+				725B6A6F1E74958700194DC0 /* Diary.storyboard in Resources */,
+				725B6A5F1E748F7100194DC0 /* SelfAnalysis.storyboard in Resources */,
+				725B6A631E74938300194DC0 /* SelfTherapy.storyboard in Resources */,
+				725B6A6B1E74956500194DC0 /* Resources.storyboard in Resources */,
 				72B80C7D1E6E5AF10093CAF5 /* Main.storyboard in Resources */,
 				7213AC771E70AD19008B904E /* relaxing_nature.jpg in Resources */,
 				7213AC751E70AD19008B904E /* 94-great-atmosphere-nature-landscape-mood-relaxing-water-lake-jasper-national-park-alberta-canada-2.jpg in Resources */,
@@ -284,10 +388,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				725B6A691E74952E00194DC0 /* Tasks.swift in Sources */,
 				723917111E6E6BE700B880AE /* TimerSecondViewController.swift in Sources */,
 				A6FF46701E702A090006680A /* anxiety1ViewController.swift in Sources */,
 				A6FF46741E702A2F0006680A /* depression1ViewController.swift in Sources */,
 				72B80C7A1E6E5AF10093CAF5 /* TimerViewController.swift in Sources */,
+				725B6A711E74959C00194DC0 /* Diary.swift in Sources */,
+				725B6A6D1E74957600194DC0 /* Resources.swift in Sources */,
+				725B6A651E7493C600194DC0 /* SelfTherapyViewController.swift in Sources */,
 				72B80C781E6E5AF10093CAF5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -334,14 +442,6 @@
 				72B80C7C1E6E5AF10093CAF5 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		72B80C801E6E5AF10093CAF5 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				72B80C811E6E5AF10093CAF5 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
