@@ -23,10 +23,12 @@ class ViewController: UIViewController {
     }
     
     //Prepare the Time value (Duration) to be sent to the second view controller.
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+   /*
+     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let secondVC : SecondViewController = segue.destination as! SecondViewController
         secondVC.Timer_Value = Time_Selected
     }
+     */
     
     
     
