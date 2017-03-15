@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AudioToolbox
 
 class ViewController: UIViewController {
     //Starting value for Time_Selected is 30 minutes
@@ -36,6 +37,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        // AudioServicesPlayAlertSound(kSystemSoundID_Vibrate);
+
     }
 
     override func didReceiveMemoryWarning() {
