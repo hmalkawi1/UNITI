@@ -94,7 +94,7 @@ class STListViewTableViewController: UITableViewController {
         return 240.0 / 667 * self.view.bounds.height;
     }
     
-    
+
     
     @IBAction func btn_append_click(_ sender: UIButton) {
         
