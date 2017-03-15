@@ -174,10 +174,6 @@
                                 <nil key="highlightedColor"/>
                                 <color key="shadowColor" cocoaTouchSystemColor="darkTextColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bzD-nE-UqX">
-                                <frame key="frameInset" minX="64" minY="189" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9IW-CC-U5z">
                                 <frame key="frameInset" minX="15" minY="607" width="174" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -218,13 +214,17 @@
                                     <segue destination="NDz-6a-w78" kind="show" id="y3e-nc-vPt"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2.png" translatesAutoresizingMaskIntoConstraints="NO" id="bzD-nE-UqX">
+                                <frame key="frameInset" minX="48" minY="180" width="279" height="182"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.31660646199999998" green="0.43537038560000002" blue="0.62632566690000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Lqs-ji-t9g" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1980" y="535"/>
+            <point key="canvasLocation" x="1980" y="534.78260869565224"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="YNO-Uw-ohX">
@@ -1436,19 +1436,22 @@
             <point key="canvasLocation" x="-266" y="-188"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="2.png" width="3600" height="3600"/>
+    </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="iyN-q6-G9g"/>
-        <segue reference="P36-a2-6og"/>
-        <segue reference="8np-0a-Oy2"/>
-        <segue reference="HGu-4a-gkN"/>
-        <segue reference="o7w-ql-IGR"/>
+        <segue reference="cbb-6m-6sR"/>
+        <segue reference="1C4-pu-vCR"/>
+        <segue reference="sUm-gr-hK1"/>
+        <segue reference="y3e-nc-vPt"/>
         <segue reference="IGY-mG-qV7"/>
         <segue reference="jXN-oG-INF"/>
-        <segue reference="1C4-pu-vCR"/>
-        <segue reference="xe6-uL-wra"/>
         <segue reference="u35-MK-sh1"/>
         <segue reference="pFf-oc-eTx"/>
         <segue reference="Def-6V-fgk"/>
+        <segue reference="8np-0a-Oy2"/>
+        <segue reference="HGu-4a-gkN"/>
+        <segue reference="o7w-ql-IGR"/>
         <segue reference="QME-31-b3Y"/>
         <segue reference="2RR-e6-dGd"/>
     </inferredMetricsTieBreakers>

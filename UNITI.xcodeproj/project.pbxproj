@@ -27,6 +27,11 @@
 		72B80C7F1E6E5AF10093CAF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72B80C7E1E6E5AF10093CAF5 /* Assets.xcassets */; };
 		72B80C8D1E6E5AF10093CAF5 /* UNITITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B80C8C1E6E5AF10093CAF5 /* UNITITests.swift */; };
 		72B80C981E6E5AF10093CAF5 /* UNITIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B80C971E6E5AF10093CAF5 /* UNITIUITests.swift */; };
+		963226721E7A03EC0060E199 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 9632266D1E7A03EC0060E199 /* 3.png */; };
+		963226731E7A03EC0060E199 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9632266E1E7A03EC0060E199 /* 2.png */; };
+		963226741E7A03EC0060E199 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 9632266F1E7A03EC0060E199 /* 5.png */; };
+		963226751E7A03EC0060E199 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 963226701E7A03EC0060E199 /* 4.png */; };
+		963226761E7A03EC0060E199 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 963226711E7A03EC0060E199 /* 1.png */; };
 		A6FF46701E702A090006680A /* anxiety1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FF466F1E702A090006680A /* anxiety1ViewController.swift */; };
 		A6FF46711E702A090006680A /* anxiety1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FF466F1E702A090006680A /* anxiety1ViewController.swift */; };
 		A6FF46721E702A090006680A /* anxiety1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FF466F1E702A090006680A /* anxiety1ViewController.swift */; };
@@ -79,6 +84,11 @@
 		72B80C931E6E5AF10093CAF5 /* UNITIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UNITIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		72B80C971E6E5AF10093CAF5 /* UNITIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UNITIUITests.swift; sourceTree = "<group>"; };
 		72B80C991E6E5AF10093CAF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9632266D1E7A03EC0060E199 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		9632266E1E7A03EC0060E199 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		9632266F1E7A03EC0060E199 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		963226701E7A03EC0060E199 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		963226711E7A03EC0060E199 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 		A6FF466F1E702A090006680A /* anxiety1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = anxiety1ViewController.swift; path = UNITI/anxiety1ViewController.swift; sourceTree = "<group>"; };
 		A6FF46731E702A2F0006680A /* depression1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = depression1ViewController.swift; path = UNITI/depression1ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -142,6 +152,7 @@
 		725B6A541E748C4D00194DC0 /* Meditation */ = {
 			isa = PBXGroup;
 			children = (
+				9632266C1E7A03D40060E199 /* Assets */,
 				725B6A5C1E748DA500194DC0 /* Meditation.storyboard */,
 				72B80C791E6E5AF10093CAF5 /* TimerViewController.swift */,
 				723917101E6E6BE700B880AE /* TimerSecondViewController.swift */,
@@ -244,6 +255,18 @@
 				72B80C991E6E5AF10093CAF5 /* Info.plist */,
 			);
 			path = UNITIUITests;
+			sourceTree = "<group>";
+		};
+		9632266C1E7A03D40060E199 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				9632266D1E7A03EC0060E199 /* 3.png */,
+				9632266E1E7A03EC0060E199 /* 2.png */,
+				9632266F1E7A03EC0060E199 /* 5.png */,
+				963226701E7A03EC0060E199 /* 4.png */,
+				963226711E7A03EC0060E199 /* 1.png */,
+			);
+			name = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -353,15 +376,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				963226731E7A03EC0060E199 /* 2.png in Resources */,
 				72B80C7F1E6E5AF10093CAF5 /* Assets.xcassets in Resources */,
 				7213AC761E70AD19008B904E /* maxresdefault.jpg in Resources */,
+				963226751E7A03EC0060E199 /* 4.png in Resources */,
 				725B6A5D1E748DA500194DC0 /* Meditation.storyboard in Resources */,
+				963226721E7A03EC0060E199 /* 3.png in Resources */,
 				725B6A671E74947400194DC0 /* Tasks.storyboard in Resources */,
 				725B6A6F1E74958700194DC0 /* Diary.storyboard in Resources */,
 				725B6A5F1E748F7100194DC0 /* SelfAnalysis.storyboard in Resources */,
+				963226761E7A03EC0060E199 /* 1.png in Resources */,
 				725B6A631E74938300194DC0 /* SelfTherapy.storyboard in Resources */,
 				725B6A6B1E74956500194DC0 /* Resources.storyboard in Resources */,
 				72B80C7D1E6E5AF10093CAF5 /* Main.storyboard in Resources */,
+				963226741E7A03EC0060E199 /* 5.png in Resources */,
 				7213AC771E70AD19008B904E /* relaxing_nature.jpg in Resources */,
 				7213AC751E70AD19008B904E /* 94-great-atmosphere-nature-landscape-mood-relaxing-water-lake-jasper-national-park-alberta-canada-2.jpg in Resources */,
 			);
