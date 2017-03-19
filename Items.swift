@@ -26,5 +26,17 @@ class Items: NSObject {
     
     override init() {}
     
+    
+    func getFormatOutput() -> String {
+        
+        
+        let dateFormatter = DateFormatter();
+        
+        dateFormatter.dateFormat = "yyyy-MM-dd"
+        let dateString = "Date: \(dateFormatter.string(from: date! as Date))";
+        
+        return dateString + "\n" + details!;
+    }
+    
 
 }

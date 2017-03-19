@@ -31,15 +31,6 @@
 		A6FF46741E702A2F0006680A /* depression1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FF46731E702A2F0006680A /* depression1ViewController.swift */; };
 		A6FF46751E702A2F0006680A /* depression1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FF46731E702A2F0006680A /* depression1ViewController.swift */; };
 		A6FF46761E702A2F0006680A /* depression1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FF46731E702A2F0006680A /* depression1ViewController.swift */; };
-		E9D08DD51E777D0500B726F1 /* STAppendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D08DCD1E777D0400B726F1 /* STAppendViewController.swift */; };
-		E9D08DD61E777D0500B726F1 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D08DCE1E777D0400B726F1 /* MainViewController.swift */; };
-		E9D08DD71E777D0500B726F1 /* ListCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D08DCF1E777D0400B726F1 /* ListCellTableViewCell.swift */; };
-		E9D08DD81E777D0500B726F1 /* STListViewTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D08DD01E777D0400B726F1 /* STListViewTableViewController.swift */; };
-		E9D08DD91E777D0500B726F1 /* TherapyListViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D08DD11E777D0400B726F1 /* TherapyListViewViewController.swift */; };
-		E9D08DDA1E777D0500B726F1 /* DataAccessPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D08DD21E777D0400B726F1 /* DataAccessPoint.swift */; };
-		E9D08DDB1E777D0500B726F1 /* Items.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D08DD31E777D0400B726F1 /* Items.swift */; };
-		E9D08DDC1E777D0500B726F1 /* Tags.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D08DD41E777D0500B726F1 /* Tags.swift */; };
-		E9D08DDE1E777D1300B726F1 /* STMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9D08DDD1E777D1300B726F1 /* STMain.storyboard */; };
 		E9D08DE11E777D1F00B726F1 /* ok.png in Resources */ = {isa = PBXBuildFile; fileRef = E9D08DDF1E777D1F00B726F1 /* ok.png */; };
 		E9D08DE21E777D1F00B726F1 /* leave.png in Resources */ = {isa = PBXBuildFile; fileRef = E9D08DE01E777D1F00B726F1 /* leave.png */; };
 		E9D08DE71E777D2800B726F1 /* edit.png in Resources */ = {isa = PBXBuildFile; fileRef = E9D08DE31E777D2800B726F1 /* edit.png */; };
@@ -48,6 +39,18 @@
 		E9D08DEA1E777D2800B726F1 /* listview_headPhoto.png in Resources */ = {isa = PBXBuildFile; fileRef = E9D08DE61E777D2800B726F1 /* listview_headPhoto.png */; };
 		E9D08DED1E777D3000B726F1 /* loading_background in Resources */ = {isa = PBXBuildFile; fileRef = E9D08DEB1E777D3000B726F1 /* loading_background */; };
 		E9D08DEE1E777D3000B726F1 /* box.png in Resources */ = {isa = PBXBuildFile; fileRef = E9D08DEC1E777D3000B726F1 /* box.png */; };
+		E9FC817B1E7E0FAE000DB4D6 /* STEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FC81701E7E0FAE000DB4D6 /* STEditViewController.swift */; };
+		E9FC817C1E7E0FAE000DB4D6 /* TransitionControllerFirst.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FC81711E7E0FAE000DB4D6 /* TransitionControllerFirst.swift */; };
+		E9FC817D1E7E0FAE000DB4D6 /* STAppendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FC81721E7E0FAE000DB4D6 /* STAppendViewController.swift */; };
+		E9FC817E1E7E0FAE000DB4D6 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FC81731E7E0FAE000DB4D6 /* MainViewController.swift */; };
+		E9FC817F1E7E0FAE000DB4D6 /* ListCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FC81741E7E0FAE000DB4D6 /* ListCellTableViewCell.swift */; };
+		E9FC81801E7E0FAE000DB4D6 /* STListViewTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FC81751E7E0FAE000DB4D6 /* STListViewTableViewController.swift */; };
+		E9FC81811E7E0FAE000DB4D6 /* STCheckViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FC81761E7E0FAE000DB4D6 /* STCheckViewController.swift */; };
+		E9FC81821E7E0FAE000DB4D6 /* TherapyListViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FC81771E7E0FAE000DB4D6 /* TherapyListViewViewController.swift */; };
+		E9FC81831E7E0FAE000DB4D6 /* DataAccessPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FC81781E7E0FAE000DB4D6 /* DataAccessPoint.swift */; };
+		E9FC81841E7E0FAE000DB4D6 /* Items.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FC81791E7E0FAE000DB4D6 /* Items.swift */; };
+		E9FC81851E7E0FAE000DB4D6 /* Tags.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FC817A1E7E0FAE000DB4D6 /* Tags.swift */; };
+		E9FC81871E7E0FBB000DB4D6 /* STMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9FC81861E7E0FBB000DB4D6 /* STMain.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,15 +97,6 @@
 		72B80C991E6E5AF10093CAF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A6FF466F1E702A090006680A /* anxiety1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = anxiety1ViewController.swift; path = UNITI/anxiety1ViewController.swift; sourceTree = "<group>"; };
 		A6FF46731E702A2F0006680A /* depression1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = depression1ViewController.swift; path = UNITI/depression1ViewController.swift; sourceTree = "<group>"; };
-		E9D08DCD1E777D0400B726F1 /* STAppendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STAppendViewController.swift; sourceTree = "<group>"; };
-		E9D08DCE1E777D0400B726F1 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		E9D08DCF1E777D0400B726F1 /* ListCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListCellTableViewCell.swift; sourceTree = "<group>"; };
-		E9D08DD01E777D0400B726F1 /* STListViewTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STListViewTableViewController.swift; sourceTree = "<group>"; };
-		E9D08DD11E777D0400B726F1 /* TherapyListViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TherapyListViewViewController.swift; sourceTree = "<group>"; };
-		E9D08DD21E777D0400B726F1 /* DataAccessPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataAccessPoint.swift; sourceTree = "<group>"; };
-		E9D08DD31E777D0400B726F1 /* Items.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Items.swift; sourceTree = "<group>"; };
-		E9D08DD41E777D0500B726F1 /* Tags.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tags.swift; sourceTree = "<group>"; };
-		E9D08DDD1E777D1300B726F1 /* STMain.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = STMain.storyboard; sourceTree = "<group>"; };
 		E9D08DDF1E777D1F00B726F1 /* ok.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ok.png; sourceTree = "<group>"; };
 		E9D08DE01E777D1F00B726F1 /* leave.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leave.png; sourceTree = "<group>"; };
 		E9D08DE31E777D2800B726F1 /* edit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = edit.png; sourceTree = "<group>"; };
@@ -111,6 +105,18 @@
 		E9D08DE61E777D2800B726F1 /* listview_headPhoto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = listview_headPhoto.png; sourceTree = "<group>"; };
 		E9D08DEB1E777D3000B726F1 /* loading_background */ = {isa = PBXFileReference; lastKnownFileType = file; path = loading_background; sourceTree = "<group>"; };
 		E9D08DEC1E777D3000B726F1 /* box.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = box.png; sourceTree = "<group>"; };
+		E9FC81701E7E0FAE000DB4D6 /* STEditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STEditViewController.swift; sourceTree = "<group>"; };
+		E9FC81711E7E0FAE000DB4D6 /* TransitionControllerFirst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionControllerFirst.swift; sourceTree = "<group>"; };
+		E9FC81721E7E0FAE000DB4D6 /* STAppendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STAppendViewController.swift; sourceTree = "<group>"; };
+		E9FC81731E7E0FAE000DB4D6 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		E9FC81741E7E0FAE000DB4D6 /* ListCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListCellTableViewCell.swift; sourceTree = "<group>"; };
+		E9FC81751E7E0FAE000DB4D6 /* STListViewTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STListViewTableViewController.swift; sourceTree = "<group>"; };
+		E9FC81761E7E0FAE000DB4D6 /* STCheckViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STCheckViewController.swift; sourceTree = "<group>"; };
+		E9FC81771E7E0FAE000DB4D6 /* TherapyListViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TherapyListViewViewController.swift; sourceTree = "<group>"; };
+		E9FC81781E7E0FAE000DB4D6 /* DataAccessPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataAccessPoint.swift; sourceTree = "<group>"; };
+		E9FC81791E7E0FAE000DB4D6 /* Items.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Items.swift; sourceTree = "<group>"; };
+		E9FC817A1E7E0FAE000DB4D6 /* Tags.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tags.swift; sourceTree = "<group>"; };
+		E9FC81861E7E0FBB000DB4D6 /* STMain.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = STMain.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -191,9 +197,9 @@
 		725B6A561E748CD300194DC0 /* SelfTherapy(JoePart) */ = {
 			isa = PBXGroup;
 			children = (
+				E9FC81861E7E0FBB000DB4D6 /* STMain.storyboard */,
 				E9D08DC91E777CC700B726F1 /* Controllers */,
 				E9D08DC81E777CBA00B726F1 /* assets */,
-				E9D08DDD1E777D1300B726F1 /* STMain.storyboard */,
 			);
 			name = "SelfTherapy(JoePart)";
 			sourceTree = "<group>";
@@ -290,14 +296,17 @@
 		E9D08DC91E777CC700B726F1 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				E9D08DCD1E777D0400B726F1 /* STAppendViewController.swift */,
-				E9D08DCE1E777D0400B726F1 /* MainViewController.swift */,
-				E9D08DCF1E777D0400B726F1 /* ListCellTableViewCell.swift */,
-				E9D08DD01E777D0400B726F1 /* STListViewTableViewController.swift */,
-				E9D08DD11E777D0400B726F1 /* TherapyListViewViewController.swift */,
-				E9D08DD21E777D0400B726F1 /* DataAccessPoint.swift */,
-				E9D08DD31E777D0400B726F1 /* Items.swift */,
-				E9D08DD41E777D0500B726F1 /* Tags.swift */,
+				E9FC81701E7E0FAE000DB4D6 /* STEditViewController.swift */,
+				E9FC81711E7E0FAE000DB4D6 /* TransitionControllerFirst.swift */,
+				E9FC81721E7E0FAE000DB4D6 /* STAppendViewController.swift */,
+				E9FC81731E7E0FAE000DB4D6 /* MainViewController.swift */,
+				E9FC81741E7E0FAE000DB4D6 /* ListCellTableViewCell.swift */,
+				E9FC81751E7E0FAE000DB4D6 /* STListViewTableViewController.swift */,
+				E9FC81761E7E0FAE000DB4D6 /* STCheckViewController.swift */,
+				E9FC81771E7E0FAE000DB4D6 /* TherapyListViewViewController.swift */,
+				E9FC81781E7E0FAE000DB4D6 /* DataAccessPoint.swift */,
+				E9FC81791E7E0FAE000DB4D6 /* Items.swift */,
+				E9FC817A1E7E0FAE000DB4D6 /* Tags.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -449,9 +458,9 @@
 				725B6A5F1E748F7100194DC0 /* SelfAnalysis.storyboard in Resources */,
 				E9D08DED1E777D3000B726F1 /* loading_background in Resources */,
 				725B6A6B1E74956500194DC0 /* Resources.storyboard in Resources */,
-				E9D08DDE1E777D1300B726F1 /* STMain.storyboard in Resources */,
 				72B80C7D1E6E5AF10093CAF5 /* Main.storyboard in Resources */,
 				E9D08DE71E777D2800B726F1 /* edit.png in Resources */,
+				E9FC81871E7E0FBB000DB4D6 /* STMain.storyboard in Resources */,
 				7213AC771E70AD19008B904E /* relaxing_nature.jpg in Resources */,
 				7213AC751E70AD19008B904E /* 94-great-atmosphere-nature-landscape-mood-relaxing-water-lake-jasper-national-park-alberta-canada-2.jpg in Resources */,
 				E9D08DE21E777D1F00B726F1 /* leave.png in Resources */,
@@ -482,20 +491,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				725B6A691E74952E00194DC0 /* Tasks.swift in Sources */,
-				E9D08DD71E777D0500B726F1 /* ListCellTableViewCell.swift in Sources */,
-				E9D08DDA1E777D0500B726F1 /* DataAccessPoint.swift in Sources */,
-				E9D08DD61E777D0500B726F1 /* MainViewController.swift in Sources */,
-				E9D08DD91E777D0500B726F1 /* TherapyListViewViewController.swift in Sources */,
+				E9FC817C1E7E0FAE000DB4D6 /* TransitionControllerFirst.swift in Sources */,
 				723917111E6E6BE700B880AE /* TimerSecondViewController.swift in Sources */,
+				E9FC817F1E7E0FAE000DB4D6 /* ListCellTableViewCell.swift in Sources */,
+				E9FC81841E7E0FAE000DB4D6 /* Items.swift in Sources */,
+				E9FC81851E7E0FAE000DB4D6 /* Tags.swift in Sources */,
+				E9FC817E1E7E0FAE000DB4D6 /* MainViewController.swift in Sources */,
 				A6FF46701E702A090006680A /* anxiety1ViewController.swift in Sources */,
+				E9FC817B1E7E0FAE000DB4D6 /* STEditViewController.swift in Sources */,
 				A6FF46741E702A2F0006680A /* depression1ViewController.swift in Sources */,
-				E9D08DDB1E777D0500B726F1 /* Items.swift in Sources */,
 				72B80C7A1E6E5AF10093CAF5 /* TimerViewController.swift in Sources */,
-				E9D08DDC1E777D0500B726F1 /* Tags.swift in Sources */,
-				E9D08DD51E777D0500B726F1 /* STAppendViewController.swift in Sources */,
+				E9FC81821E7E0FAE000DB4D6 /* TherapyListViewViewController.swift in Sources */,
+				E9FC817D1E7E0FAE000DB4D6 /* STAppendViewController.swift in Sources */,
 				725B6A711E74959C00194DC0 /* Diary.swift in Sources */,
+				E9FC81811E7E0FAE000DB4D6 /* STCheckViewController.swift in Sources */,
+				E9FC81801E7E0FAE000DB4D6 /* STListViewTableViewController.swift in Sources */,
 				725B6A6D1E74957600194DC0 /* Resources.swift in Sources */,
-				E9D08DD81E777D0500B726F1 /* STListViewTableViewController.swift in Sources */,
+				E9FC81831E7E0FAE000DB4D6 /* DataAccessPoint.swift in Sources */,
 				72B80C781E6E5AF10093CAF5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

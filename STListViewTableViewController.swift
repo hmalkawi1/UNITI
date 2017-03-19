@@ -11,11 +11,14 @@ import UIKit
 class STListViewTableViewController: UITableViewController {
 
     
+    let transition = TransitionControllerFirst();
+    
     var img_head : UIImageView?;
     
     @IBOutlet var tv: UITableView!
     
-    static var currTag : Tags?;
+    static var curIndex : Int?;
+    
     
     
     var data = DataAccessPoint.data!.tags;
@@ -27,6 +30,9 @@ class STListViewTableViewController: UITableViewController {
         */
         
         //self.tv.contentInset = UIEdgeInsets(top: 200 ,left: 0,bottom: 0,right: 0)
+        
+        
+        
         self.view.backgroundColor = UIColor.white;
         
     }
@@ -66,8 +72,11 @@ class STListViewTableViewController: UITableViewController {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "ListCellTableViewCell", for: indexPath) as! ListCellTableViewCell
 
-        
         cell.lab_tag.text = data[indexPath.row];
+        cell.btn_append.tag = indexPath.row;
+        cell.btn_edit.tag = indexPath.row;
+        cell.btn_view.tag = indexPath.row;
+        
         
         
         
@@ -98,11 +107,52 @@ class STListViewTableViewController: UITableViewController {
     
     @IBAction func btn_append_click(_ sender: UIButton) {
         
+        STListViewTableViewController.curIndex = sender.tag;
+        
         let st : UIStoryboard = UIStoryboard(name: "STMain", bundle:nil)
         
         let nst = st.instantiateViewController(withIdentifier: "StBd_append")
         
         self.present(nst, animated:true, completion:nil)
+        
+    }
+    
+    
+    
+    @IBAction func btn_view_click(_ sender: UIButton) {
+        
+        
+        STListViewTableViewController.curIndex = sender.tag;
+        
+        let st : UIStoryboard = UIStoryboard(name: "STMain", bundle:nil)
+        
+        let nst = st.instantiateViewController(withIdentifier: "StBd_check")
+        
+        
+        nst.transitioningDelegate = self;
+        
+        
+        
+        self.present(nst, animated:true, completion:nil)
+        
+        
+    }
+    
+    
+    
+    @IBAction func btn_edit_click(_ sender: UIButton) {
+        
+        
+        STListViewTableViewController.curIndex = sender.tag;
+        
+        let st : UIStoryboard = UIStoryboard(name: "STMain", bundle:nil)
+        
+        let nst = st.instantiateViewController(withIdentifier: "StBd_edit")
+        
+        nst.transitioningDelegate = self;
+        
+        self.present(nst, animated:true, completion:nil)
+        
         
         
     }
@@ -113,4 +163,35 @@ class STListViewTableViewController: UITableViewController {
     
     
     
+    
+    
+    
+    
+    
+    
+    
+    private var txt_display : UITextView?;
+    
+    
+    
 }
+
+
+extension STListViewTableViewController : UIViewControllerTransitioningDelegate{
+    
+    
+    func animationController(forDismissed dismissed: UIViewController) -> UIViewControllerAnimatedTransitioning? {
+        
+        return nil;
+    }
+    
+    func animationController(forPresented presented: UIViewController, presenting: UIViewController, source: UIViewController) -> UIViewControllerAnimatedTransitioning? {
+        
+        return transition;
+    }
+    
+    
+    
+}
+
+

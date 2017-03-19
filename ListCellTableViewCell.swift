@@ -18,12 +18,20 @@ class ListCellTableViewCell: UITableViewCell {
     @IBOutlet weak var btn_edit: UIButton!
     @IBOutlet weak var btn_view: UIButton!
     
-    
     override func awakeFromNib() {
         
         super.awakeFromNib()
         
+        /*
+        //Ugly Code, just for messy project
+        if ListCellTableViewCell.cnt > (DataAccessPoint.data?.tags.count)!{
+            ListCellTableViewCell.cnt = 0;
+        }
+        */
+        
         btn_append.tag = ListCellTableViewCell.cnt;
+        btn_edit.tag = ListCellTableViewCell.cnt;
+        btn_view.tag = ListCellTableViewCell.cnt;
         
         ListCellTableViewCell.cnt = ListCellTableViewCell.cnt + 1;
         

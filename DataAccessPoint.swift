@@ -23,7 +23,13 @@ class DataAccessPoint: NSObject {
         _ = DataAccessPoint.data?.addTag("Anger", "Do not satisfy with current situation");
         _ = DataAccessPoint.data?.addTag("Happy", "Maybe it is not a problem, just for dubugging here");
         
-        _ = DataAccessPoint.data?.addDetails("Anxity", Items(4, NSDate() , "Today, I am not good") );
+        _ = DataAccessPoint.data?.addDetails("Anxity", Items(4, NSDate(timeIntervalSinceReferenceDate: 123456789.0) , "Today, I am not good") );
+        
+        
+        DataAccessPoint.data?.editSolutions(0, "haha, this is my solution 1", "this is my solution 2", "this is my last useless solution");
+        
+        
+        
         
         
     }
