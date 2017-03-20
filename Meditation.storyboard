@@ -922,7 +922,7 @@
                                 </connections>
                             </slider>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="timer3.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="JXw-99-qyF">
-                                <frame key="frameInset" minY="-8" width="375" height="667"/>
+                                <frame key="frameInset" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -1262,7 +1262,7 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="jXN-oG-INF"/>
-        <segue reference="Wd9-8g-l0j"/>
+        <segue reference="dDN-Nz-3gZ"/>
         <segue reference="Qtj-hn-wA0"/>
         <segue reference="pFf-oc-eTx"/>
         <segue reference="roO-aq-l3p"/>
