@@ -69,7 +69,7 @@
                         </subviews>
                         <color key="backgroundColor" red="0.31660646200180054" green="0.43537038564682007" blue="0.62632566690444946" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Session Select" prompt="Meditation" id="ofC-XR-SSS">
+                    <navigationItem key="navigationItem" title="Session Select" id="ofC-XR-SSS">
                         <barButtonItem key="backBarButtonItem" title="Back" id="Uxl-Iy-GoG"/>
                     </navigationItem>
                 </viewController>
@@ -790,7 +790,7 @@
                         </subviews>
                         <color key="backgroundColor" red="0.31660646199999998" green="0.43537038560000002" blue="0.62632566690000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Session Complete" prompt="Haptic Meditation" id="263-JB-veQ">
+                    <navigationItem key="navigationItem" title="Session Complete" id="263-JB-veQ">
                         <barButtonItem key="backBarButtonItem" title="Back" id="7Vf-Uw-BeD"/>
                     </navigationItem>
                 </viewController>
@@ -851,7 +851,7 @@
                         </subviews>
                         <color key="backgroundColor" red="0.31660646199999998" green="0.43537038560000002" blue="0.62632566690000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Haptic Session" prompt="Haptic Meditation" id="Iff-vX-UQK">
+                    <navigationItem key="navigationItem" title="Haptic Session" id="Iff-vX-UQK">
                         <barButtonItem key="backBarButtonItem" title="Back" id="2BG-rJ-9qr"/>
                     </navigationItem>
                 </viewController>
@@ -928,7 +928,7 @@
                         </subviews>
                         <color key="backgroundColor" red="0.31660646199999998" green="0.43537038560000002" blue="0.62632566690000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Duration Selection" prompt="Haptic Meditation" id="c1j-LM-HGl">
+                    <navigationItem key="navigationItem" title="Duration Selection" id="c1j-LM-HGl">
                         <barButtonItem key="backBarButtonItem" title="Back" id="8xr-zd-fV7"/>
                     </navigationItem>
                 </viewController>
@@ -977,7 +977,7 @@
                         </subviews>
                         <color key="backgroundColor" red="0.31660646199999998" green="0.43537038560000002" blue="0.62632566690000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Summary" prompt="Haptic Meditation" id="H3u-WI-cAL">
+                    <navigationItem key="navigationItem" title="Summary" id="H3u-WI-cAL">
                         <barButtonItem key="backBarButtonItem" title="Back" id="6Ym-aM-xWg"/>
                     </navigationItem>
                 </viewController>
@@ -1099,7 +1099,7 @@
                         </subviews>
                         <color key="backgroundColor" red="0.31660646199999998" green="0.43537038560000002" blue="0.62632566690000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Song Selection" prompt="Timed Meditation" id="Wow-bZ-qA4">
+                    <navigationItem key="navigationItem" title="Song Selection" id="Wow-bZ-qA4">
                         <barButtonItem key="backBarButtonItem" title="Back" id="hMh-Tv-FON"/>
                     </navigationItem>
                 </viewController>
@@ -1175,7 +1175,7 @@
                         </subviews>
                         <color key="backgroundColor" red="0.31939103289999998" green="0.4370285029" blue="0.62556670979999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Timer Session" prompt="Timed Meditation" id="R4w-6H-QGb">
+                    <navigationItem key="navigationItem" title="Timer Session" id="R4w-6H-QGb">
                         <barButtonItem key="backBarButtonItem" title="Back" id="tPm-vk-lKk"/>
                     </navigationItem>
                     <connections>
@@ -1186,7 +1186,7 @@
             </objects>
             <point key="canvasLocation" x="2692" y="-914.392803598201"/>
         </scene>
-        <!--Timed Meditation-->
+        <!--Session Complete-->
         <scene sceneID="TBo-gL-503">
             <objects>
                 <viewController id="o5Y-7P-wgT" sceneMemberID="viewController">
@@ -1223,7 +1223,7 @@
                         </subviews>
                         <color key="backgroundColor" red="0.31660646199999998" green="0.43537038560000002" blue="0.62632566690000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Timed Meditation" prompt="Session Complete" id="les-7R-GGY">
+                    <navigationItem key="navigationItem" title="Session Complete" id="les-7R-GGY">
                         <barButtonItem key="backBarButtonItem" title="Back" id="sRg-5G-I4C"/>
                     </navigationItem>
                 </viewController>
@@ -1262,7 +1262,7 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="jXN-oG-INF"/>
-        <segue reference="5rc-Dc-quK"/>
+        <segue reference="Wd9-8g-l0j"/>
         <segue reference="Qtj-hn-wA0"/>
         <segue reference="pFf-oc-eTx"/>
         <segue reference="roO-aq-l3p"/>
