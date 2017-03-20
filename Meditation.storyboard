@@ -1157,30 +1157,29 @@
                                 <frame key="frameInset" minX="320" minY="522" width="39" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </pageControl>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0 : 00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="krV-Aa-Urq">
-                                <frame key="frameInset" minX="58" minY="246" width="259" height="82"/>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Bib-JQ-Cta">
+                                <frame key="frameInset" height="44" maxY="361"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem systemItem="play" id="jhS-Wp-TxJ"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="NC0-Ha-1Hc"/>
+                                    <barButtonItem systemItem="pause" id="rN9-lt-RWN"/>
+                                </items>
+                            </toolbar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fNu-ld-tqs">
+                                <frame key="frameInset" minX="155" minY="164" width="64" height="76"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="42"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </label>
-                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="20" translatesAutoresizingMaskIntoConstraints="NO" id="kvu-Ca-pEG">
-                                <frame key="frameInset" minX="56" minY="336" width="263" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <action selector="Time_Slider:" destination="lRO-nL-B8J" eventType="valueChanged" id="GsR-Wq-z9F"/>
-                                </connections>
-                            </slider>
                         </subviews>
                         <color key="backgroundColor" red="0.31939103289999998" green="0.4370285029" blue="0.62556670979999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="Timer Session" id="R4w-6H-QGb">
                         <barButtonItem key="backBarButtonItem" title="Back" id="tPm-vk-lKk"/>
+                        <barButtonItem key="rightBarButtonItem" title="Clear" id="Gug-7U-TbU"/>
                     </navigationItem>
-                    <connections>
-                        <outlet property="Timer_Display" destination="krV-Aa-Urq" id="Urm-2R-nIo"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zCo-0A-hho" sceneMemberID="firstResponder"/>
             </objects>
@@ -1262,12 +1261,12 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="jXN-oG-INF"/>
-        <segue reference="dDN-Nz-3gZ"/>
+        <segue reference="GHR-pJ-82N"/>
         <segue reference="Qtj-hn-wA0"/>
-        <segue reference="pFf-oc-eTx"/>
         <segue reference="roO-aq-l3p"/>
         <segue reference="sUm-gr-hK1"/>
         <segue reference="1C4-pu-vCR"/>
+        <segue reference="pFf-oc-eTx"/>
         <segue reference="Def-6V-fgk"/>
     </inferredMetricsTieBreakers>
 </document>
