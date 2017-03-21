@@ -11,10 +11,19 @@ import AudioToolbox
 
 class ViewController: UIViewController {
     
+    
+    
+    
+    
+    
+    
+    
+    
+    
     // The Timer
     @IBOutlet weak var countingLabel: UILabel! // Display label
     var SwiftTimer = Timer() // Timer object
-    var SwiftCounter = 0 // Counting label
+    var SwiftCounter = 60 // Counting label
     
     // Start button
     @IBAction func startButton(_ sender: AnyObject) {
@@ -34,7 +43,7 @@ class ViewController: UIViewController {
     }
     
     func updateCounter() {
-        SwiftCounter += 1 // Increment counter val
+        SwiftCounter -= 1 // Increment counter val
         countingLabel.text = String(describing:SwiftCounter)
     }
     
