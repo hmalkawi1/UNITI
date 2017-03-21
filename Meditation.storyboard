@@ -1157,15 +1157,6 @@
                                 <frame key="frameInset" minX="320" minY="522" width="39" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </pageControl>
-                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Bib-JQ-Cta">
-                                <frame key="frameInset" height="44" maxY="361"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <items>
-                                    <barButtonItem systemItem="play" id="jhS-Wp-TxJ"/>
-                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="NC0-Ha-1Hc"/>
-                                    <barButtonItem systemItem="pause" id="rN9-lt-RWN"/>
-                                </items>
-                            </toolbar>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fNu-ld-tqs">
                                 <frame key="frameInset" minX="155" minY="164" width="64" height="76"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1173,13 +1164,37 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </label>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Bib-JQ-Cta">
+                                <frame key="frameInset" height="44" maxY="295"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem systemItem="play" id="jhS-Wp-TxJ">
+                                        <connections>
+                                            <action selector="startButton:" destination="lRO-nL-B8J" id="9Kj-DP-93y"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="NC0-Ha-1Hc"/>
+                                    <barButtonItem systemItem="pause" id="rN9-lt-RWN">
+                                        <connections>
+                                            <action selector="pauseButton:" destination="lRO-nL-B8J" id="M6V-cB-8kH"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
                         </subviews>
                         <color key="backgroundColor" red="0.31939103289999998" green="0.4370285029" blue="0.62556670979999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="Timer Session" id="R4w-6H-QGb">
                         <barButtonItem key="backBarButtonItem" title="Back" id="tPm-vk-lKk"/>
-                        <barButtonItem key="rightBarButtonItem" title="Clear" id="Gug-7U-TbU"/>
+                        <barButtonItem key="rightBarButtonItem" title="Clear" id="Gug-7U-TbU">
+                            <connections>
+                                <action selector="clearButton:" destination="lRO-nL-B8J" id="K9h-Dl-plD"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="countingLabel" destination="fNu-ld-tqs" id="rQs-fn-KUu"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zCo-0A-hho" sceneMemberID="firstResponder"/>
             </objects>
