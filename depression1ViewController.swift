@@ -12,6 +12,20 @@ class depression1ViewController: UIViewController {
 
     @IBOutlet weak var scroll2: UIScrollView!
     
+    @IBAction func save(_ sender: Any) {
+        
+        if (displayDepressionScore.text != " ")
+        {
+            
+            list.append(displayDepressionScore.text!)
+            displayDepressionScore.text = " "
+            
+            
+        }
+        
+    }
+    
+    
     
     // Depression score which is set to 0
     var totalDepressionResult = 0 // 10 for testing purposes
