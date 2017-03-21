@@ -13,8 +13,12 @@ class ViewController: UIViewController {
     
     
     
-    
-    
+  
+    @IBOutlet weak var timerSlider: UISlider!
+    @IBAction func timerSlider(_ sender: UISlider) {
+        SwiftCounter = Int(sender.value)
+        countingLabel.text = String(SwiftCounter)
+    }
     
     
     
@@ -23,7 +27,7 @@ class ViewController: UIViewController {
     // The Timer
     @IBOutlet weak var countingLabel: UILabel! // Display label
     var SwiftTimer = Timer() // Timer object
-    var SwiftCounter = 60 // Counting label
+    var SwiftCounter = 0  // Counting label
     
     // Start button
     @IBAction func startButton(_ sender: AnyObject) {
