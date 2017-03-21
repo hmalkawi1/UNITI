@@ -13,6 +13,25 @@ class anxiety1ViewController: UIViewController {
     @IBOutlet weak var Scroll: UIScrollView!
     
     
+ 
+
+    
+  
+    
+    @IBAction func save(_ sender: Any) {
+        
+        
+        if(displayAnxietyScore.text != "" )
+        {
+            list.append(displayAnxietyScore.text!)
+            displayAnxietyScore.text = " "
+            
+            
+            
+        }
+        
+    }
+    @IBOutlet weak var displayAnxietyScore: UILabel!
     
     // Set total score to zero
     var totalAnxietyScore = 0
@@ -25,9 +44,26 @@ class anxiety1ViewController: UIViewController {
     var answer6 = 0
     var answer7 = 0
     
+    @IBOutlet weak var Question6: UILabel!
     
-    // Anxiety score label
-    @IBOutlet weak var displayAnxietyScore: UILabel!
+    @IBOutlet weak var Question7: UILabel!
+    
+    @IBAction func Answer6(_ sender: UISlider) {
+        
+        answer6 = Int(sender.value)
+        Question6.text = String(answer6)
+    }
+    
+    
+    @IBAction func Answer7(_ sender: UISlider) {
+        
+        answer7 = Int(sender.value)
+        Question7.text = String(answer1)
+        
+        
+    }
+    
+    
     
     @IBOutlet weak var Question1: UILabel!
     

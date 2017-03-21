@@ -28,7 +28,7 @@ class depression1ViewController: UIViewController {
     
     
     // Depression score which is set to 0
-    var totalDepressionResult = 0 // 10 for testing purposes
+    var totalDepressionResult = 0
     
     // Depression label
     

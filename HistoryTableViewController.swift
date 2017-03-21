@@ -10,7 +10,7 @@ import UIKit
 
 
 
-var list = ["aaaa","bbbbb","ccccc"] // inital data for simple list
+var list = [" "] // inital data for simple list
 
 class HistoryTableViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
     
@@ -69,6 +69,13 @@ class HistoryTableViewController: UIViewController,UITableViewDelegate,UITableVi
     
     
     
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        tableview.reloadData()
+        
+        
+        
     }
     
     override func viewDidLoad() {
