@@ -1,110 +1,41 @@
-// ------------------------------------------------------ //
-// TimerViewController.swift                              //
-// Timer, Guided and Haptic Meditation                    //
-//                                                        //
-// Created by Mike and Homam on 2017-03-06.               //
-// Copyright © 2017  Mike and Homam. All rights reserved. //
-// ------------------------------------------------------ //
+//
+//  ViewController.swift
+//  Timer
+//
+//  Created by Shawn Noruzi on 2017-03-06.
+//  Copyright © 2017 Shawn Noruzi. All rights reserved.
+//
 
 import UIKit
-import AudioToolbox
 
 class ViewController: UIViewController {
+    //Starting value for Time_Selected is 30 minutes
+    var Time_Selected = 30
     
-    // ----------------- //
-    // Haptic Meditation //
-    // ----------------- //
+    //This shows what the slider's value is
+    @IBOutlet weak var Timer_Display: UILabel!
     
-    // Todo
-    
-    
-    
-    // ----------------- //
-    // Guided Meditation //
-    // ----------------- //
-    
-    // Todo
-    
-    
-    
-    // ---------------- //
-    // Timed Meditation //
-    // ---------------- //
-    
-    // Timer meditation variables
-    @IBOutlet weak var countingLabel: UILabel! // Display label
-    var SwiftTimer = Timer() // Timer object
-    var SwiftCounter = 0  // Counting label
-    var PlayFlag = 0 // 0 if paused, 1 if running
-    @IBOutlet weak var TimerDir: UILabel! // Instructions
-    
-    // Timer session select slider
-    @IBOutlet weak var timerSlider: UISlider!
-    @IBAction func timerSlider(_ sender: UISlider) {
-        SwiftCounter = Int(sender.value) // Update var with slider value
-        countingLabel.text = String(SwiftCounter) // Update slider with save value
+    //This is how users select the duration - also sets Time_Selected to an int value.
+    //Time Slider Value Range [30,240]
+    @IBAction func Time_Slider(_ sender: UISlider) {
+        Time_Selected = Int(sender.value)
+        Timer_Display.text = String(Time_Selected)
     }
     
-    // Start button
-    @IBAction func startButton(_ sender: AnyObject) {
-        // Check if counter is paused
-        if PlayFlag == 0 {
-            PlayFlag = 1 // Trigger flag
-            timerSlider.isHidden = true // Hide slider
-            TimerDir.text = "Sit down and relax." // Change timer direction label
-            SwiftTimer = Timer.scheduledTimer(timeInterval:1, target:self, selector: Selector("updateCounter"), userInfo: nil, repeats: true)
-        }
-    }
-    
-    // Pause button
-    @IBAction func pauseButton(_ sender: AnyObject) {
-        PlayFlag = 0 // Trigger flag
-        timerSlider.isHidden = false // Show slider
-        SwiftTimer.invalidate()
-    }
-    
-    // Clear button
-    @IBAction func clearButton(_ sender: AnyObject) {
-        PlayFlag = 0 // Reset flag
-        timerSlider.value = 0 // Reset slider value
-        timerSlider.isHidden = false // Show slider
-        SwiftTimer.invalidate() // Pauses the counter
-        TimerDir.text = "Select the session duration." // Update directions
-        SwiftCounter = 0 // Resets counter var
-        countingLabel.text = String(SwiftCounter) // Update label
-    }
-    
-    // Decrements counter
-    func updateCounter() {
-        // Check to see if counter is currently active
-        if SwiftCounter > 0 {
-            SwiftCounter -= 1 // Increment counter val
-            countingLabel.text = String(describing:SwiftCounter)
-        }
-        // Handle a timer who's already counting
-        else {
-            PlayFlag = 0 // Trigger flag
-            SwiftTimer.invalidate()
-        }
+    //Prepare the Time value (Duration) to be sent to the second view controller.
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let secondVC : SecondViewController = segue.destination as! SecondViewController
+        secondVC.Timer_Value = Time_Selected
     }
     
     
     
-    // -------------- //
-    // Meta Functions //
-    // -------------- //
     
-    // Viewport load
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        // AudioServicesPlayAlertSound(kSystemSoundID_Vibrate);
-        
-        countingLabel.text = String(SwiftCounter) // Update label
-        
     }
 
-    // Garbage collection
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
