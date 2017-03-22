@@ -28,19 +28,25 @@ class ViewController: UIViewController {
     @IBOutlet weak var countingLabel: UILabel! // Display label
     var SwiftTimer = Timer() // Timer object
     var SwiftCounter = 0  // Counting label
+    var PlayFlag = 0 // 0 if paused, 1 if running
     
     // Start button
     @IBAction func startButton(_ sender: AnyObject) {
-        SwiftTimer = Timer.scheduledTimer(timeInterval:1, target:self, selector: Selector("updateCounter"), userInfo: nil, repeats: true)
+        if PlayFlag == 0 {
+            PlayFlag = 1 // Trigger flag
+            SwiftTimer = Timer.scheduledTimer(timeInterval:1, target:self, selector: Selector("updateCounter"), userInfo: nil, repeats: true)
+        }
     }
     
     // Pause button
     @IBAction func pauseButton(_ sender: AnyObject) {
+        PlayFlag = 0 // Trigger flag
         SwiftTimer.invalidate()
     }
     
     // Clear button
     @IBAction func clearButton(_ sender: AnyObject) {
+        PlayFlag = 0 // Reset flag
         SwiftTimer.invalidate() // Pauses the counter
         SwiftCounter = 0 // Resets counter var
         countingLabel.text = String(SwiftCounter) // Update label
