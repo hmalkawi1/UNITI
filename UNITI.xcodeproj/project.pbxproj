@@ -27,6 +27,8 @@
 		72B80C7F1E6E5AF10093CAF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72B80C7E1E6E5AF10093CAF5 /* Assets.xcassets */; };
 		72B80C8D1E6E5AF10093CAF5 /* UNITITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B80C8C1E6E5AF10093CAF5 /* UNITITests.swift */; };
 		72B80C981E6E5AF10093CAF5 /* UNITIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B80C971E6E5AF10093CAF5 /* UNITIUITests.swift */; };
+		960D2DC01E81FEE700094B04 /* firework.png in Resources */ = {isa = PBXBuildFile; fileRef = 960D2DBF1E81FEE700094B04 /* firework.png */; };
+		960D2DC21E8203D400094B04 /* person-silhouette-in-meditation-posture-in-spa.png in Resources */ = {isa = PBXBuildFile; fileRef = 960D2DC11E8203D400094B04 /* person-silhouette-in-meditation-posture-in-spa.png */; };
 		963226721E7A03EC0060E199 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 9632266D1E7A03EC0060E199 /* 3.png */; };
 		963226731E7A03EC0060E199 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9632266E1E7A03EC0060E199 /* 2.png */; };
 		963226741E7A03EC0060E199 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 9632266F1E7A03EC0060E199 /* 5.png */; };
@@ -87,6 +89,8 @@
 		72B80C931E6E5AF10093CAF5 /* UNITIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UNITIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		72B80C971E6E5AF10093CAF5 /* UNITIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UNITIUITests.swift; sourceTree = "<group>"; };
 		72B80C991E6E5AF10093CAF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		960D2DBF1E81FEE700094B04 /* firework.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = firework.png; sourceTree = "<group>"; };
+		960D2DC11E8203D400094B04 /* person-silhouette-in-meditation-posture-in-spa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "person-silhouette-in-meditation-posture-in-spa.png"; sourceTree = "<group>"; };
 		9632266D1E7A03EC0060E199 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
 		9632266E1E7A03EC0060E199 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
 		9632266F1E7A03EC0060E199 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
@@ -266,6 +270,8 @@
 		9632266C1E7A03D40060E199 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				960D2DBF1E81FEE700094B04 /* firework.png */,
+				960D2DC11E8203D400094B04 /* person-silhouette-in-meditation-posture-in-spa.png */,
 				9696ABAC1E8087270071D8B2 /* mobile-phone-vibrating.png */,
 				9696ABAA1E80853E0071D8B2 /* timer3.jpg */,
 				9696ABA61E8081920071D8B2 /* stopwatch.png */,
@@ -399,8 +405,10 @@
 				963226761E7A03EC0060E199 /* 1.png in Resources */,
 				725B6A631E74938300194DC0 /* SelfTherapy.storyboard in Resources */,
 				725B6A6B1E74956500194DC0 /* Resources.storyboard in Resources */,
+				960D2DC21E8203D400094B04 /* person-silhouette-in-meditation-posture-in-spa.png in Resources */,
 				72B80C7D1E6E5AF10093CAF5 /* Main.storyboard in Resources */,
 				963226741E7A03EC0060E199 /* 5.png in Resources */,
+				960D2DC01E81FEE700094B04 /* firework.png in Resources */,
 				7213AC771E70AD19008B904E /* relaxing_nature.jpg in Resources */,
 				7213AC751E70AD19008B904E /* 94-great-atmosphere-nature-landscape-mood-relaxing-water-lake-jasper-national-park-alberta-canada-2.jpg in Resources */,
 				9696ABAB1E80853E0071D8B2 /* timer3.jpg in Resources */,
