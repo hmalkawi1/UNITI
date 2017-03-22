@@ -27,6 +27,7 @@
 		72B80C7F1E6E5AF10093CAF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72B80C7E1E6E5AF10093CAF5 /* Assets.xcassets */; };
 		72B80C8D1E6E5AF10093CAF5 /* UNITITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B80C8C1E6E5AF10093CAF5 /* UNITITests.swift */; };
 		72B80C981E6E5AF10093CAF5 /* UNITIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B80C971E6E5AF10093CAF5 /* UNITIUITests.swift */; };
+		A62CD0B21E82E0B900771675 /* Screen Shot 2017-03-22 at 9.41.01 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = A62CD0B11E82E0B900771675 /* Screen Shot 2017-03-22 at 9.41.01 AM.png */; };
 		A636F9321E7FC50A008822BA /* SelfAnalysisMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A636F9311E7FC50A008822BA /* SelfAnalysisMainViewController.swift */; };
 		A636F9331E7FC50A008822BA /* SelfAnalysisMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A636F9311E7FC50A008822BA /* SelfAnalysisMainViewController.swift */; };
 		A636F9341E7FC50A008822BA /* SelfAnalysisMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A636F9311E7FC50A008822BA /* SelfAnalysisMainViewController.swift */; };
@@ -85,6 +86,7 @@
 		72B80C931E6E5AF10093CAF5 /* UNITIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UNITIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		72B80C971E6E5AF10093CAF5 /* UNITIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UNITIUITests.swift; sourceTree = "<group>"; };
 		72B80C991E6E5AF10093CAF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A62CD0B11E82E0B900771675 /* Screen Shot 2017-03-22 at 9.41.01 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2017-03-22 at 9.41.01 AM.png"; sourceTree = "<group>"; };
 		A636F9311E7FC50A008822BA /* SelfAnalysisMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelfAnalysisMainViewController.swift; sourceTree = "<group>"; };
 		A66E90121E74CF99009334EC /* depression1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = depression1ViewController.swift; sourceTree = "<group>"; };
 		A66E90141E7E4BBB009334EC /* bg_720.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg_720.jpg; sourceTree = "<group>"; };
@@ -124,6 +126,7 @@
 				7213AC721E70AD19008B904E /* 94-great-atmosphere-nature-landscape-mood-relaxing-water-lake-jasper-national-park-alberta-canada-2.jpg */,
 				A66E90161E7F8564009334EC /* Screen Shot 2017-03-19 at 8.25.10 PM.png */,
 				7213AC731E70AD19008B904E /* maxresdefault.jpg */,
+				A62CD0B11E82E0B900771675 /* Screen Shot 2017-03-22 at 9.41.01 AM.png */,
 				A66E90141E7E4BBB009334EC /* bg_720.jpg */,
 				7213AC741E70AD19008B904E /* relaxing_nature.jpg */,
 			);
@@ -375,6 +378,7 @@
 				725B6A5F1E748F7100194DC0 /* SelfAnalysis.storyboard in Resources */,
 				725B6A631E74938300194DC0 /* SelfTherapy.storyboard in Resources */,
 				725B6A6B1E74956500194DC0 /* Resources.storyboard in Resources */,
+				A62CD0B21E82E0B900771675 /* Screen Shot 2017-03-22 at 9.41.01 AM.png in Resources */,
 				72B80C7D1E6E5AF10093CAF5 /* Main.storyboard in Resources */,
 				7213AC771E70AD19008B904E /* relaxing_nature.jpg in Resources */,
 				A66E90151E7E4BBB009334EC /* bg_720.jpg in Resources */,
