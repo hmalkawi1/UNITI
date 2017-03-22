@@ -66,6 +66,7 @@ class ViewController: UIViewController {
     // Clear button
     @IBAction func clearButton(_ sender: AnyObject) {
         PlayFlag = 0 // Reset flag
+        timerSlider.value = 0 // Reset slider value
         timerSlider.isHidden = false // Show slider
         SwiftTimer.invalidate() // Pauses the counter
         TimerDir.text = "Select the session duration." // Update directions
