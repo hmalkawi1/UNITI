@@ -37,7 +37,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="m3d-pG-icm" kind="show" id="bmE-2m-1Pj"/>
+                                    <segue destination="m3d-pG-icm" kind="show" id="0Nk-1c-hFi"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AcJ-M4-v6Y">
@@ -772,26 +772,45 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I9D-ix-JwQ">
-                                <frame key="frameInset" minX="16" minY="573" width="343" height="74"/>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="877-lE-wlN">
+                                <frame key="frameInset" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem title="Back" id="p2T-wL-fbK">
+                                        <connections>
+                                            <segue destination="Ii7-Ij-u4c" kind="show" id="Fv8-TM-hVn"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="Q1b-HD-Pp1"/>
+                                    <barButtonItem title="Finish" id="1e1-WU-Mxq">
+                                        <connections>
+                                            <segue destination="NDz-6a-w78" kind="show" id="T8t-4g-5y6"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="N3l-Fd-yKB">
+                                <frame key="frameInset" height="74"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Session Complete" prompt=" " id="WN9-1j-Pd7">
+                                        <barButtonItem key="leftBarButtonItem" title="Menu" id="kwx-Ag-ojZ"/>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="firework.png" translatesAutoresizingMaskIntoConstraints="NO" id="j2M-1S-3m3">
+                                <frame key="frameInset" minX="87" minY="237" width="200" height="200"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.37307094670000002" green="0.56669864650000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Finish !">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="NDz-6a-w78" kind="show" id="Wd9-8g-l0j"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nicely done; enjoy your day." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aRf-5a-bvj">
-                                <frame key="frameInset" minX="16" minY="528" width="343" height="37"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nicely done; enjoy your day." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HkO-ww-0Qq">
+                                <frame key="frameInset" minX="87" minY="445" width="200" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.42352941179999998" green="0.44705882349999998" blue="0.52156862749999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.098039215690000001" green="0.1333333333" blue="0.2666666667" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="Session Complete" id="263-JB-veQ">
                         <barButtonItem key="backBarButtonItem" title="Back" id="7Vf-Uw-BeD"/>
@@ -799,64 +818,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7ad-Xr-M9g" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2406" y="-914"/>
-        </scene>
-        <!--Haptic Session-->
-        <scene sceneID="pLY-jR-Htd">
-            <objects>
-                <viewController id="aTG-0p-fLd" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="NBQ-bx-8Wy"/>
-                        <viewControllerLayoutGuide type="bottom" id="xVC-98-hOT"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="c8g-B1-H1x">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gum-fT-QQs">
-                                <frame key="frameInset" minX="16" minY="567" width="174" height="80"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.93216279160000004" green="0.51301582879999996" blue="0.30210512379999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <state key="normal" title="Main Menu">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="NDz-6a-w78" kind="show" id="5rc-Dc-quK"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9m6-2F-w2k">
-                                <frame key="frameInset" minX="187" minY="567" width="172" height="80"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.37307094670000002" green="0.56669864650000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Begin Session">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="GfU-uy-7j0" kind="show" id="B9S-zu-6zo"/>
-                                </connections>
-                            </button>
-                            <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="2" currentPage="1" translatesAutoresizingMaskIntoConstraints="NO" id="ddZ-r2-hVZ">
-                                <frame key="frameInset" minX="320" minY="522" width="39" height="37"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </pageControl>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Place your phone in your pocket." lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7pp-qn-Xhd">
-                                <frame key="frameInset" minX="16" minY="522" width="296" height="37"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" red="0.42352941179999998" green="0.44705882349999998" blue="0.52156862749999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="Haptic Session" id="Iff-vX-UQK">
-                        <barButtonItem key="backBarButtonItem" title="Back" id="2BG-rJ-9qr"/>
-                    </navigationItem>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="N9t-Dl-njh" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-1716" y="-914.392803598201"/>
+            <point key="canvasLocation" x="-1697" y="-914"/>
         </scene>
         <!--Duration Selection-->
         <scene sceneID="Uhy-Pl-TLg">
@@ -870,58 +832,79 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CqM-kx-EC7">
-                                <frame key="frameInset" minX="16" minY="567" width="174" height="80"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.93216279160000004" green="0.51301582879999996" blue="0.30210512379999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <state key="normal" title="Main Menu">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="NDz-6a-w78" kind="show" id="dDN-Nz-3gZ"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eLN-fK-Vd0">
-                                <frame key="frameInset" minX="187" minY="567" width="172" height="80"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.00062193656239999996" green="0.71864756320000001" blue="0.15157552730000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <state key="normal" title="Next">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="aTG-0p-fLd" kind="show" id="De8-0g-ZtP"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Select the session duration." lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UHy-bh-JdJ">
-                                <frame key="frameInset" minX="16" minY="522" width="296" height="37"/>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5fc-7d-JOh">
+                                <frame key="frameInset" height="74"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Haptic Session" prompt=" " id="h37-Vx-WtP">
+                                        <barButtonItem key="leftBarButtonItem" title="Menu" id="ROw-tI-DCh"/>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TKu-iP-Rfx">
+                                <frame key="frameInset" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem title="Back" id="vPf-DM-obQ">
+                                        <connections>
+                                            <segue destination="JSa-CO-tx6" kind="show" id="ZdM-YE-ppo"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="dfw-nQ-MPf"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="NdL-le-Q4g"/>
+                                    <barButtonItem systemItem="play" id="Aja-24-ZTG">
+                                        <connections>
+                                            <action selector="startButton:" destination="lRO-nL-B8J" id="n9c-KV-7V3"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="h19-I5-idH"/>
+                                    <barButtonItem systemItem="trash" id="u8l-Ou-vIG">
+                                        <connections>
+                                            <action selector="clearButton:" destination="lRO-nL-B8J" id="VGB-pU-Ajg"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="0of-oI-6nZ"/>
+                                    <barButtonItem systemItem="pause" id="f1H-6Q-fvl">
+                                        <connections>
+                                            <action selector="pauseButton:" destination="lRO-nL-B8J" id="Iyk-th-yXU"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="n6T-wO-Q1b"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="2eR-o4-4Lp"/>
+                                    <barButtonItem title="Next" id="nVV-Wk-Gda">
+                                        <connections>
+                                            <segue destination="GfU-uy-7j0" kind="show" id="Zjd-gx-Fxz"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Select the session duration." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MiO-i3-su6">
+                                <frame key="frameInset" minX="87" minY="419" width="200" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="2" translatesAutoresizingMaskIntoConstraints="NO" id="0IQ-r6-APj">
-                                <frame key="frameInset" minX="320" minY="522" width="39" height="37"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </pageControl>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0 : 00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mC9-oW-DSQ">
-                                <frame key="frameInset" minX="58" minY="246" width="259" height="82"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="42"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </label>
-                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="20" translatesAutoresizingMaskIntoConstraints="NO" id="8Qo-Zx-7jY">
-                                <frame key="frameInset" minX="56" minY="336" width="263" height="31"/>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="20" translatesAutoresizingMaskIntoConstraints="NO" id="v4F-zl-iWm">
+                                <frame key="frameInset" minX="75" minY="297" width="224" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <action selector="Time_Slider:" destination="lRO-nL-B8J" eventType="valueChanged" id="OiS-d2-AJV"/>
+                                    <action selector="timerSlider:" destination="lRO-nL-B8J" eventType="valueChanged" id="1HI-Sm-SKJ"/>
                                 </connections>
                             </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0 : 00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="teh-dZ-N5m">
+                                <frame key="frameInset" minX="87" minY="173" width="203" height="76"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </label>
+                            <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="1" translatesAutoresizingMaskIntoConstraints="NO" id="0IQ-r6-APj">
+                                <frame key="frameInset" minX="169" minY="586" width="39" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </pageControl>
                         </subviews>
-                        <color key="backgroundColor" red="0.42352941179999998" green="0.44705882349999998" blue="0.52156862749999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.098039215690000001" green="0.1333333333" blue="0.2666666667" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="Duration Selection" id="c1j-LM-HGl">
                         <barButtonItem key="backBarButtonItem" title="Back" id="8xr-zd-fV7"/>
@@ -943,30 +926,45 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UnI-Db-o9D">
-                                <frame key="frameInset" minX="16" minY="573" width="343" height="74"/>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kg2-Ce-4Zk">
+                                <frame key="frameInset" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="fCh-Z1-c91"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="nsq-RY-keg"/>
+                                    <barButtonItem title="Begin" id="QV2-8J-fmL">
+                                        <connections>
+                                            <segue destination="Ii7-Ij-u4c" kind="show" id="Uqy-Wg-Oyz"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qUr-Xp-gb8">
+                                <frame key="frameInset" height="74"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Haptic Meditation" prompt=" " id="5Vm-PM-Icc">
+                                        <barButtonItem key="leftBarButtonItem" title="Menu" id="Ja0-wd-xh7">
+                                            <connections>
+                                                <segue destination="NDz-6a-w78" kind="show" id="7a2-kH-OOj"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mobile-phone-vibrating.png" translatesAutoresizingMaskIntoConstraints="NO" id="te6-7W-ReX">
+                                <frame key="frameInset" minX="87" minY="233" width="200" height="200"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.37307094670000002" green="0.56669864650000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Begin Session">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="Ii7-Ij-u4c" kind="show" id="25e-WH-Psr"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Vibration-based meditation." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XkJ-qS-r9u">
-                                <frame key="frameInset" minX="16" minY="528" width="343" height="37"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Unguided, timed meditation." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EJQ-uZ-WtD">
+                                <frame key="frameInset" minX="87" minY="441" width="200" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mobile-phone-vibrating.png" translatesAutoresizingMaskIntoConstraints="NO" id="sY4-D7-Hor">
-                                <frame key="frameInset" minX="87" minY="233" width="200" height="200"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="0.42352941176470588" green="0.44705882352941173" blue="0.52156862745098043" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.098039215690000001" green="0.1333333333" blue="0.2666666667" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="Summary" id="H3u-WI-cAL">
                         <barButtonItem key="backBarButtonItem" title="Back" id="6Ym-aM-xWg"/>
@@ -1097,6 +1095,10 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="2" translatesAutoresizingMaskIntoConstraints="NO" id="XLA-xF-X75">
+                                <frame key="frameInset" minX="168" minY="586" width="39" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </pageControl>
                         </subviews>
                         <color key="backgroundColor" red="0.098039215690000001" green="0.1333333333" blue="0.2666666667" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -1175,7 +1177,7 @@
                                 <frame key="frameInset" height="74"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
-                                    <navigationItem title="Timer" prompt=" " id="YQ9-Y5-Hgt">
+                                    <navigationItem title="Timer Session" prompt=" " id="YQ9-Y5-Hgt">
                                         <barButtonItem key="leftBarButtonItem" title="Menu" id="t8d-B8-bMy">
                                             <connections>
                                                 <segue destination="NDz-6a-w78" kind="show" id="m0c-hk-iM1"/>
@@ -1191,6 +1193,10 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </label>
+                            <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="2" currentPage="1" translatesAutoresizingMaskIntoConstraints="NO" id="cAZ-Wg-KQc">
+                                <frame key="frameInset" minX="168" minY="586" width="39" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </pageControl>
                         </subviews>
                         <color key="backgroundColor" red="0.098039215690000001" green="0.1333333333" blue="0.2666666667" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -1304,16 +1310,18 @@
         <image name="stopwatch.png" width="512" height="512"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="e45-5Q-VjQ"/>
+        <segue reference="l4q-r1-Ra9"/>
+        <segue reference="DsK-wA-9td"/>
+        <segue reference="0Nk-1c-hFi"/>
+        <segue reference="7a2-kH-OOj"/>
+        <segue reference="168-Oa-gPr"/>
+        <segue reference="Uqy-Wg-Oyz"/>
+        <segue reference="Qtj-hn-wA0"/>
+        <segue reference="9r6-h7-q16"/>
         <segue reference="1C4-pu-vCR"/>
         <segue reference="sUm-gr-hK1"/>
         <segue reference="roO-aq-l3p"/>
-        <segue reference="pFf-oc-eTx"/>
-        <segue reference="Def-6V-fgk"/>
-        <segue reference="9r6-h7-q16"/>
-        <segue reference="bmE-2m-1Pj"/>
-        <segue reference="l4e-sV-9Vu"/>
-        <segue reference="Qtj-hn-wA0"/>
-        <segue reference="QlT-ri-UkL"/>
-        <segue reference="jXN-oG-INF"/>
+        <segue reference="Y0T-Jf-cC2"/>
     </inferredMetricsTieBreakers>
 </document>
