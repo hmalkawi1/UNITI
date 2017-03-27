@@ -83,6 +83,10 @@ class ViewController: UIViewController {
     // ----------------- //
     
     // Todo
+    // - Define excercises
+    // - Randomly choose exercises
+    // - Display excercises to user
+    // - Display image with exercise
     
     
     
