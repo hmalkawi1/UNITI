@@ -901,7 +901,7 @@
                                     <action selector="timerSlider:" destination="lRO-nL-B8J" eventType="valueChanged" id="1HI-Sm-SKJ"/>
                                 </connections>
                             </slider>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0 : 00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="teh-dZ-N5m">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="teh-dZ-N5m">
                                 <frame key="frameInset" minX="87" minY="173" width="203" height="76"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
@@ -1200,7 +1200,7 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0 : 00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fNu-ld-tqs">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fNu-ld-tqs">
                                 <frame key="frameInset" minX="87" minY="195" width="203" height="76"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
@@ -1332,10 +1332,10 @@
         <segue reference="e45-5Q-VjQ"/>
         <segue reference="Fv8-TM-hVn"/>
         <segue reference="ZdM-YE-ppo"/>
-        <segue reference="sG0-HX-dPt"/>
+        <segue reference="Y0T-Jf-cC2"/>
+        <segue reference="m0c-hk-iM1"/>
+        <segue reference="WLs-5Y-obJ"/>
         <segue reference="0Nk-1c-hFi"/>
         <segue reference="Qtj-hn-wA0"/>
-        <segue reference="Y0T-Jf-cC2"/>
-        <segue reference="WLs-5Y-obJ"/>
     </inferredMetricsTieBreakers>
 </document>

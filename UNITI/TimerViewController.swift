@@ -19,14 +19,23 @@ class ViewController: UIViewController {
     @IBOutlet weak var hCountingLabel: UILabel! // Display label
     var hSwiftTimer = Timer() // Timer object
     var hSwiftCounter = 0  // Counting label
+    var hTimerMinutes = 0 // Reset minutes
+    var hTimerSeconds = 0 // Reset seconds
     var hPlayFlag = 0 // 0 if paused, 1 if running
     @IBOutlet weak var hTimerDir: UILabel! // Instructions
     
     // Timer session select slider
     @IBOutlet weak var hTimerSlider: UISlider!
     @IBAction func hTimerSlider(_ sender: UISlider) {
-        hSwiftCounter = Int(sender.value) // Update var with slider value
-        hCountingLabel.text = String(hSwiftCounter) // Update slider with save value
+        hSwiftCounter = Int(sender.value) * 60 // Update var with slider value
+        hTimerMinutes = hSwiftCounter / 60 // Calculate Minutes
+        hTimerSeconds = hSwiftCounter % 60 // Calculate Seconds
+        if hTimerSeconds == 0 {
+            hCountingLabel.text = String(format:String(hTimerMinutes) + ":00") // Update slider with save value
+        }
+        else {
+            hCountingLabel.text = String(format:String(hTimerMinutes) + ":" + String(hTimerSeconds)) // Update slider with save value
+        }
     }
     
     // Start button
@@ -55,7 +64,17 @@ class ViewController: UIViewController {
         hSwiftTimer.invalidate() // Pauses the counter
         hTimerDir.text = "Select the session duration." // Update directions
         hSwiftCounter = 0 // Resets counter var
-        hCountingLabel.text = String(hSwiftCounter) // Update label
+        hTimerMinutes = hSwiftCounter / 60 // Calculate Minutes
+        hTimerSeconds = hSwiftCounter % 60 // Calculate Seconds
+        if hTimerSeconds == 0 {
+            hCountingLabel.text = String(format:String(hTimerMinutes) + ":00") // Update slider with save value
+        }
+        else if hTimerSeconds < 10 {
+            hCountingLabel.text = String(format:String(hTimerMinutes) + ":0" + String(hTimerSeconds)) // Update slider with save value
+        }
+        else {
+            hCountingLabel.text = String(format:String(hTimerMinutes) + ":" + String(hTimerSeconds)) // Update slider with save value
+        }
     }
     
     // Decrements counter
@@ -67,7 +86,17 @@ class ViewController: UIViewController {
                 AudioServicesPlaySystemSound(kSystemSoundID_Vibrate); // Vibrate phone
             }
             hSwiftCounter -= 1 // Increment counter val
-            hCountingLabel.text = String(describing:hSwiftCounter)
+            hTimerMinutes = hSwiftCounter / 60 // Calculate Minutes
+            hTimerSeconds = hSwiftCounter % 60 // Calculate Seconds
+            if hTimerSeconds == 0 {
+                hCountingLabel.text = String(format:String(hTimerMinutes) + ":00") // Update slider with save value
+            }
+            else if hTimerSeconds < 10 {
+                hCountingLabel.text = String(format:String(hTimerMinutes) + ":0" + String(hTimerSeconds)) // Update slider with save value
+            }
+            else {
+                hCountingLabel.text = String(format:String(hTimerMinutes) + ":" + String(hTimerSeconds)) // Update slider with save value
+            }
         }
             // Handle a timer who's already counting
         else {
@@ -84,7 +113,7 @@ class ViewController: UIViewController {
     
     // Todo
     // - Define excercises
-    // - Randomly choose exercises
+    // - Randomly choose exercises (opt)
     // - Display excercises to user
     // - Display image with exercise
     
@@ -98,14 +127,23 @@ class ViewController: UIViewController {
     @IBOutlet weak var countingLabel: UILabel! // Display label
     var SwiftTimer = Timer() // Timer object
     var SwiftCounter = 0  // Counting label
+    var TimerMinutes = 0 // Reset minutes
+    var TimerSeconds = 0 // Reset seconds
     var PlayFlag = 0 // 0 if paused, 1 if running
     @IBOutlet weak var TimerDir: UILabel! // Instructions
     
     // Timer session select slider
     @IBOutlet weak var timerSlider: UISlider!
     @IBAction func timerSlider(_ sender: UISlider) {
-        SwiftCounter = Int(sender.value) // Update var with slider value
-        countingLabel.text = String(SwiftCounter) // Update slider with save value
+        SwiftCounter = Int(sender.value) * 60 // Update var with slider value
+        TimerMinutes = SwiftCounter / 60 // Calculate Minutes
+        TimerSeconds = SwiftCounter % 60 // Calculate Seconds
+        if TimerSeconds == 0 {
+            countingLabel.text = String(format:String(TimerMinutes) + ":00") // Update slider with save value
+        }
+        else {
+            countingLabel.text = String(format:String(TimerMinutes) + ":" + String(TimerSeconds)) // Update slider with save value
+        }
     }
     
     // Start button
@@ -134,7 +172,17 @@ class ViewController: UIViewController {
         SwiftTimer.invalidate() // Pauses the counter
         TimerDir.text = "Select the session duration." // Update directions
         SwiftCounter = 0 // Resets counter var
-        countingLabel.text = String(SwiftCounter) // Update label
+        TimerMinutes = SwiftCounter / 60 // Calculate Minutes
+        TimerSeconds = SwiftCounter % 60 // Calculate Seconds
+        if TimerSeconds == 0 {
+            countingLabel.text = String(format:String(TimerMinutes) + ":00") // Update slider with save value
+        }
+        else if TimerSeconds < 10 {
+            countingLabel.text = String(format:String(TimerMinutes) + ":0" + String(TimerSeconds)) // Update slider with save value
+        }
+        else {
+            countingLabel.text = String(format:String(TimerMinutes) + ":" + String(TimerSeconds)) // Update slider with save value
+        }
     }
     
     // Decrements counter
@@ -142,7 +190,17 @@ class ViewController: UIViewController {
         // Check to see if counter is currently active
         if SwiftCounter > 0 {
             SwiftCounter -= 1 // Increment counter val
-            countingLabel.text = String(describing:SwiftCounter)
+            TimerMinutes = SwiftCounter / 60 // Calculate Minutes
+            TimerSeconds = SwiftCounter % 60 // Calculate Seconds
+            if TimerSeconds == 0 {
+                countingLabel.text = String(format:String(TimerMinutes) + ":00") // Update slider with save value
+            }
+            else if TimerSeconds < 10 {
+                countingLabel.text = String(format:String(TimerMinutes) + ":0" + String(TimerSeconds)) // Update slider with save value
+            }
+            else {
+                countingLabel.text = String(format:String(TimerMinutes) + ":" + String(TimerSeconds)) // Update slider with save value
+            }
         }
         // Handle a timer who's already counting
         else {
