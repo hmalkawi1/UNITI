@@ -15,7 +15,66 @@ class ViewController: UIViewController {
     // Haptic Meditation //
     // ----------------- //
     
-    // Todo
+    // Timer meditation variables
+    @IBOutlet weak var hCountingLabel: UILabel! // Display label
+    var hSwiftTimer = Timer() // Timer object
+    var hSwiftCounter = 0  // Counting label
+    var hPlayFlag = 0 // 0 if paused, 1 if running
+    @IBOutlet weak var hTimerDir: UILabel! // Instructions
+    
+    // Timer session select slider
+    @IBOutlet weak var hTimerSlider: UISlider!
+    @IBAction func hTimerSlider(_ sender: UISlider) {
+        hSwiftCounter = Int(sender.value) // Update var with slider value
+        hCountingLabel.text = String(hSwiftCounter) // Update slider with save value
+    }
+    
+    // Start button
+    @IBAction func hStartButton(_ sender: AnyObject) {
+        // Check if counter is paused
+        if hPlayFlag == 0 {
+            hPlayFlag = 1 // Trigger flag
+            hTimerSlider.isHidden = true // Hide slider
+            hTimerDir.text = "Place phone in your pocket." // Change timer direction label
+            hSwiftTimer = Timer.scheduledTimer(timeInterval:1, target:self, selector: Selector("hUpdateCounter"), userInfo: nil, repeats: true)
+        }
+    }
+    
+    // Pause button
+    @IBAction func hPauseButton(_ sender: AnyObject) {
+        hPlayFlag = 0 // Trigger flag
+        hTimerSlider.isHidden = false // Show slider
+        hSwiftTimer.invalidate()
+    }
+    
+    // Clear button
+    @IBAction func hClearButton(_ sender: AnyObject) {
+        hPlayFlag = 0 // Reset flag
+        hTimerSlider.value = 0 // Reset slider value
+        hTimerSlider.isHidden = false // Show slider
+        hSwiftTimer.invalidate() // Pauses the counter
+        hTimerDir.text = "Select the session duration." // Update directions
+        hSwiftCounter = 0 // Resets counter var
+        hCountingLabel.text = String(hSwiftCounter) // Update label
+    }
+    
+    // Decrements counter
+    func hUpdateCounter() {
+        // Check to see if counter is currently active
+        if hSwiftCounter > 0 {
+            // Vibrate every 5 seconds
+            if hSwiftCounter % 5 == 0 {
+                AudioServicesPlaySystemSound(kSystemSoundID_Vibrate); // Vibrate phone
+            }
+            hSwiftCounter -= 1 // Increment counter val
+            hCountingLabel.text = String(describing:hSwiftCounter)
+        }
+            // Handle a timer who's already counting
+        else {
+            hPlayFlag = 0 // Trigger flag
+            hSwiftTimer.invalidate()
+        }
+    }
     
     
     
@@ -99,8 +158,6 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         // AudioServicesPlayAlertSound(kSystemSoundID_Vibrate);
-        
-        countingLabel.text = String(SwiftCounter) // Update label
         
     }
 
