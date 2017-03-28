@@ -107,6 +107,8 @@ class ViewController: UIViewController {
     
     
     
+    
+    
     // ----------------- //
     // Guided Meditation //
     // ----------------- //
@@ -116,6 +118,40 @@ class ViewController: UIViewController {
     // - Randomly choose exercises (opt)
     // - Display excercises to user
     // - Display image with exercise
+    
+    
+    
+    
+    /*
+ 
+    Create image array = [1,3,4,5]          //image 2 is not included because it will be a stage image for stage 1
+ 
+    let exct1 = "Bring your legs together; slide one foot up onto your leg, until it is placed on your other knee. Maintain balance and bring your hands together, then place them together directly above your head."
+ 
+ 
+    let exc3 = "bend one knee and hold it back with your hand. Pull it back until you feel a stretch. Maintain this position and stretch your other hand forward, until you feel a stretch as well."
+ 
+    let exc4 = "Remain seated as before with your legs crossed. Bring your hands together to the middle of your body and then slowly raise them directly above your head."
+ 
+    let exc5 = "Sit down, and cross your legs. place your arms on each side as shown. Bring your hands into Gyan Mudra by joining the index finger and thumb on each hand."
+ 
+ 
+    Randomize func:
+            Randomly pick an image out of image array [1,3,4,5]
+            -Depending on the number picked out, display one of the string variables.
+ 
+    if img 1 then
+        display exc1
+ 
+    if img 3 then
+        display exc3
+    
+    if img 4 then 
+        display exc4
+    
+    if img 5 then
+        display exc5
+    
     
     
     
