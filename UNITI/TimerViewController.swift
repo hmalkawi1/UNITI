@@ -113,14 +113,24 @@ class ViewController: UIViewController {
     // Guided Meditation //
     // ----------------- //
     
-    // Todo
-    // - Define excercises
-    // - Randomly choose exercises (opt)
-    // - Display excercises to user
-    // - Display image with exercise
+    // Struture defining exercises
+    struct Exercise {
+        var excImage:String // Image
+        var excText:String // Description of exc
+    }
     
     
     
+    // List of all excercises and their images
+    // excList[i] -> imagei and texti, 0 < i < 3
+    let excList = [
+        Exercise(excImage: "1.png", excText: "Bring your legs together; slide one foot up onto your leg, until it is placed on your other knee. Maintain balance and bring your hands together, then place them together directly above your head."),
+                   Exercise(excImage: "3.png", excText: "Bend one knee and hold it back with your hand. Pull it back until you feel a stretch. Maintain this position and stretch your other hand forward, until you feel a stretch as well." ),
+                   Exercise(excImage: "4.png", excText: "Remain seated as before with your legs crossed. Bring your hands together to the middle of your body and then slowly raise them directly above your head." ),
+                   Exercise(excImage: "5.png", excText: "Sit down, and cross your legs. place your arms on each side as shown. Bring your hands into Gyan Mudra by joining the index finger and thumb on each hand." )]
+    
+    // Randomly generate exer
+    var i = (arc4random() % 4) // Generate a num between 0 and 3
     
     /*
  
@@ -151,7 +161,7 @@ class ViewController: UIViewController {
     
     if img 5 then
         display exc5
-    
+    */
     
     
     

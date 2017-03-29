@@ -889,15 +889,19 @@
                                     </barButtonItem>
                                 </items>
                             </toolbar>
+                            <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="1" translatesAutoresizingMaskIntoConstraints="NO" id="0IQ-r6-APj">
+                                <frame key="frameInset" minX="169" minY="586" width="39" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </pageControl>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Select the session duration." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MiO-i3-su6">
-                                <frame key="frameInset" minX="87" minY="419" width="200" height="75"/>
+                                <frame key="frameInset" minX="86" minY="357" width="200" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="20" translatesAutoresizingMaskIntoConstraints="NO" id="v4F-zl-iWm">
-                                <frame key="frameInset" minX="75" minY="297" width="224" height="31"/>
+                                <frame key="frameInset" minX="75" minY="319" width="224" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="hTimerSlider:" destination="Ii7-Ij-u4c" eventType="valueChanged" id="Afy-cp-s4M"/>
@@ -905,16 +909,12 @@
                                 </connections>
                             </slider>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="teh-dZ-N5m">
-                                <frame key="frameInset" minX="87" minY="173" width="203" height="76"/>
+                                <frame key="frameInset" minX="85" minY="235" width="203" height="76"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </label>
-                            <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="1" translatesAutoresizingMaskIntoConstraints="NO" id="0IQ-r6-APj">
-                                <frame key="frameInset" minX="169" minY="586" width="39" height="37"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </pageControl>
                         </subviews>
                         <color key="backgroundColor" red="0.098039215690000001" green="0.1333333333" blue="0.2666666667" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -1003,6 +1003,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mediBkg.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="yzo-Ln-aCd">
+                                <frame key="frameInset" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="stopwatch.png" translatesAutoresizingMaskIntoConstraints="NO" id="gee-yD-t1Z">
                                 <frame key="frameInset" minX="87" minY="233" width="200" height="200"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1140,14 +1144,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Select the session duration." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UdN-rb-1Kq">
-                                <frame key="frameInset" minX="87" minY="441" width="200" height="75"/>
+                                <frame key="frameInset" minX="87" minY="357" width="200" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="20" translatesAutoresizingMaskIntoConstraints="NO" id="bfK-hr-ZTS">
-                                <frame key="frameInset" minX="75" minY="318" width="224" height="31"/>
+                                <frame key="frameInset" minX="75" minY="319" width="224" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="timerSlider:" destination="lRO-nL-B8J" eventType="valueChanged" id="9qb-lX-EHy"/>
@@ -1204,7 +1208,7 @@
                                 </items>
                             </navigationBar>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fNu-ld-tqs">
-                                <frame key="frameInset" minX="87" minY="195" width="203" height="76"/>
+                                <frame key="frameInset" minX="86" minY="235" width="203" height="76"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -1325,23 +1329,24 @@
         <image name="4.png" width="3240" height="4320"/>
         <image name="5.png" width="3600" height="3600"/>
         <image name="firework.png" width="512" height="512"/>
+        <image name="mediBkg.jpg" width="1000" height="667"/>
         <image name="mobile-phone-vibrating.png" width="512" height="512"/>
         <image name="person-silhouette-in-meditation-posture-in-spa.png" width="512" height="512"/>
         <image name="stopwatch.png" width="512" height="512"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="jXN-oG-INF"/>
-        <segue reference="l4q-r1-Ra9"/>
-        <segue reference="DsK-wA-9td"/>
-        <segue reference="u35-MK-sh1"/>
-        <segue reference="0Nk-1c-hFi"/>
-        <segue reference="y3e-nc-vPt"/>
         <segue reference="1C4-pu-vCR"/>
         <segue reference="sUm-gr-hK1"/>
         <segue reference="cbb-6m-6sR"/>
+        <segue reference="l4e-sV-9Vu"/>
+        <segue reference="0Nk-1c-hFi"/>
+        <segue reference="9r6-h7-q16"/>
+        <segue reference="l4q-r1-Ra9"/>
+        <segue reference="jXN-oG-INF"/>
+        <segue reference="DsK-wA-9td"/>
+        <segue reference="u35-MK-sh1"/>
+        <segue reference="Uqy-Wg-Oyz"/>
         <segue reference="ZdM-YE-ppo"/>
-        <segue reference="Fv8-TM-hVn"/>
-        <segue reference="WLs-5Y-obJ"/>
         <segue reference="Y0T-Jf-cC2"/>
     </inferredMetricsTieBreakers>
 </document>
