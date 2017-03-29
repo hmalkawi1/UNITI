@@ -113,12 +113,15 @@ class ViewController: UIViewController {
     // Guided Meditation //
     // ----------------- //
     
-    // Struture defining exercises
-    struct Exercise {
+    // Struture defining exercises and variables
+    public struct Exercise {
         var excImage:String // Image
         var excText:String // Description of exc
     }
-    
+    @IBOutlet weak var stretch1Label: UILabel! // Stretch title/label
+    @IBOutlet weak var stretch2Label: UILabel!
+    @IBOutlet weak var stretch3Label: UILabel!
+    //@IBOutlet weak var stretch1Image: UIImageView! // Stretch image
     
     
     // List of all excercises and their images
@@ -129,24 +132,10 @@ class ViewController: UIViewController {
                    Exercise(excImage: "4.png", excText: "Remain seated as before with your legs crossed. Bring your hands together to the middle of your body and then slowly raise them directly above your head." ),
                    Exercise(excImage: "5.png", excText: "Sit down, and cross your legs. place your arms on each side as shown. Bring your hands into Gyan Mudra by joining the index finger and thumb on each hand." )]
     
-    // Randomly generate exer
-    var i = (arc4random() % 4) // Generate a num between 0 and 3
     
     /*
  
-    Create image array = [1,3,4,5]          //image 2 is not included because it will be a stage image for stage 1
- 
-    let exct1 = "Bring your legs together; slide one foot up onto your leg, until it is placed on your other knee. Maintain balance and bring your hands together, then place them together directly above your head."
- 
- 
-    let exc3 = "bend one knee and hold it back with your hand. Pull it back until you feel a stretch. Maintain this position and stretch your other hand forward, until you feel a stretch as well."
- 
-    let exc4 = "Remain seated as before with your legs crossed. Bring your hands together to the middle of your body and then slowly raise them directly above your head."
- 
-    let exc5 = "Sit down, and cross your legs. place your arms on each side as shown. Bring your hands into Gyan Mudra by joining the index finger and thumb on each hand."
- 
- 
-    Randomize func:
+        Randomize func:
             Randomly pick an image out of image array [1,3,4,5]
             -Depending on the number picked out, display one of the string variables.
  
@@ -265,7 +254,25 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        // AudioServicesPlayAlertSound(kSystemSoundID_Vibrate);
+        
+        // Randomly generate exer
+        var stretch1 = Int(arc4random() % 4) //Generates first stretch
+        var stretch2 = Int(arc4random() % 4) // Generates second stretch
+        while stretch2 == stretch1 {
+            stretch2 = Int(arc4random() % 4)
+        }
+        var stretch3 = Int(arc4random() % 4) // Generates second stretch
+        while stretch3 == stretch1 || stretch3 == stretch2 {
+            stretch3 = Int(arc4random() % 4)
+        }
+        
+        
+        // Populate guided session
+        stretch1Label.text = excList[stretch1].excText // Update text w. current exc
+        //stretch2Label.text = excList[stretch2].excText // Update text w. current exc
+        //stretch3Label.text = excList[stretch3].excText // Update text w. current exc
+        
+        //stretch1Image.image = UIImage = UIImage(named: excList[stretch1].excImage) // Update exc image
         
     }
 
