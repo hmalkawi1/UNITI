@@ -400,7 +400,11 @@
                                     </barButtonItem>
                                     <barButtonItem width="42" style="plain" systemItem="fixedSpace" id="cTJ-If-T1q"/>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="UDd-g0-3TG"/>
-                                    <barButtonItem title="Show Stretch" id="HYj-9A-gnr"/>
+                                    <barButtonItem title="Generate Stretch" id="HYj-9A-gnr">
+                                        <connections>
+                                            <action selector="stretch1RevealButton:" destination="JR3-vy-hjQ" id="Aug-Sj-OEh"/>
+                                        </connections>
+                                    </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="Ezv-N6-pIm"/>
                                     <barButtonItem width="42" style="plain" systemItem="fixedSpace" id="asP-js-oE0"/>
                                     <barButtonItem title="Next" id="fyF-ic-wiG">
@@ -425,6 +429,7 @@
                         <color key="backgroundColor" red="0.31660646199999998" green="0.43537038560000002" blue="0.62632566690000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
+                        <outlet property="stretch1Image" destination="D3g-iK-WQc" id="t0p-YT-3XN"/>
                         <outlet property="stretch1Label" destination="XHp-Qf-miP" id="Un1-PS-LhM"/>
                     </connections>
                 </viewController>
@@ -460,7 +465,11 @@
                                     </barButtonItem>
                                     <barButtonItem width="42" style="plain" systemItem="fixedSpace" id="qKB-JY-rQK"/>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="kRa-hm-BQy"/>
-                                    <barButtonItem title="Show Stretch" id="gra-5h-Nmb"/>
+                                    <barButtonItem title="Generate Stretch" id="gra-5h-Nmb">
+                                        <connections>
+                                            <action selector="stretch2RevealButton:" destination="Tfg-1Q-HUV" id="Nmd-lu-4Jd"/>
+                                        </connections>
+                                    </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="0ih-Xi-z98"/>
                                     <barButtonItem width="42" style="plain" systemItem="fixedSpace" id="Ja0-Oe-nQT"/>
                                     <barButtonItem title="Next" id="Wb0-l2-ay2">
@@ -498,6 +507,7 @@
                         <color key="backgroundColor" red="0.31660646199999998" green="0.43537038560000002" blue="0.62632566690000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
+                        <outlet property="stretch2Image" destination="fuL-1q-2Zt" id="s7O-aX-9fS"/>
                         <outlet property="stretch2Label" destination="ckm-wq-Gkq" id="fmB-ph-Qhc"/>
                     </connections>
                 </viewController>
@@ -532,7 +542,11 @@
                                     </barButtonItem>
                                     <barButtonItem width="42" style="plain" systemItem="fixedSpace" id="hKr-u7-lHb"/>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="hnW-c2-3Bg"/>
-                                    <barButtonItem title="Show Stretch" id="mhd-ZG-L4F"/>
+                                    <barButtonItem title="Generate Stretch" id="mhd-ZG-L4F">
+                                        <connections>
+                                            <action selector="stretch3RevealButton:" destination="Yzj-lh-5G0" id="O81-jC-c59"/>
+                                        </connections>
+                                    </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="f9p-6W-PSG"/>
                                     <barButtonItem width="42" style="plain" systemItem="fixedSpace" id="emR-c8-toq"/>
                                     <barButtonItem title="Next" id="JG8-xr-Hwn">
@@ -570,6 +584,7 @@
                         <color key="backgroundColor" red="0.31660646199999998" green="0.43537038560000002" blue="0.62632566690000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
+                        <outlet property="stretch3Image" destination="37w-wb-fL1" id="52D-xy-IUD"/>
                         <outlet property="stretch3Label" destination="8jd-py-LHj" id="Vyp-68-Pri"/>
                     </connections>
                 </viewController>
@@ -1230,8 +1245,8 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="woX-ky-FIM"/>
-        <segue reference="hKy-Rv-LQS"/>
-        <segue reference="L5h-cf-Mi7"/>
+        <segue reference="A5m-pF-hBo"/>
+        <segue reference="NBf-PZ-SNc"/>
         <segue reference="0Nk-1c-hFi"/>
         <segue reference="168-Oa-gPr"/>
         <segue reference="Qtj-hn-wA0"/>

@@ -116,10 +116,45 @@ class ViewController: UIViewController {
         var excImage:String // Image
         var excText:String // Description of exc
     }
-    @IBOutlet weak var stretch1Label: UILabel! // Stretch title/label
-    @IBOutlet weak var stretch2Label: UILabel!
-    @IBOutlet weak var stretch3Label: UILabel!
-    //@IBOutlet weak var stretch1Image: UIImageView! // Stretch image
+
+    // Generate exercises from struct
+    var stretch1 = Int(arc4random() % 4) //Generates first stretch
+    var stretch2 = Int(arc4random() % 4) // Generates second stretch
+    var stretch3 = Int(arc4random() % 4) // Generates second stretch
+    
+    // Stretch 1 Elements
+    @IBOutlet weak var stretch1Label: UILabel!      // Text
+    @IBOutlet weak var stretch1Image: UIImageView!  // Image
+    @IBAction func stretch1RevealButton(_ sender: AnyObject) {
+        // Populate guided session
+        stretch1Label.text = excList[stretch1].excText
+    }
+    
+    // Stretch 2 Elements
+    @IBOutlet weak var stretch2Label: UILabel!      // Text
+    @IBOutlet weak var stretch2Image: UIImageView!  // Image
+    @IBAction func stretch2RevealButton(_ sender: AnyObject) {
+        // Generate exercise from struct
+        while stretch2 == stretch1 {
+            stretch2 = Int(arc4random() % 4)
+        }
+        
+        // Populate guided session
+        stretch2Label.text = excList[stretch2].excText
+    }
+    
+    // Stretch 3 Elements
+    @IBOutlet weak var stretch3Label: UILabel!      // Text
+    @IBOutlet weak var stretch3Image: UIImageView!  // Image
+    @IBAction func stretch3RevealButton(_ sender: AnyObject) {
+        // Generate exercise from struct
+        while stretch3 == stretch1 || stretch3 == stretch2 {
+            stretch3 = Int(arc4random() % 4)
+        }
+        
+        // Populate guided session
+        stretch3Label.text = excList[stretch3].excText
+    }
     
     
     // List of all excercises and their images
@@ -129,12 +164,6 @@ class ViewController: UIViewController {
                    Exercise(excImage: "standingLeg2.png", excText: "Bend one knee and hold it back with your hand. Pull it back until you feel a stretch. Maintain this position and stretch your other hand forward, until you feel a stretch as well." ),
                    Exercise(excImage: "sitting1.png", excText: "Remain seated as before with your legs crossed. Bring your hands together to the middle of your body and then slowly raise them directly above your head." ),
                    Exercise(excImage: "armsRaised1.png", excText: "Sit down, and cross your legs. place your arms on each side as shown. Bring your hands into Gyan Mudra by joining the index finger and thumb on each hand." )]
-    
-    
-    
-    /*// Populate guided session
-     stretch1Label.text = excList[stretch1].excText                             // Update text w. current exc
-     stretch1Image.image = UIImage = UIImage(named: excList[stretch1].excImage) // Update exc image */
     
     
     
@@ -238,17 +267,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        
-        // Randomly generate exer
-        var stretch1 = Int(arc4random() % 4) //Generates first stretch
-        var stretch2 = Int(arc4random() % 4) // Generates second stretch
-        while stretch2 == stretch1 {
-            stretch2 = Int(arc4random() % 4)
-        }
-        var stretch3 = Int(arc4random() % 4) // Generates second stretch
-        while stretch3 == stretch1 || stretch3 == stretch2 {
-            stretch3 = Int(arc4random() % 4)
-        }
         
     }
 
