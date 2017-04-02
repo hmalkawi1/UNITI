@@ -107,8 +107,6 @@ class ViewController: UIViewController {
     
     
     
-    
-    
     // ----------------- //
     // Guided Meditation //
     // ----------------- //
@@ -127,30 +125,16 @@ class ViewController: UIViewController {
     // List of all excercises and their images
     // excList[i] -> imagei and texti, 0 < i < 3
     let excList = [
-        Exercise(excImage: "1.png", excText: "Bring your legs together; slide one foot up onto your leg, until it is placed on your other knee. Maintain balance and bring your hands together, then place them together directly above your head."),
-                   Exercise(excImage: "3.png", excText: "Bend one knee and hold it back with your hand. Pull it back until you feel a stretch. Maintain this position and stretch your other hand forward, until you feel a stretch as well." ),
-                   Exercise(excImage: "4.png", excText: "Remain seated as before with your legs crossed. Bring your hands together to the middle of your body and then slowly raise them directly above your head." ),
-                   Exercise(excImage: "5.png", excText: "Sit down, and cross your legs. place your arms on each side as shown. Bring your hands into Gyan Mudra by joining the index finger and thumb on each hand." )]
+        Exercise(excImage: "sitting2.png", excText: "Bring your legs together; slide one foot up onto your leg, until it is placed on your other knee. Maintain balance and bring your hands together, then place them together directly above your head."),
+                   Exercise(excImage: "standingLeg2.png", excText: "Bend one knee and hold it back with your hand. Pull it back until you feel a stretch. Maintain this position and stretch your other hand forward, until you feel a stretch as well." ),
+                   Exercise(excImage: "sitting1.png", excText: "Remain seated as before with your legs crossed. Bring your hands together to the middle of your body and then slowly raise them directly above your head." ),
+                   Exercise(excImage: "armsRaised1.png", excText: "Sit down, and cross your legs. place your arms on each side as shown. Bring your hands into Gyan Mudra by joining the index finger and thumb on each hand." )]
     
     
-    /*
- 
-        Randomize func:
-            Randomly pick an image out of image array [1,3,4,5]
-            -Depending on the number picked out, display one of the string variables.
- 
-    if img 1 then
-        display exc1
- 
-    if img 3 then
-        display exc3
     
-    if img 4 then 
-        display exc4
-    
-    if img 5 then
-        display exc5
-    */
+    /*// Populate guided session
+     stretch1Label.text = excList[stretch1].excText                             // Update text w. current exc
+     stretch1Image.image = UIImage = UIImage(named: excList[stretch1].excImage) // Update exc image */
     
     
     
@@ -265,14 +249,6 @@ class ViewController: UIViewController {
         while stretch3 == stretch1 || stretch3 == stretch2 {
             stretch3 = Int(arc4random() % 4)
         }
-        
-        
-        // Populate guided session
-        stretch1Label.text = excList[stretch1].excText // Update text w. current exc
-        //stretch2Label.text = excList[stretch2].excText // Update text w. current exc
-        //stretch3Label.text = excList[stretch3].excText // Update text w. current exc
-        
-        //stretch1Image.image = UIImage = UIImage(named: excList[stretch1].excImage) // Update exc image
         
     }
 

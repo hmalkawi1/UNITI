@@ -29,11 +29,13 @@
 		72B80C981E6E5AF10093CAF5 /* UNITIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B80C971E6E5AF10093CAF5 /* UNITIUITests.swift */; };
 		960D2DC01E81FEE700094B04 /* firework.png in Resources */ = {isa = PBXBuildFile; fileRef = 960D2DBF1E81FEE700094B04 /* firework.png */; };
 		960D2DC21E8203D400094B04 /* person-silhouette-in-meditation-posture-in-spa.png in Resources */ = {isa = PBXBuildFile; fileRef = 960D2DC11E8203D400094B04 /* person-silhouette-in-meditation-posture-in-spa.png */; };
-		963226721E7A03EC0060E199 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 9632266D1E7A03EC0060E199 /* 3.png */; };
-		963226731E7A03EC0060E199 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9632266E1E7A03EC0060E199 /* 2.png */; };
-		963226741E7A03EC0060E199 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 9632266F1E7A03EC0060E199 /* 5.png */; };
-		963226751E7A03EC0060E199 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 963226701E7A03EC0060E199 /* 4.png */; };
-		963226761E7A03EC0060E199 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 963226711E7A03EC0060E199 /* 1.png */; };
+		964DB0751E9167AD004CC49B /* bkg2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 964DB0741E9167AD004CC49B /* bkg2.jpeg */; };
+		964DB07B1E916C72004CC49B /* armsRaised1.png in Resources */ = {isa = PBXBuildFile; fileRef = 964DB0761E916C72004CC49B /* armsRaised1.png */; };
+		964DB07C1E916C72004CC49B /* sitting1.png in Resources */ = {isa = PBXBuildFile; fileRef = 964DB0771E916C72004CC49B /* sitting1.png */; };
+		964DB07D1E916C72004CC49B /* sitting2.png in Resources */ = {isa = PBXBuildFile; fileRef = 964DB0781E916C72004CC49B /* sitting2.png */; };
+		964DB07E1E916C72004CC49B /* standingLeg1.png in Resources */ = {isa = PBXBuildFile; fileRef = 964DB0791E916C72004CC49B /* standingLeg1.png */; };
+		964DB07F1E916C72004CC49B /* standingLeg2.png in Resources */ = {isa = PBXBuildFile; fileRef = 964DB07A1E916C72004CC49B /* standingLeg2.png */; };
+		964DB0811E916D43004CC49B /* yoga.png in Resources */ = {isa = PBXBuildFile; fileRef = 964DB0801E916D43004CC49B /* yoga.png */; };
 		9655875C1E8C6CA4003A1C81 /* mediBkg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9655875B1E8C6CA4003A1C81 /* mediBkg.jpg */; };
 		9696ABA71E8081920071D8B2 /* stopwatch.png in Resources */ = {isa = PBXBuildFile; fileRef = 9696ABA61E8081920071D8B2 /* stopwatch.png */; };
 		9696ABAB1E80853E0071D8B2 /* timer3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9696ABAA1E80853E0071D8B2 /* timer3.jpg */; };
@@ -92,11 +94,13 @@
 		72B80C991E6E5AF10093CAF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		960D2DBF1E81FEE700094B04 /* firework.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = firework.png; sourceTree = "<group>"; };
 		960D2DC11E8203D400094B04 /* person-silhouette-in-meditation-posture-in-spa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "person-silhouette-in-meditation-posture-in-spa.png"; sourceTree = "<group>"; };
-		9632266D1E7A03EC0060E199 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
-		9632266E1E7A03EC0060E199 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
-		9632266F1E7A03EC0060E199 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
-		963226701E7A03EC0060E199 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
-		963226711E7A03EC0060E199 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		964DB0741E9167AD004CC49B /* bkg2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bkg2.jpeg; sourceTree = "<group>"; };
+		964DB0761E916C72004CC49B /* armsRaised1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = armsRaised1.png; sourceTree = "<group>"; };
+		964DB0771E916C72004CC49B /* sitting1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sitting1.png; sourceTree = "<group>"; };
+		964DB0781E916C72004CC49B /* sitting2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sitting2.png; sourceTree = "<group>"; };
+		964DB0791E916C72004CC49B /* standingLeg1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = standingLeg1.png; sourceTree = "<group>"; };
+		964DB07A1E916C72004CC49B /* standingLeg2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = standingLeg2.png; sourceTree = "<group>"; };
+		964DB0801E916D43004CC49B /* yoga.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yoga.png; sourceTree = "<group>"; };
 		9655875B1E8C6CA4003A1C81 /* mediBkg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mediBkg.jpg; sourceTree = "<group>"; };
 		9696ABA61E8081920071D8B2 /* stopwatch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stopwatch.png; sourceTree = "<group>"; };
 		9696ABAA1E80853E0071D8B2 /* timer3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = timer3.jpg; sourceTree = "<group>"; };
@@ -272,17 +276,19 @@
 		9632266C1E7A03D40060E199 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				964DB0741E9167AD004CC49B /* bkg2.jpeg */,
 				9655875B1E8C6CA4003A1C81 /* mediBkg.jpg */,
+				964DB0801E916D43004CC49B /* yoga.png */,
 				960D2DBF1E81FEE700094B04 /* firework.png */,
 				960D2DC11E8203D400094B04 /* person-silhouette-in-meditation-posture-in-spa.png */,
+				964DB0761E916C72004CC49B /* armsRaised1.png */,
+				964DB0771E916C72004CC49B /* sitting1.png */,
+				964DB0781E916C72004CC49B /* sitting2.png */,
+				964DB0791E916C72004CC49B /* standingLeg1.png */,
+				964DB07A1E916C72004CC49B /* standingLeg2.png */,
 				9696ABAC1E8087270071D8B2 /* mobile-phone-vibrating.png */,
 				9696ABAA1E80853E0071D8B2 /* timer3.jpg */,
 				9696ABA61E8081920071D8B2 /* stopwatch.png */,
-				9632266D1E7A03EC0060E199 /* 3.png */,
-				9632266E1E7A03EC0060E199 /* 2.png */,
-				9632266F1E7A03EC0060E199 /* 5.png */,
-				963226701E7A03EC0060E199 /* 4.png */,
-				963226711E7A03EC0060E199 /* 1.png */,
 			);
 			name = Assets;
 			sourceTree = "<group>";
@@ -394,24 +400,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				963226731E7A03EC0060E199 /* 2.png in Resources */,
+				964DB07E1E916C72004CC49B /* standingLeg1.png in Resources */,
 				9655875C1E8C6CA4003A1C81 /* mediBkg.jpg in Resources */,
 				9696ABAD1E8087270071D8B2 /* mobile-phone-vibrating.png in Resources */,
+				964DB07F1E916C72004CC49B /* standingLeg2.png in Resources */,
+				964DB07C1E916C72004CC49B /* sitting1.png in Resources */,
 				72B80C7F1E6E5AF10093CAF5 /* Assets.xcassets in Resources */,
 				7213AC761E70AD19008B904E /* maxresdefault.jpg in Resources */,
-				963226751E7A03EC0060E199 /* 4.png in Resources */,
 				9696ABA71E8081920071D8B2 /* stopwatch.png in Resources */,
 				725B6A5D1E748DA500194DC0 /* Meditation.storyboard in Resources */,
-				963226721E7A03EC0060E199 /* 3.png in Resources */,
+				964DB07D1E916C72004CC49B /* sitting2.png in Resources */,
+				964DB0751E9167AD004CC49B /* bkg2.jpeg in Resources */,
+				964DB0811E916D43004CC49B /* yoga.png in Resources */,
 				725B6A671E74947400194DC0 /* Tasks.storyboard in Resources */,
+				964DB07B1E916C72004CC49B /* armsRaised1.png in Resources */,
 				725B6A6F1E74958700194DC0 /* Diary.storyboard in Resources */,
 				725B6A5F1E748F7100194DC0 /* SelfAnalysis.storyboard in Resources */,
-				963226761E7A03EC0060E199 /* 1.png in Resources */,
 				725B6A631E74938300194DC0 /* SelfTherapy.storyboard in Resources */,
 				725B6A6B1E74956500194DC0 /* Resources.storyboard in Resources */,
 				960D2DC21E8203D400094B04 /* person-silhouette-in-meditation-posture-in-spa.png in Resources */,
 				72B80C7D1E6E5AF10093CAF5 /* Main.storyboard in Resources */,
-				963226741E7A03EC0060E199 /* 5.png in Resources */,
 				960D2DC01E81FEE700094B04 /* firework.png in Resources */,
 				7213AC771E70AD19008B904E /* relaxing_nature.jpg in Resources */,
 				7213AC751E70AD19008B904E /* 94-great-atmosphere-nature-landscape-mood-relaxing-water-lake-jasper-national-park-alberta-canada-2.jpg in Resources */,
