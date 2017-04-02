@@ -81,13 +81,14 @@ class ViewController: UIViewController {
     func hUpdateCounter() {
         // Check to see if counter is currently active
         if hSwiftCounter > 0 {
-            // Vibrate every 5 seconds
-            if hSwiftCounter % 5 == 0 {
-                AudioServicesPlaySystemSound(kSystemSoundID_Vibrate); // Vibrate phone
-            }
+            // Calculate time
             hSwiftCounter -= 1 // Increment counter val
             hTimerMinutes = hSwiftCounter / 60 // Calculate Minutes
             hTimerSeconds = hSwiftCounter % 60 // Calculate Seconds
+            // Vibrate every 5 seconds
+            if hTimerSeconds % 5 == 0 {
+                AudioServicesPlaySystemSound(kSystemSoundID_Vibrate); // Vibrate phone
+            }
             if hTimerSeconds == 0 {
                 hCountingLabel.text = String(format:String(hTimerMinutes) + ":00") // Update slider with save value
             }
