@@ -127,7 +127,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var stretch1Image: UIImageView!  // Image
     @IBAction func stretch1RevealButton(_ sender: AnyObject) {
         // Populate guided session
-        stretch1Label.text = excList[stretch1].excText
+        stretch1Label.text = excList[stretch1].excText                              // Populate text
+        stretch1Image.image = UIImage(named: String(excList[stretch1].excImage))    // Populate image
     }
     
     // Stretch 2 Elements
@@ -140,7 +141,8 @@ class ViewController: UIViewController {
         }
         
         // Populate guided session
-        stretch2Label.text = excList[stretch2].excText
+        stretch2Label.text = excList[stretch2].excText                              // Populate text
+        stretch2Image.image = UIImage(named: String(excList[stretch2].excImage))    // Populate image
     }
     
     // Stretch 3 Elements
@@ -153,7 +155,8 @@ class ViewController: UIViewController {
         }
         
         // Populate guided session
-        stretch3Label.text = excList[stretch3].excText
+        stretch3Label.text = excList[stretch3].excText                              // Populate text
+        stretch3Image.image = UIImage(named: String(excList[stretch3].excImage))    // Populate image
     }
     
     
