@@ -7,12 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7213AC751E70AD19008B904E /* 94-great-atmosphere-nature-landscape-mood-relaxing-water-lake-jasper-national-park-alberta-canada-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7213AC721E70AD19008B904E /* 94-great-atmosphere-nature-landscape-mood-relaxing-water-lake-jasper-national-park-alberta-canada-2.jpg */; };
-		7213AC761E70AD19008B904E /* maxresdefault.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7213AC731E70AD19008B904E /* maxresdefault.jpg */; };
-		7213AC771E70AD19008B904E /* relaxing_nature.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7213AC741E70AD19008B904E /* relaxing_nature.jpg */; };
 		723917111E6E6BE700B880AE /* TimerSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723917101E6E6BE700B880AE /* TimerSecondViewController.swift */; };
 		725B6A5D1E748DA500194DC0 /* Meditation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 725B6A5C1E748DA500194DC0 /* Meditation.storyboard */; };
-		725B6A5F1E748F7100194DC0 /* SelfAnalysis.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 725B6A5E1E748F7100194DC0 /* SelfAnalysis.storyboard */; };
 		725B6A671E74947400194DC0 /* Tasks.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 725B6A661E74947400194DC0 /* Tasks.storyboard */; };
 		725B6A691E74952E00194DC0 /* Tasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725B6A681E74952E00194DC0 /* Tasks.swift */; };
 		725B6A6B1E74956500194DC0 /* Resources.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 725B6A6A1E74956500194DC0 /* Resources.storyboard */; };
@@ -25,32 +21,46 @@
 		72B80C7F1E6E5AF10093CAF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72B80C7E1E6E5AF10093CAF5 /* Assets.xcassets */; };
 		72B80C8D1E6E5AF10093CAF5 /* UNITITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B80C8C1E6E5AF10093CAF5 /* UNITITests.swift */; };
 		72B80C981E6E5AF10093CAF5 /* UNITIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B80C971E6E5AF10093CAF5 /* UNITIUITests.swift */; };
-		A6FF46701E702A090006680A /* anxiety1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FF466F1E702A090006680A /* anxiety1ViewController.swift */; };
-		A6FF46711E702A090006680A /* anxiety1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FF466F1E702A090006680A /* anxiety1ViewController.swift */; };
-		A6FF46721E702A090006680A /* anxiety1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FF466F1E702A090006680A /* anxiety1ViewController.swift */; };
-		A6FF46741E702A2F0006680A /* depression1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FF46731E702A2F0006680A /* depression1ViewController.swift */; };
-		A6FF46751E702A2F0006680A /* depression1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FF46731E702A2F0006680A /* depression1ViewController.swift */; };
-		A6FF46761E702A2F0006680A /* depression1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FF46731E702A2F0006680A /* depression1ViewController.swift */; };
-		E9D08DE11E777D1F00B726F1 /* ok.png in Resources */ = {isa = PBXBuildFile; fileRef = E9D08DDF1E777D1F00B726F1 /* ok.png */; };
-		E9D08DE21E777D1F00B726F1 /* leave.png in Resources */ = {isa = PBXBuildFile; fileRef = E9D08DE01E777D1F00B726F1 /* leave.png */; };
-		E9D08DE71E777D2800B726F1 /* edit.png in Resources */ = {isa = PBXBuildFile; fileRef = E9D08DE31E777D2800B726F1 /* edit.png */; };
-		E9D08DE81E777D2800B726F1 /* plus.png in Resources */ = {isa = PBXBuildFile; fileRef = E9D08DE41E777D2800B726F1 /* plus.png */; };
-		E9D08DE91E777D2800B726F1 /* view.png in Resources */ = {isa = PBXBuildFile; fileRef = E9D08DE51E777D2800B726F1 /* view.png */; };
-		E9D08DEA1E777D2800B726F1 /* listview_headPhoto.png in Resources */ = {isa = PBXBuildFile; fileRef = E9D08DE61E777D2800B726F1 /* listview_headPhoto.png */; };
-		E9D08DED1E777D3000B726F1 /* loading_background in Resources */ = {isa = PBXBuildFile; fileRef = E9D08DEB1E777D3000B726F1 /* loading_background */; };
-		E9D08DEE1E777D3000B726F1 /* box.png in Resources */ = {isa = PBXBuildFile; fileRef = E9D08DEC1E777D3000B726F1 /* box.png */; };
-		E9FC817B1E7E0FAE000DB4D6 /* STEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FC81701E7E0FAE000DB4D6 /* STEditViewController.swift */; };
-		E9FC817C1E7E0FAE000DB4D6 /* TransitionControllerFirst.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FC81711E7E0FAE000DB4D6 /* TransitionControllerFirst.swift */; };
-		E9FC817D1E7E0FAE000DB4D6 /* STAppendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FC81721E7E0FAE000DB4D6 /* STAppendViewController.swift */; };
-		E9FC817E1E7E0FAE000DB4D6 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FC81731E7E0FAE000DB4D6 /* MainViewController.swift */; };
-		E9FC817F1E7E0FAE000DB4D6 /* ListCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FC81741E7E0FAE000DB4D6 /* ListCellTableViewCell.swift */; };
-		E9FC81801E7E0FAE000DB4D6 /* STListViewTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FC81751E7E0FAE000DB4D6 /* STListViewTableViewController.swift */; };
-		E9FC81811E7E0FAE000DB4D6 /* STCheckViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FC81761E7E0FAE000DB4D6 /* STCheckViewController.swift */; };
-		E9FC81821E7E0FAE000DB4D6 /* TherapyListViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FC81771E7E0FAE000DB4D6 /* TherapyListViewViewController.swift */; };
-		E9FC81831E7E0FAE000DB4D6 /* DataAccessPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FC81781E7E0FAE000DB4D6 /* DataAccessPoint.swift */; };
-		E9FC81841E7E0FAE000DB4D6 /* Items.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FC81791E7E0FAE000DB4D6 /* Items.swift */; };
-		E9FC81851E7E0FAE000DB4D6 /* Tags.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FC817A1E7E0FAE000DB4D6 /* Tags.swift */; };
-		E9FC81871E7E0FBB000DB4D6 /* STMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9FC81861E7E0FBB000DB4D6 /* STMain.storyboard */; };
+		960D2DC01E81FEE700094B04 /* firework.png in Resources */ = {isa = PBXBuildFile; fileRef = 960D2DBF1E81FEE700094B04 /* firework.png */; };
+		960D2DC21E8203D400094B04 /* person-silhouette-in-meditation-posture-in-spa.png in Resources */ = {isa = PBXBuildFile; fileRef = 960D2DC11E8203D400094B04 /* person-silhouette-in-meditation-posture-in-spa.png */; };
+		963226721E7A03EC0060E199 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 9632266D1E7A03EC0060E199 /* 3.png */; };
+		963226731E7A03EC0060E199 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9632266E1E7A03EC0060E199 /* 2.png */; };
+		963226741E7A03EC0060E199 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 9632266F1E7A03EC0060E199 /* 5.png */; };
+		963226751E7A03EC0060E199 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 963226701E7A03EC0060E199 /* 4.png */; };
+		963226761E7A03EC0060E199 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 963226711E7A03EC0060E199 /* 1.png */; };
+		9696ABA71E8081920071D8B2 /* stopwatch.png in Resources */ = {isa = PBXBuildFile; fileRef = 9696ABA61E8081920071D8B2 /* stopwatch.png */; };
+		9696ABAB1E80853E0071D8B2 /* timer3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9696ABAA1E80853E0071D8B2 /* timer3.jpg */; };
+		9696ABAD1E8087270071D8B2 /* mobile-phone-vibrating.png in Resources */ = {isa = PBXBuildFile; fileRef = 9696ABAC1E8087270071D8B2 /* mobile-phone-vibrating.png */; };
+		A62CD0CC1E833B4C00771675 /* SelfAnalysis.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A62CD0C71E833B4C00771675 /* SelfAnalysis.storyboard */; };
+		A62CD0CD1E833B4C00771675 /* HistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62CD0C81E833B4C00771675 /* HistoryTableViewController.swift */; };
+		A62CD0CE1E833B4C00771675 /* depression1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62CD0C91E833B4C00771675 /* depression1ViewController.swift */; };
+		A62CD0CF1E833B4C00771675 /* SelfAnalysisMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62CD0CA1E833B4C00771675 /* SelfAnalysisMainViewController.swift */; };
+		A62CD0D01E833B4C00771675 /* anxiety1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62CD0CB1E833B4C00771675 /* anxiety1ViewController.swift */; };
+		A62CD0D71E833B6400771675 /* 94-great-atmosphere-nature-landscape-mood-relaxing-water-lake-jasper-national-park-alberta-canada-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A62CD0D11E833B6400771675 /* 94-great-atmosphere-nature-landscape-mood-relaxing-water-lake-jasper-national-park-alberta-canada-2.jpg */; };
+		A62CD0D81E833B6400771675 /* Screen Shot 2017-03-19 at 8.25.10 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = A62CD0D21E833B6400771675 /* Screen Shot 2017-03-19 at 8.25.10 PM.png */; };
+		A62CD0D91E833B6400771675 /* maxresdefault.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A62CD0D31E833B6400771675 /* maxresdefault.jpg */; };
+		A62CD0DA1E833B6400771675 /* Screen Shot 2017-03-22 at 9.41.01 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = A62CD0D41E833B6400771675 /* Screen Shot 2017-03-22 at 9.41.01 AM.png */; };
+		A62CD0DB1E833B6400771675 /* bg_720.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A62CD0D51E833B6400771675 /* bg_720.jpg */; };
+		A62CD0DC1E833B6400771675 /* relaxing_nature.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A62CD0D61E833B6400771675 /* relaxing_nature.jpg */; };
+		A64DD2FB1E835DA900411EB6 /* STAppendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64DD2F61E835DA900411EB6 /* STAppendViewController.swift */; };
+		A64DD2FC1E835DA900411EB6 /* STCheckViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64DD2F71E835DA900411EB6 /* STCheckViewController.swift */; };
+		A64DD2FD1E835DA900411EB6 /* STEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64DD2F81E835DA900411EB6 /* STEditViewController.swift */; };
+		A64DD2FE1E835DA900411EB6 /* STListViewTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64DD2F91E835DA900411EB6 /* STListViewTableViewController.swift */; };
+		A64DD2FF1E835DA900411EB6 /* STMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A64DD2FA1E835DA900411EB6 /* STMain.storyboard */; };
+		A64DD3031E835DE500411EB6 /* Items.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64DD3001E835DE500411EB6 /* Items.swift */; };
+		A64DD3041E835DE500411EB6 /* ListCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64DD3011E835DE500411EB6 /* ListCellTableViewCell.swift */; };
+		A64DD3051E835DE500411EB6 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64DD3021E835DE500411EB6 /* MainViewController.swift */; };
+		A64DD3071E835DF700411EB6 /* DataAccessPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64DD3061E835DF700411EB6 /* DataAccessPoint.swift */; };
+		A64DD30B1E835E0F00411EB6 /* Tags.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64DD3081E835E0F00411EB6 /* Tags.swift */; };
+		A64DD30C1E835E0F00411EB6 /* TherapyListViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64DD3091E835E0F00411EB6 /* TherapyListViewViewController.swift */; };
+		A64DD30D1E835E0F00411EB6 /* TransitionControllerFirst.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64DD30A1E835E0F00411EB6 /* TransitionControllerFirst.swift */; };
+		A64DD3101E835E2D00411EB6 /* box.png in Resources */ = {isa = PBXBuildFile; fileRef = A64DD30F1E835E2D00411EB6 /* box.png */; };
+		A64DD3121E835E3F00411EB6 /* ok.png in Resources */ = {isa = PBXBuildFile; fileRef = A64DD3111E835E3F00411EB6 /* ok.png */; };
+		A64DD3141E835E4A00411EB6 /* leave.png in Resources */ = {isa = PBXBuildFile; fileRef = A64DD3131E835E4A00411EB6 /* leave.png */; };
+		A64DD3191E835E6900411EB6 /* view.png in Resources */ = {isa = PBXBuildFile; fileRef = A64DD3151E835E6900411EB6 /* view.png */; };
+		A64DD31A1E835E6900411EB6 /* plus.png in Resources */ = {isa = PBXBuildFile; fileRef = A64DD3161E835E6900411EB6 /* plus.png */; };
+		A64DD31B1E835E6900411EB6 /* listview_headPhoto.png in Resources */ = {isa = PBXBuildFile; fileRef = A64DD3171E835E6900411EB6 /* listview_headPhoto.png */; };
+		A64DD31C1E835E6900411EB6 /* edit.png in Resources */ = {isa = PBXBuildFile; fileRef = A64DD3181E835E6900411EB6 /* edit.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,12 +81,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7213AC721E70AD19008B904E /* 94-great-atmosphere-nature-landscape-mood-relaxing-water-lake-jasper-national-park-alberta-canada-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "94-great-atmosphere-nature-landscape-mood-relaxing-water-lake-jasper-national-park-alberta-canada-2.jpg"; path = "UNITI/Assets.xcassets/AppIcon.appiconset/94-great-atmosphere-nature-landscape-mood-relaxing-water-lake-jasper-national-park-alberta-canada-2.jpg"; sourceTree = "<group>"; };
-		7213AC731E70AD19008B904E /* maxresdefault.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = maxresdefault.jpg; path = UNITI/Assets.xcassets/AppIcon.appiconset/maxresdefault.jpg; sourceTree = "<group>"; };
-		7213AC741E70AD19008B904E /* relaxing_nature.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = relaxing_nature.jpg; path = UNITI/Assets.xcassets/AppIcon.appiconset/relaxing_nature.jpg; sourceTree = "<group>"; };
 		723917101E6E6BE700B880AE /* TimerSecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TimerSecondViewController.swift; path = UNITI/TimerSecondViewController.swift; sourceTree = "<group>"; };
 		725B6A5C1E748DA500194DC0 /* Meditation.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Meditation.storyboard; sourceTree = "<group>"; };
-		725B6A5E1E748F7100194DC0 /* SelfAnalysis.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SelfAnalysis.storyboard; sourceTree = "<group>"; };
 		725B6A661E74947400194DC0 /* Tasks.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Tasks.storyboard; sourceTree = "<group>"; };
 		725B6A681E74952E00194DC0 /* Tasks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tasks.swift; sourceTree = "<group>"; };
 		725B6A6A1E74956500194DC0 /* Resources.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Resources.storyboard; sourceTree = "<group>"; };
@@ -95,28 +101,47 @@
 		72B80C931E6E5AF10093CAF5 /* UNITIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UNITIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		72B80C971E6E5AF10093CAF5 /* UNITIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UNITIUITests.swift; sourceTree = "<group>"; };
 		72B80C991E6E5AF10093CAF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A6FF466F1E702A090006680A /* anxiety1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = anxiety1ViewController.swift; path = UNITI/anxiety1ViewController.swift; sourceTree = "<group>"; };
-		A6FF46731E702A2F0006680A /* depression1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = depression1ViewController.swift; path = UNITI/depression1ViewController.swift; sourceTree = "<group>"; };
-		E9D08DDF1E777D1F00B726F1 /* ok.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ok.png; sourceTree = "<group>"; };
-		E9D08DE01E777D1F00B726F1 /* leave.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leave.png; sourceTree = "<group>"; };
-		E9D08DE31E777D2800B726F1 /* edit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = edit.png; sourceTree = "<group>"; };
-		E9D08DE41E777D2800B726F1 /* plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plus.png; sourceTree = "<group>"; };
-		E9D08DE51E777D2800B726F1 /* view.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = view.png; sourceTree = "<group>"; };
-		E9D08DE61E777D2800B726F1 /* listview_headPhoto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = listview_headPhoto.png; sourceTree = "<group>"; };
-		E9D08DEB1E777D3000B726F1 /* loading_background */ = {isa = PBXFileReference; lastKnownFileType = file; path = loading_background; sourceTree = "<group>"; };
-		E9D08DEC1E777D3000B726F1 /* box.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = box.png; sourceTree = "<group>"; };
-		E9FC81701E7E0FAE000DB4D6 /* STEditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STEditViewController.swift; sourceTree = "<group>"; };
-		E9FC81711E7E0FAE000DB4D6 /* TransitionControllerFirst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionControllerFirst.swift; sourceTree = "<group>"; };
-		E9FC81721E7E0FAE000DB4D6 /* STAppendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STAppendViewController.swift; sourceTree = "<group>"; };
-		E9FC81731E7E0FAE000DB4D6 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		E9FC81741E7E0FAE000DB4D6 /* ListCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListCellTableViewCell.swift; sourceTree = "<group>"; };
-		E9FC81751E7E0FAE000DB4D6 /* STListViewTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STListViewTableViewController.swift; sourceTree = "<group>"; };
-		E9FC81761E7E0FAE000DB4D6 /* STCheckViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STCheckViewController.swift; sourceTree = "<group>"; };
-		E9FC81771E7E0FAE000DB4D6 /* TherapyListViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TherapyListViewViewController.swift; sourceTree = "<group>"; };
-		E9FC81781E7E0FAE000DB4D6 /* DataAccessPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataAccessPoint.swift; sourceTree = "<group>"; };
-		E9FC81791E7E0FAE000DB4D6 /* Items.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Items.swift; sourceTree = "<group>"; };
-		E9FC817A1E7E0FAE000DB4D6 /* Tags.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tags.swift; sourceTree = "<group>"; };
-		E9FC81861E7E0FBB000DB4D6 /* STMain.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = STMain.storyboard; sourceTree = "<group>"; };
+		960D2DBF1E81FEE700094B04 /* firework.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = firework.png; sourceTree = "<group>"; };
+		960D2DC11E8203D400094B04 /* person-silhouette-in-meditation-posture-in-spa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "person-silhouette-in-meditation-posture-in-spa.png"; sourceTree = "<group>"; };
+		9632266D1E7A03EC0060E199 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		9632266E1E7A03EC0060E199 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		9632266F1E7A03EC0060E199 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		963226701E7A03EC0060E199 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		963226711E7A03EC0060E199 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		9696ABA61E8081920071D8B2 /* stopwatch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stopwatch.png; sourceTree = "<group>"; };
+		9696ABAA1E80853E0071D8B2 /* timer3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = timer3.jpg; sourceTree = "<group>"; };
+		9696ABAC1E8087270071D8B2 /* mobile-phone-vibrating.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mobile-phone-vibrating.png"; sourceTree = "<group>"; };
+		A62CD0C71E833B4C00771675 /* SelfAnalysis.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SelfAnalysis.storyboard; sourceTree = "<group>"; };
+		A62CD0C81E833B4C00771675 /* HistoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryTableViewController.swift; sourceTree = "<group>"; };
+		A62CD0C91E833B4C00771675 /* depression1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = depression1ViewController.swift; sourceTree = "<group>"; };
+		A62CD0CA1E833B4C00771675 /* SelfAnalysisMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelfAnalysisMainViewController.swift; sourceTree = "<group>"; };
+		A62CD0CB1E833B4C00771675 /* anxiety1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = anxiety1ViewController.swift; sourceTree = "<group>"; };
+		A62CD0D11E833B6400771675 /* 94-great-atmosphere-nature-landscape-mood-relaxing-water-lake-jasper-national-park-alberta-canada-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "94-great-atmosphere-nature-landscape-mood-relaxing-water-lake-jasper-national-park-alberta-canada-2.jpg"; sourceTree = "<group>"; };
+		A62CD0D21E833B6400771675 /* Screen Shot 2017-03-19 at 8.25.10 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2017-03-19 at 8.25.10 PM.png"; sourceTree = "<group>"; };
+		A62CD0D31E833B6400771675 /* maxresdefault.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = maxresdefault.jpg; sourceTree = "<group>"; };
+		A62CD0D41E833B6400771675 /* Screen Shot 2017-03-22 at 9.41.01 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2017-03-22 at 9.41.01 AM.png"; sourceTree = "<group>"; };
+		A62CD0D51E833B6400771675 /* bg_720.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg_720.jpg; sourceTree = "<group>"; };
+		A62CD0D61E833B6400771675 /* relaxing_nature.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = relaxing_nature.jpg; sourceTree = "<group>"; };
+		A64DD2F61E835DA900411EB6 /* STAppendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STAppendViewController.swift; sourceTree = "<group>"; };
+		A64DD2F71E835DA900411EB6 /* STCheckViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STCheckViewController.swift; sourceTree = "<group>"; };
+		A64DD2F81E835DA900411EB6 /* STEditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STEditViewController.swift; sourceTree = "<group>"; };
+		A64DD2F91E835DA900411EB6 /* STListViewTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STListViewTableViewController.swift; sourceTree = "<group>"; };
+		A64DD2FA1E835DA900411EB6 /* STMain.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = STMain.storyboard; sourceTree = "<group>"; };
+		A64DD3001E835DE500411EB6 /* Items.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Items.swift; sourceTree = "<group>"; };
+		A64DD3011E835DE500411EB6 /* ListCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListCellTableViewCell.swift; sourceTree = "<group>"; };
+		A64DD3021E835DE500411EB6 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		A64DD3061E835DF700411EB6 /* DataAccessPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataAccessPoint.swift; sourceTree = "<group>"; };
+		A64DD3081E835E0F00411EB6 /* Tags.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tags.swift; sourceTree = "<group>"; };
+		A64DD3091E835E0F00411EB6 /* TherapyListViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TherapyListViewViewController.swift; sourceTree = "<group>"; };
+		A64DD30A1E835E0F00411EB6 /* TransitionControllerFirst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionControllerFirst.swift; sourceTree = "<group>"; };
+		A64DD30E1E835E2400411EB6 /* loading_background */ = {isa = PBXFileReference; lastKnownFileType = file; path = loading_background; sourceTree = "<group>"; };
+		A64DD30F1E835E2D00411EB6 /* box.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = box.png; sourceTree = "<group>"; };
+		A64DD3111E835E3F00411EB6 /* ok.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ok.png; sourceTree = "<group>"; };
+		A64DD3131E835E4A00411EB6 /* leave.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leave.png; sourceTree = "<group>"; };
+		A64DD3151E835E6900411EB6 /* view.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = view.png; sourceTree = "<group>"; };
+		A64DD3161E835E6900411EB6 /* plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plus.png; sourceTree = "<group>"; };
+		A64DD3171E835E6900411EB6 /* listview_headPhoto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = listview_headPhoto.png; sourceTree = "<group>"; };
+		A64DD3181E835E6900411EB6 /* edit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = edit.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,9 +172,12 @@
 		725B6A4F1E748BFD00194DC0 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				7213AC721E70AD19008B904E /* 94-great-atmosphere-nature-landscape-mood-relaxing-water-lake-jasper-national-park-alberta-canada-2.jpg */,
-				7213AC731E70AD19008B904E /* maxresdefault.jpg */,
-				7213AC741E70AD19008B904E /* relaxing_nature.jpg */,
+				A62CD0D11E833B6400771675 /* 94-great-atmosphere-nature-landscape-mood-relaxing-water-lake-jasper-national-park-alberta-canada-2.jpg */,
+				A62CD0D21E833B6400771675 /* Screen Shot 2017-03-19 at 8.25.10 PM.png */,
+				A62CD0D31E833B6400771675 /* maxresdefault.jpg */,
+				A62CD0D41E833B6400771675 /* Screen Shot 2017-03-22 at 9.41.01 AM.png */,
+				A62CD0D51E833B6400771675 /* bg_720.jpg */,
+				A62CD0D61E833B6400771675 /* relaxing_nature.jpg */,
 			);
 			name = Assets;
 			sourceTree = "<group>";
@@ -168,7 +196,7 @@
 				725B6A591E748CF600194DC0 /* Resources */,
 				725B6A581E748CE900194DC0 /* SelfAnalysis */,
 				725B6A571E748CE500194DC0 /* Tasks */,
-				725B6A561E748CD300194DC0 /* SelfTherapy(JoePart) */,
+				725B6A561E748CD300194DC0 /* SelfTherapy */,
 				725B6A551E748C5F00194DC0 /* Diary */,
 				725B6A541E748C4D00194DC0 /* Meditation */,
 			);
@@ -178,6 +206,7 @@
 		725B6A541E748C4D00194DC0 /* Meditation */ = {
 			isa = PBXGroup;
 			children = (
+				9632266C1E7A03D40060E199 /* Assets */,
 				725B6A5C1E748DA500194DC0 /* Meditation.storyboard */,
 				72B80C791E6E5AF10093CAF5 /* TimerViewController.swift */,
 				723917101E6E6BE700B880AE /* TimerSecondViewController.swift */,
@@ -194,14 +223,14 @@
 			name = Diary;
 			sourceTree = "<group>";
 		};
-		725B6A561E748CD300194DC0 /* SelfTherapy(JoePart) */ = {
+		725B6A561E748CD300194DC0 /* SelfTherapy */ = {
 			isa = PBXGroup;
 			children = (
-				E9FC81861E7E0FBB000DB4D6 /* STMain.storyboard */,
-				E9D08DC91E777CC700B726F1 /* Controllers */,
-				E9D08DC81E777CBA00B726F1 /* assets */,
+				A64DD2FA1E835DA900411EB6 /* STMain.storyboard */,
+				A62CD0DE1E833CF300771675 /* Controllers */,
+				A62CD0DD1E833CE400771675 /* asserts */,
 			);
-			name = "SelfTherapy(JoePart)";
+			name = SelfTherapy;
 			sourceTree = "<group>";
 		};
 		725B6A571E748CE500194DC0 /* Tasks */ = {
@@ -216,9 +245,11 @@
 		725B6A581E748CE900194DC0 /* SelfAnalysis */ = {
 			isa = PBXGroup;
 			children = (
-				725B6A5E1E748F7100194DC0 /* SelfAnalysis.storyboard */,
-				A6FF466F1E702A090006680A /* anxiety1ViewController.swift */,
-				A6FF46731E702A2F0006680A /* depression1ViewController.swift */,
+				A62CD0C71E833B4C00771675 /* SelfAnalysis.storyboard */,
+				A62CD0C81E833B4C00771675 /* HistoryTableViewController.swift */,
+				A62CD0C91E833B4C00771675 /* depression1ViewController.swift */,
+				A62CD0CA1E833B4C00771675 /* SelfAnalysisMainViewController.swift */,
+				A62CD0CB1E833B4C00771675 /* anxiety1ViewController.swift */,
 			);
 			name = SelfAnalysis;
 			sourceTree = "<group>";
@@ -283,61 +314,78 @@
 			path = UNITIUITests;
 			sourceTree = "<group>";
 		};
-		E9D08DC81E777CBA00B726F1 /* assets */ = {
+		9632266C1E7A03D40060E199 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				E9D08DCC1E777CE600B726F1 /* load_view */,
-				E9D08DCB1E777CDF00B726F1 /* append_view */,
-				E9D08DCA1E777CCE00B726F1 /* list_view */,
+				960D2DBF1E81FEE700094B04 /* firework.png */,
+				960D2DC11E8203D400094B04 /* person-silhouette-in-meditation-posture-in-spa.png */,
+				9696ABAC1E8087270071D8B2 /* mobile-phone-vibrating.png */,
+				9696ABAA1E80853E0071D8B2 /* timer3.jpg */,
+				9696ABA61E8081920071D8B2 /* stopwatch.png */,
+				9632266D1E7A03EC0060E199 /* 3.png */,
+				9632266E1E7A03EC0060E199 /* 2.png */,
+				9632266F1E7A03EC0060E199 /* 5.png */,
+				963226701E7A03EC0060E199 /* 4.png */,
+				963226711E7A03EC0060E199 /* 1.png */,
 			);
-			name = assets;
+			name = Assets;
 			sourceTree = "<group>";
 		};
-		E9D08DC91E777CC700B726F1 /* Controllers */ = {
+		A62CD0DD1E833CE400771675 /* asserts */ = {
 			isa = PBXGroup;
 			children = (
-				E9FC81701E7E0FAE000DB4D6 /* STEditViewController.swift */,
-				E9FC81711E7E0FAE000DB4D6 /* TransitionControllerFirst.swift */,
-				E9FC81721E7E0FAE000DB4D6 /* STAppendViewController.swift */,
-				E9FC81731E7E0FAE000DB4D6 /* MainViewController.swift */,
-				E9FC81741E7E0FAE000DB4D6 /* ListCellTableViewCell.swift */,
-				E9FC81751E7E0FAE000DB4D6 /* STListViewTableViewController.swift */,
-				E9FC81761E7E0FAE000DB4D6 /* STCheckViewController.swift */,
-				E9FC81771E7E0FAE000DB4D6 /* TherapyListViewViewController.swift */,
-				E9FC81781E7E0FAE000DB4D6 /* DataAccessPoint.swift */,
-				E9FC81791E7E0FAE000DB4D6 /* Items.swift */,
-				E9FC817A1E7E0FAE000DB4D6 /* Tags.swift */,
+				A62CD0E11E833D1700771675 /* loading_view */,
+				A62CD0E01E833D0D00771675 /* append_view */,
+				A62CD0DF1E833CFB00771675 /* list_view */,
+			);
+			name = asserts;
+			sourceTree = "<group>";
+		};
+		A62CD0DE1E833CF300771675 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A64DD3061E835DF700411EB6 /* DataAccessPoint.swift */,
+				A64DD3081E835E0F00411EB6 /* Tags.swift */,
+				A64DD3091E835E0F00411EB6 /* TherapyListViewViewController.swift */,
+				A64DD30A1E835E0F00411EB6 /* TransitionControllerFirst.swift */,
+				A64DD3001E835DE500411EB6 /* Items.swift */,
+				A64DD3011E835DE500411EB6 /* ListCellTableViewCell.swift */,
+				A64DD3021E835DE500411EB6 /* MainViewController.swift */,
+				A64DD2F61E835DA900411EB6 /* STAppendViewController.swift */,
+				A64DD2F71E835DA900411EB6 /* STCheckViewController.swift */,
+				A64DD2F81E835DA900411EB6 /* STEditViewController.swift */,
+				A64DD2F91E835DA900411EB6 /* STListViewTableViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
 		};
-		E9D08DCA1E777CCE00B726F1 /* list_view */ = {
+		A62CD0DF1E833CFB00771675 /* list_view */ = {
 			isa = PBXGroup;
 			children = (
-				E9D08DE31E777D2800B726F1 /* edit.png */,
-				E9D08DE41E777D2800B726F1 /* plus.png */,
-				E9D08DE51E777D2800B726F1 /* view.png */,
-				E9D08DE61E777D2800B726F1 /* listview_headPhoto.png */,
+				A64DD3151E835E6900411EB6 /* view.png */,
+				A64DD3161E835E6900411EB6 /* plus.png */,
+				A64DD3171E835E6900411EB6 /* listview_headPhoto.png */,
+				A64DD3181E835E6900411EB6 /* edit.png */,
 			);
 			name = list_view;
 			sourceTree = "<group>";
 		};
-		E9D08DCB1E777CDF00B726F1 /* append_view */ = {
+		A62CD0E01E833D0D00771675 /* append_view */ = {
 			isa = PBXGroup;
 			children = (
-				E9D08DDF1E777D1F00B726F1 /* ok.png */,
-				E9D08DE01E777D1F00B726F1 /* leave.png */,
+				A64DD3131E835E4A00411EB6 /* leave.png */,
+				A64DD3111E835E3F00411EB6 /* ok.png */,
 			);
 			name = append_view;
 			sourceTree = "<group>";
 		};
-		E9D08DCC1E777CE600B726F1 /* load_view */ = {
+		A62CD0E11E833D1700771675 /* loading_view */ = {
 			isa = PBXGroup;
 			children = (
-				E9D08DEB1E777D3000B726F1 /* loading_background */,
-				E9D08DEC1E777D3000B726F1 /* box.png */,
+				A64DD30E1E835E2400411EB6 /* loading_background */,
+				A64DD30F1E835E2D00411EB6 /* box.png */,
 			);
-			name = load_view;
+			name = loading_view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -447,25 +495,37 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9D08DE11E777D1F00B726F1 /* ok.png in Resources */,
+				A62CD0D81E833B6400771675 /* Screen Shot 2017-03-19 at 8.25.10 PM.png in Resources */,
+				963226731E7A03EC0060E199 /* 2.png in Resources */,
+				9696ABAD1E8087270071D8B2 /* mobile-phone-vibrating.png in Resources */,
 				72B80C7F1E6E5AF10093CAF5 /* Assets.xcassets in Resources */,
-				7213AC761E70AD19008B904E /* maxresdefault.jpg in Resources */,
-				E9D08DE91E777D2800B726F1 /* view.png in Resources */,
+				A62CD0D91E833B6400771675 /* maxresdefault.jpg in Resources */,
+				A64DD2FF1E835DA900411EB6 /* STMain.storyboard in Resources */,
+				963226751E7A03EC0060E199 /* 4.png in Resources */,
+				9696ABA71E8081920071D8B2 /* stopwatch.png in Resources */,
+				A64DD3101E835E2D00411EB6 /* box.png in Resources */,
+				A62CD0DB1E833B6400771675 /* bg_720.jpg in Resources */,
 				725B6A5D1E748DA500194DC0 /* Meditation.storyboard in Resources */,
+				963226721E7A03EC0060E199 /* 3.png in Resources */,
+				A62CD0DC1E833B6400771675 /* relaxing_nature.jpg in Resources */,
 				725B6A671E74947400194DC0 /* Tasks.storyboard in Resources */,
+				A62CD0D71E833B6400771675 /* 94-great-atmosphere-nature-landscape-mood-relaxing-water-lake-jasper-national-park-alberta-canada-2.jpg in Resources */,
 				725B6A6F1E74958700194DC0 /* Diary.storyboard in Resources */,
-				E9D08DEE1E777D3000B726F1 /* box.png in Resources */,
-				725B6A5F1E748F7100194DC0 /* SelfAnalysis.storyboard in Resources */,
-				E9D08DED1E777D3000B726F1 /* loading_background in Resources */,
+				A64DD3121E835E3F00411EB6 /* ok.png in Resources */,
+				A64DD31C1E835E6900411EB6 /* edit.png in Resources */,
+				A64DD3191E835E6900411EB6 /* view.png in Resources */,
+				A62CD0DA1E833B6400771675 /* Screen Shot 2017-03-22 at 9.41.01 AM.png in Resources */,
+				963226761E7A03EC0060E199 /* 1.png in Resources */,
+				A64DD3141E835E4A00411EB6 /* leave.png in Resources */,
 				725B6A6B1E74956500194DC0 /* Resources.storyboard in Resources */,
+				A64DD31A1E835E6900411EB6 /* plus.png in Resources */,
+				960D2DC21E8203D400094B04 /* person-silhouette-in-meditation-posture-in-spa.png in Resources */,
 				72B80C7D1E6E5AF10093CAF5 /* Main.storyboard in Resources */,
-				E9D08DE71E777D2800B726F1 /* edit.png in Resources */,
-				E9FC81871E7E0FBB000DB4D6 /* STMain.storyboard in Resources */,
-				7213AC771E70AD19008B904E /* relaxing_nature.jpg in Resources */,
-				7213AC751E70AD19008B904E /* 94-great-atmosphere-nature-landscape-mood-relaxing-water-lake-jasper-national-park-alberta-canada-2.jpg in Resources */,
-				E9D08DE21E777D1F00B726F1 /* leave.png in Resources */,
-				E9D08DE81E777D2800B726F1 /* plus.png in Resources */,
-				E9D08DEA1E777D2800B726F1 /* listview_headPhoto.png in Resources */,
+				963226741E7A03EC0060E199 /* 5.png in Resources */,
+				960D2DC01E81FEE700094B04 /* firework.png in Resources */,
+				9696ABAB1E80853E0071D8B2 /* timer3.jpg in Resources */,
+				A62CD0CC1E833B4C00771675 /* SelfAnalysis.storyboard in Resources */,
+				A64DD31B1E835E6900411EB6 /* listview_headPhoto.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -490,24 +550,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A62CD0CD1E833B4C00771675 /* HistoryTableViewController.swift in Sources */,
 				725B6A691E74952E00194DC0 /* Tasks.swift in Sources */,
-				E9FC817C1E7E0FAE000DB4D6 /* TransitionControllerFirst.swift in Sources */,
+				A64DD30B1E835E0F00411EB6 /* Tags.swift in Sources */,
 				723917111E6E6BE700B880AE /* TimerSecondViewController.swift in Sources */,
-				E9FC817F1E7E0FAE000DB4D6 /* ListCellTableViewCell.swift in Sources */,
-				E9FC81841E7E0FAE000DB4D6 /* Items.swift in Sources */,
-				E9FC81851E7E0FAE000DB4D6 /* Tags.swift in Sources */,
-				E9FC817E1E7E0FAE000DB4D6 /* MainViewController.swift in Sources */,
-				A6FF46701E702A090006680A /* anxiety1ViewController.swift in Sources */,
-				E9FC817B1E7E0FAE000DB4D6 /* STEditViewController.swift in Sources */,
-				A6FF46741E702A2F0006680A /* depression1ViewController.swift in Sources */,
 				72B80C7A1E6E5AF10093CAF5 /* TimerViewController.swift in Sources */,
-				E9FC81821E7E0FAE000DB4D6 /* TherapyListViewViewController.swift in Sources */,
-				E9FC817D1E7E0FAE000DB4D6 /* STAppendViewController.swift in Sources */,
+				A64DD3071E835DF700411EB6 /* DataAccessPoint.swift in Sources */,
+				A64DD2FB1E835DA900411EB6 /* STAppendViewController.swift in Sources */,
+				A64DD2FD1E835DA900411EB6 /* STEditViewController.swift in Sources */,
+				A64DD3041E835DE500411EB6 /* ListCellTableViewCell.swift in Sources */,
+				A64DD2FC1E835DA900411EB6 /* STCheckViewController.swift in Sources */,
+				A62CD0D01E833B4C00771675 /* anxiety1ViewController.swift in Sources */,
 				725B6A711E74959C00194DC0 /* Diary.swift in Sources */,
-				E9FC81811E7E0FAE000DB4D6 /* STCheckViewController.swift in Sources */,
-				E9FC81801E7E0FAE000DB4D6 /* STListViewTableViewController.swift in Sources */,
+				A64DD3051E835DE500411EB6 /* MainViewController.swift in Sources */,
+				A64DD30C1E835E0F00411EB6 /* TherapyListViewViewController.swift in Sources */,
+				A64DD30D1E835E0F00411EB6 /* TransitionControllerFirst.swift in Sources */,
+				A64DD2FE1E835DA900411EB6 /* STListViewTableViewController.swift in Sources */,
+				A64DD3031E835DE500411EB6 /* Items.swift in Sources */,
+				A62CD0CF1E833B4C00771675 /* SelfAnalysisMainViewController.swift in Sources */,
 				725B6A6D1E74957600194DC0 /* Resources.swift in Sources */,
-				E9FC81831E7E0FAE000DB4D6 /* DataAccessPoint.swift in Sources */,
+				A62CD0CE1E833B4C00771675 /* depression1ViewController.swift in Sources */,
 				72B80C781E6E5AF10093CAF5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -517,8 +579,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				72B80C8D1E6E5AF10093CAF5 /* UNITITests.swift in Sources */,
-				A6FF46711E702A090006680A /* anxiety1ViewController.swift in Sources */,
-				A6FF46751E702A2F0006680A /* depression1ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -527,8 +587,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				72B80C981E6E5AF10093CAF5 /* UNITIUITests.swift in Sources */,
-				A6FF46721E702A090006680A /* anxiety1ViewController.swift in Sources */,
-				A6FF46761E702A2F0006680A /* depression1ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
