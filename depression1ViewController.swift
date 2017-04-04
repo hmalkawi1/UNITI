@@ -10,20 +10,25 @@ import UIKit
 
 class depression1ViewController: UIViewController {
 
-    @IBOutlet weak var scroll2: UIScrollView!
+ 
     
-    @IBAction func save(_ sender: Any) {
-        
-        if (displayDepressionScore.text != " ")
-        {
+   @IBAction func Saved(_ sender: UIButton) {
+    
+        if (myscore.text != " ")
+      {
             
-          //  list.append(displayDepressonScore.text!)
-            displayDepressionScore.text = " "
+            list.append(myscore.text!)
+            myscore.text = " "
             
             
         }
-        
     }
+ 
+
+   
+
+    @IBOutlet weak var myscore: UILabel!
+    
     
     
     
@@ -47,21 +52,32 @@ class depression1ViewController: UIViewController {
     @IBOutlet weak var Questiond1: UILabel!
     
     
+    
+   
+    
     @IBAction func Answerd1(_ sender: UISlider) {
-      
+        
+        
         answerd1 = Int(sender.value)
         Questiond1.text = String(answerd1)
-        
         
     }
     
     
+    
+    
+    
     @IBOutlet weak var Questiond2: UILabel!
     
+
     @IBAction func Answerd2(_ sender: UISlider) {
+        
         
         answerd2 = Int(sender.value)
         Questiond2.text = String(answerd2)
+        
+        
+        
     }
     
     
@@ -83,6 +99,9 @@ class depression1ViewController: UIViewController {
         Questiond4.text = String(answerd4)
     }
     
+
+    @IBOutlet weak var Questiond5: UILabel!
+    
     @IBAction func Answerd5(_ sender: UISlider) {
         
         
@@ -90,11 +109,12 @@ class depression1ViewController: UIViewController {
         answerd5 = Int(sender.value)
         Questiond5.text = String(answerd5)
     }
-    @IBOutlet weak var Questiond5: UILabel!
+
     
     
     
     @IBOutlet weak var Questiond6: UILabel!
+    
     
     @IBAction func Answerd6(_ sender: UISlider) {
         answerd6 = Int(sender.value)
@@ -128,11 +148,12 @@ class depression1ViewController: UIViewController {
         Questiond9.text = String(answerd9)
     }
     
-    @IBOutlet weak var displayDepressionScore: UILabel!
+
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        scroll2.contentSize.height  = 1000
+       
         
         // Do any additional setup after loading the view.
     }
@@ -143,15 +164,15 @@ class depression1ViewController: UIViewController {
         totalDepressionResult = answerd1 + answerd2 + answerd3 + answerd4 + answerd5 + answerd6 + answerd7 + answerd9 + answerd8
         
         if totalDepressionResult >= 0 && totalDepressionResult <= 4 {
-            displayDepressionScore.text = "Normal"
+            myscore.text = "Normal"
         } else if totalDepressionResult >= 5 && totalDepressionResult <= 9 {
-            displayDepressionScore.text = "Minimally Depressive"
+            myscore.text = "Minimally Depressive"
         } else if totalDepressionResult >= 10 && totalDepressionResult <= 14 {
-            displayDepressionScore.text = "Major Depressive (Mild)"
+            myscore.text = "Major Depressive (Mild)"
         } else if totalDepressionResult >= 15 && totalDepressionResult <= 19 {
-            displayDepressionScore.text = "Major Depressive (Moderate)"
+            myscore.text = "Major Depressive (Moderate)"
         } else if totalDepressionResult >= 20 {
-            displayDepressionScore.text = "Major Depressive (Severe)"
+            myscore.text = "Major Depressive (Severe)"
         }
     }
 
