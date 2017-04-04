@@ -17,7 +17,7 @@ class depression1ViewController: UIViewController {
         if (displayDepressionScore.text != " ")
         {
             
-            list.append(displayDepressionScore.text!)
+          //  list.append(displayDepressonScore.text!)
             displayDepressionScore.text = " "
             
             
