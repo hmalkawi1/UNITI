@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F2B76391E94532200F5ABE7 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F2B76381E94532200F5ABE7 /* Launch Screen.storyboard */; };
+		2F2B76431E94567700F5ABE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F2B76421E94567700F5ABE7 /* Assets.xcassets */; };
 		2F70F9451E940FB600FE3862 /* DiaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F70F9441E940FB600FE3862 /* DiaryViewController.swift */; };
 		2F70F9471E941B0F00FE3862 /* Diary.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F70F9461E941B0F00FE3862 /* Diary.storyboard */; };
 		2F70F9491E941C9500FE3862 /* newEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F70F9481E941C9500FE3862 /* newEntryViewController.swift */; };
@@ -29,7 +31,6 @@
 		72B80C781E6E5AF10093CAF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B80C771E6E5AF10093CAF5 /* AppDelegate.swift */; };
 		72B80C7A1E6E5AF10093CAF5 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B80C791E6E5AF10093CAF5 /* TimerViewController.swift */; };
 		72B80C7D1E6E5AF10093CAF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72B80C7B1E6E5AF10093CAF5 /* Main.storyboard */; };
-		72B80C7F1E6E5AF10093CAF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72B80C7E1E6E5AF10093CAF5 /* Assets.xcassets */; };
 		72B80C8D1E6E5AF10093CAF5 /* UNITITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B80C8C1E6E5AF10093CAF5 /* UNITITests.swift */; };
 		72B80C981E6E5AF10093CAF5 /* UNITIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B80C971E6E5AF10093CAF5 /* UNITIUITests.swift */; };
 		960D2DC01E81FEE700094B04 /* firework.png in Resources */ = {isa = PBXBuildFile; fileRef = 960D2DBF1E81FEE700094B04 /* firework.png */; };
@@ -86,6 +87,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F2B76381E94532200F5ABE7 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		2F2B76421E94567700F5ABE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F70F9441E940FB600FE3862 /* DiaryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiaryViewController.swift; sourceTree = "<group>"; };
 		2F70F9461E941B0F00FE3862 /* Diary.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Diary.storyboard; path = ../../../.Trash/Diary.storyboard; sourceTree = "<group>"; };
 		2F70F9481E941C9500FE3862 /* newEntryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = newEntryViewController.swift; sourceTree = "<group>"; };
@@ -109,7 +112,6 @@
 		72B80C771E6E5AF10093CAF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		72B80C791E6E5AF10093CAF5 /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TimerViewController.swift; path = UNITI/TimerViewController.swift; sourceTree = "<group>"; };
 		72B80C7C1E6E5AF10093CAF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		72B80C7E1E6E5AF10093CAF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		72B80C831E6E5AF10093CAF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		72B80C881E6E5AF10093CAF5 /* UNITITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UNITITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		72B80C8C1E6E5AF10093CAF5 /* UNITITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UNITITests.swift; sourceTree = "<group>"; };
@@ -295,8 +297,9 @@
 			children = (
 				72B80C771E6E5AF10093CAF5 /* AppDelegate.swift */,
 				72B80C7B1E6E5AF10093CAF5 /* Main.storyboard */,
-				72B80C7E1E6E5AF10093CAF5 /* Assets.xcassets */,
+				2F2B76381E94532200F5ABE7 /* Launch Screen.storyboard */,
 				72B80C831E6E5AF10093CAF5 /* Info.plist */,
+				2F2B76421E94567700F5ABE7 /* Assets.xcassets */,
 			);
 			path = UNITI;
 			sourceTree = "<group>";
@@ -513,7 +516,6 @@
 				666AD6B31E931BED0017D6D1 /* mobile-phone-vibrating.png in Resources */,
 				963226731E7A03EC0060E199 /* 2.png in Resources */,
 				9696ABAD1E8087270071D8B2 /* mobile-phone-vibrating.png in Resources */,
-				72B80C7F1E6E5AF10093CAF5 /* Assets.xcassets in Resources */,
 				A64DD2FF1E835DA900411EB6 /* STMain.storyboard in Resources */,
 				963226751E7A03EC0060E199 /* 4.png in Resources */,
 				9696ABA71E8081920071D8B2 /* stopwatch.png in Resources */,
@@ -540,10 +542,12 @@
 				72B80C7D1E6E5AF10093CAF5 /* Main.storyboard in Resources */,
 				666AD6B41E931BED0017D6D1 /* person-silhouette-in-meditation-posture-in-spa.png in Resources */,
 				963226741E7A03EC0060E199 /* 5.png in Resources */,
+				2F2B76391E94532200F5ABE7 /* Launch Screen.storyboard in Resources */,
 				960D2DC01E81FEE700094B04 /* firework.png in Resources */,
 				9696ABAB1E80853E0071D8B2 /* timer3.jpg in Resources */,
 				666AD6B51E931BED0017D6D1 /* sitting1.png in Resources */,
 				A62CD0CC1E833B4C00771675 /* SelfAnalysis.storyboard in Resources */,
+				2F2B76431E94567700F5ABE7 /* Assets.xcassets in Resources */,
 				A64DD31B1E835E6900411EB6 /* listview_headPhoto.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
