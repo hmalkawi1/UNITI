@@ -22,9 +22,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MEDITATION MENU" translatesAutoresizingMaskIntoConstraints="NO" id="Ap9-IW-ZXG">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3W2-5h-e1g">
                                 <rect key="frame" x="16" y="225" width="343" height="74"/>
                                 <constraints>
@@ -62,9 +59,9 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AcJ-M4-v6Y">
-                                <rect key="frame" x="16" y="470" width="343" height="74"/>
+                                <rect key="frame" x="16" y="470" width="343" height="104"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="74" id="5q7-uV-wtR"/>
+                                    <constraint firstAttribute="height" constant="104" id="5q7-uV-wtR"/>
                                 </constraints>
                                 <state key="normal">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -79,6 +76,9 @@
                                     <navigationItem title="Session Select" prompt=" " id="qcX-0Q-gA6"/>
                                 </items>
                             </navigationBar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MEDITATION MENUv2" translatesAutoresizingMaskIntoConstraints="NO" id="Ap9-IW-ZXG">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.098039215686274508" green="0.13333333333333333" blue="0.26666666666666666" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
@@ -1257,7 +1257,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="MEDITATION MENU" width="750" height="1334"/>
+        <image name="MEDITATION MENUv2" width="750" height="1334"/>
         <image name="firework.png" width="512" height="512"/>
         <image name="mediBkg.jpg" width="1000" height="667"/>
         <image name="mobile-phone-vibrating.png" width="512" height="512"/>
