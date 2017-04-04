@@ -67,7 +67,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S2j-42-Uho">
                                 <rect key="frame" x="16" y="95" width="343" height="68"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="68" id="HZN-rW-XMI"/>
+                                    <constraint firstAttribute="height" constant="68" id="CM7-nG-kAy"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                 <state key="normal">
@@ -79,6 +79,9 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0YA-E2-AXl">
                                 <rect key="frame" x="16" y="190" width="343" height="74"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="74" id="mzu-5P-AhY"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <state key="normal">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -90,7 +93,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xld-8H-DGc">
                                 <rect key="frame" x="16" y="460" width="343" height="61"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="61" id="ypg-sj-klE"/>
+                                    <constraint firstAttribute="height" constant="61" id="Qi1-tT-ces"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <state key="normal">
@@ -101,22 +104,19 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dbU-2R-pLK">
-                                <rect key="frame" x="16" y="276" width="343" height="64"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="64" id="U6f-WJ-uVe"/>
-                                </constraints>
+                                <rect key="frame" x="16" y="276" width="343" height="74"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <state key="normal">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Fs3-ct-98F" kind="presentation" id="RRh-Ok-MUY"/>
+                                    <segue destination="Cag-3w-K33" kind="presentation" id="Qvz-50-Dro"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oun-R9-aer">
                                 <rect key="frame" x="16" y="368" width="343" height="70"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="70" id="zrp-dJ-81q"/>
+                                    <constraint firstAttribute="height" constant="70" id="EjB-to-NMH"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                 <state key="normal">
@@ -129,26 +129,26 @@
                         </subviews>
                         <color key="backgroundColor" red="0.31939103289999998" green="0.4370285029" blue="0.62556670979999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="Oun-R9-aer" firstAttribute="top" secondItem="dbU-2R-pLK" secondAttribute="bottom" constant="28" id="0t4-0F-wqu"/>
-                            <constraint firstItem="0YA-E2-AXl" firstAttribute="trailing" secondItem="dbU-2R-pLK" secondAttribute="trailing" id="5w7-85-NTZ"/>
-                            <constraint firstItem="uxA-hm-vY7" firstAttribute="top" secondItem="xld-8H-DGc" secondAttribute="bottom" constant="146" id="7VM-M9-wpZ"/>
+                            <constraint firstItem="S2j-42-Uho" firstAttribute="leading" secondItem="0YA-E2-AXl" secondAttribute="leading" id="2sL-li-h3p"/>
+                            <constraint firstItem="0YA-E2-AXl" firstAttribute="top" secondItem="S2j-42-Uho" secondAttribute="bottom" constant="27" id="3cw-d1-80Z"/>
                             <constraint firstItem="8Qe-VH-4gC" firstAttribute="leading" secondItem="AjG-v7-vvu" secondAttribute="leading" id="7dk-Ir-u3h"/>
                             <constraint firstItem="8Qe-VH-4gC" firstAttribute="bottom" secondItem="uxA-hm-vY7" secondAttribute="top" id="B80-mV-ehY"/>
-                            <constraint firstItem="0YA-E2-AXl" firstAttribute="leading" secondItem="dbU-2R-pLK" secondAttribute="leading" id="CqM-aj-ma4"/>
-                            <constraint firstItem="S2j-42-Uho" firstAttribute="trailing" secondItem="0YA-E2-AXl" secondAttribute="trailing" id="JLM-Fu-qsb"/>
-                            <constraint firstItem="Oun-R9-aer" firstAttribute="leading" secondItem="xld-8H-DGc" secondAttribute="leading" id="TGx-qf-qRX"/>
-                            <constraint firstItem="dbU-2R-pLK" firstAttribute="leading" secondItem="Oun-R9-aer" secondAttribute="leading" id="Wbd-Me-g1U"/>
-                            <constraint firstItem="dbU-2R-pLK" firstAttribute="top" secondItem="0YA-E2-AXl" secondAttribute="bottom" constant="12" id="avy-J7-TK1"/>
-                            <constraint firstItem="dbU-2R-pLK" firstAttribute="trailing" secondItem="Oun-R9-aer" secondAttribute="trailing" id="bpr-TU-r2p"/>
-                            <constraint firstItem="0YA-E2-AXl" firstAttribute="top" secondItem="S2j-42-Uho" secondAttribute="bottom" constant="27" id="doI-tm-wFX"/>
-                            <constraint firstItem="S2j-42-Uho" firstAttribute="top" secondItem="FLW-E2-zVd" secondAttribute="bottom" constant="75" id="e9d-vN-7Kq"/>
+                            <constraint firstItem="S2j-42-Uho" firstAttribute="leading" secondItem="AjG-v7-vvu" secondAttribute="leadingMargin" id="CH7-cd-G9g"/>
+                            <constraint firstItem="dbU-2R-pLK" firstAttribute="leading" secondItem="Oun-R9-aer" secondAttribute="leading" id="N7c-Au-HRx"/>
+                            <constraint firstItem="S2j-42-Uho" firstAttribute="centerX" secondItem="8Qe-VH-4gC" secondAttribute="centerX" id="R2z-ou-zA3"/>
+                            <constraint firstItem="Oun-R9-aer" firstAttribute="trailing" secondItem="xld-8H-DGc" secondAttribute="trailing" id="VMv-sZ-MOf"/>
+                            <constraint firstItem="uxA-hm-vY7" firstAttribute="top" secondItem="xld-8H-DGc" secondAttribute="bottom" constant="146" id="eCI-aC-uqj"/>
+                            <constraint firstItem="xld-8H-DGc" firstAttribute="top" secondItem="Oun-R9-aer" secondAttribute="bottom" constant="22" id="eDx-fc-cfN"/>
                             <constraint firstItem="8Qe-VH-4gC" firstAttribute="top" secondItem="AjG-v7-vvu" secondAttribute="top" id="exj-xl-J2u"/>
-                            <constraint firstItem="8Qe-VH-4gC" firstAttribute="centerX" secondItem="xld-8H-DGc" secondAttribute="centerX" id="gG8-B3-XqI"/>
-                            <constraint firstItem="Oun-R9-aer" firstAttribute="trailing" secondItem="xld-8H-DGc" secondAttribute="trailing" id="h6D-Td-8sf"/>
-                            <constraint firstItem="S2j-42-Uho" firstAttribute="leading" secondItem="0YA-E2-AXl" secondAttribute="leading" id="hae-ev-Yaj"/>
-                            <constraint firstItem="xld-8H-DGc" firstAttribute="top" secondItem="Oun-R9-aer" secondAttribute="bottom" constant="22" id="i56-X1-HbB"/>
-                            <constraint firstItem="S2j-42-Uho" firstAttribute="leading" secondItem="AjG-v7-vvu" secondAttribute="leadingMargin" id="jlw-ZH-cQw"/>
+                            <constraint firstItem="Oun-R9-aer" firstAttribute="top" secondItem="dbU-2R-pLK" secondAttribute="bottom" constant="18" id="kS4-Gq-auQ"/>
                             <constraint firstAttribute="trailing" secondItem="8Qe-VH-4gC" secondAttribute="trailing" id="mds-6Z-wp4"/>
+                            <constraint firstItem="Oun-R9-aer" firstAttribute="leading" secondItem="xld-8H-DGc" secondAttribute="leading" id="mox-Nb-5U3"/>
+                            <constraint firstItem="S2j-42-Uho" firstAttribute="top" secondItem="FLW-E2-zVd" secondAttribute="bottom" constant="75" id="n16-TV-0uE"/>
+                            <constraint firstItem="0YA-E2-AXl" firstAttribute="leading" secondItem="dbU-2R-pLK" secondAttribute="leading" id="nkZ-vR-UGe"/>
+                            <constraint firstItem="S2j-42-Uho" firstAttribute="trailing" secondItem="0YA-E2-AXl" secondAttribute="trailing" id="pC3-9f-QOO"/>
+                            <constraint firstItem="dbU-2R-pLK" firstAttribute="top" secondItem="0YA-E2-AXl" secondAttribute="bottom" constant="12" id="qgd-iB-J0R"/>
+                            <constraint firstItem="0YA-E2-AXl" firstAttribute="trailing" secondItem="dbU-2R-pLK" secondAttribute="trailing" id="vbT-h2-tRy"/>
+                            <constraint firstItem="dbU-2R-pLK" firstAttribute="trailing" secondItem="Oun-R9-aer" secondAttribute="trailing" id="wRO-q6-UUC"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -173,12 +173,12 @@
             <point key="canvasLocation" x="1106" y="16"/>
         </scene>
         <!--Diary-->
-        <scene sceneID="foH-sa-l9l">
+        <scene sceneID="hOR-hf-cn6">
             <objects>
-                <viewControllerPlaceholder storyboardName="Diary" id="Fs3-ct-98F" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="tVh-Df-bCj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewControllerPlaceholder storyboardIdentifier="Diary" storyboardName="Diary" id="Cag-3w-K33" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vjg-m6-EBY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1149" y="187"/>
+            <point key="canvasLocation" x="988" y="163"/>
         </scene>
         <!--Resources-->
         <scene sceneID="95B-WN-P19">
@@ -186,7 +186,7 @@
                 <viewControllerPlaceholder storyboardName="Resources" id="2VF-mm-3Kv" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Vsr-rb-ZVp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1117" y="282"/>
+            <point key="canvasLocation" x="1123" y="286"/>
         </scene>
         <!--Meditation-->
         <scene sceneID="LMD-aR-myh">
