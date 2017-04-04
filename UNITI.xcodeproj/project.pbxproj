@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F70F9451E940FB600FE3862 /* DiaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F70F9441E940FB600FE3862 /* DiaryViewController.swift */; };
+		2F70F9471E941B0F00FE3862 /* Diary.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F70F9461E941B0F00FE3862 /* Diary.storyboard */; };
+		2F70F9491E941C9500FE3862 /* newEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F70F9481E941C9500FE3862 /* newEntryViewController.swift */; };
 		666AD6B21E931BED0017D6D1 /* mediBkg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 666AD6A91E931BED0017D6D1 /* mediBkg.jpg */; };
 		666AD6B31E931BED0017D6D1 /* mobile-phone-vibrating.png in Resources */ = {isa = PBXBuildFile; fileRef = 666AD6AA1E931BED0017D6D1 /* mobile-phone-vibrating.png */; };
 		666AD6B41E931BED0017D6D1 /* person-silhouette-in-meditation-posture-in-spa.png in Resources */ = {isa = PBXBuildFile; fileRef = 666AD6AB1E931BED0017D6D1 /* person-silhouette-in-meditation-posture-in-spa.png */; };
@@ -23,8 +26,6 @@
 		725B6A691E74952E00194DC0 /* Tasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725B6A681E74952E00194DC0 /* Tasks.swift */; };
 		725B6A6B1E74956500194DC0 /* Resources.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 725B6A6A1E74956500194DC0 /* Resources.storyboard */; };
 		725B6A6D1E74957600194DC0 /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725B6A6C1E74957600194DC0 /* Resources.swift */; };
-		725B6A6F1E74958700194DC0 /* Diary.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 725B6A6E1E74958700194DC0 /* Diary.storyboard */; };
-		725B6A711E74959C00194DC0 /* Diary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725B6A701E74959C00194DC0 /* Diary.swift */; };
 		72B80C781E6E5AF10093CAF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B80C771E6E5AF10093CAF5 /* AppDelegate.swift */; };
 		72B80C7A1E6E5AF10093CAF5 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B80C791E6E5AF10093CAF5 /* TimerViewController.swift */; };
 		72B80C7D1E6E5AF10093CAF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72B80C7B1E6E5AF10093CAF5 /* Main.storyboard */; };
@@ -85,6 +86,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F70F9441E940FB600FE3862 /* DiaryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiaryViewController.swift; sourceTree = "<group>"; };
+		2F70F9461E941B0F00FE3862 /* Diary.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Diary.storyboard; path = ../../../.Trash/Diary.storyboard; sourceTree = "<group>"; };
+		2F70F9481E941C9500FE3862 /* newEntryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = newEntryViewController.swift; sourceTree = "<group>"; };
 		666AD6A91E931BED0017D6D1 /* mediBkg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mediBkg.jpg; sourceTree = "<group>"; };
 		666AD6AA1E931BED0017D6D1 /* mobile-phone-vibrating.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mobile-phone-vibrating.png"; sourceTree = "<group>"; };
 		666AD6AB1E931BED0017D6D1 /* person-silhouette-in-meditation-posture-in-spa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "person-silhouette-in-meditation-posture-in-spa.png"; sourceTree = "<group>"; };
@@ -101,8 +105,6 @@
 		725B6A681E74952E00194DC0 /* Tasks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tasks.swift; sourceTree = "<group>"; };
 		725B6A6A1E74956500194DC0 /* Resources.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Resources.storyboard; sourceTree = "<group>"; };
 		725B6A6C1E74957600194DC0 /* Resources.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
-		725B6A6E1E74958700194DC0 /* Diary.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Diary.storyboard; sourceTree = "<group>"; };
-		725B6A701E74959C00194DC0 /* Diary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Diary.swift; sourceTree = "<group>"; };
 		72B80C741E6E5AF10093CAF5 /* UNITI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UNITI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72B80C771E6E5AF10093CAF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		72B80C791E6E5AF10093CAF5 /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TimerViewController.swift; path = UNITI/TimerViewController.swift; sourceTree = "<group>"; };
@@ -219,8 +221,9 @@
 		725B6A551E748C5F00194DC0 /* Diary */ = {
 			isa = PBXGroup;
 			children = (
-				725B6A6E1E74958700194DC0 /* Diary.storyboard */,
-				725B6A701E74959C00194DC0 /* Diary.swift */,
+				2F70F9461E941B0F00FE3862 /* Diary.storyboard */,
+				2F70F9441E940FB600FE3862 /* DiaryViewController.swift */,
+				2F70F9481E941C9500FE3862 /* newEntryViewController.swift */,
 			);
 			name = Diary;
 			sourceTree = "<group>";
@@ -520,8 +523,8 @@
 				963226721E7A03EC0060E199 /* 3.png in Resources */,
 				666AD6B21E931BED0017D6D1 /* mediBkg.jpg in Resources */,
 				725B6A671E74947400194DC0 /* Tasks.storyboard in Resources */,
-				725B6A6F1E74958700194DC0 /* Diary.storyboard in Resources */,
 				A64DD3121E835E3F00411EB6 /* ok.png in Resources */,
+				2F70F9471E941B0F00FE3862 /* Diary.storyboard in Resources */,
 				666AD6B61E931BED0017D6D1 /* sitting2.png in Resources */,
 				666AD6B91E931BED0017D6D1 /* stopwatch.png in Resources */,
 				A64DD31C1E835E6900411EB6 /* edit.png in Resources */,
@@ -577,15 +580,16 @@
 				A64DD3041E835DE500411EB6 /* ListCellTableViewCell.swift in Sources */,
 				A64DD2FC1E835DA900411EB6 /* STCheckViewController.swift in Sources */,
 				A62CD0D01E833B4C00771675 /* anxiety1ViewController.swift in Sources */,
-				725B6A711E74959C00194DC0 /* Diary.swift in Sources */,
 				A64DD3051E835DE500411EB6 /* MainViewController.swift in Sources */,
 				A64DD30C1E835E0F00411EB6 /* TherapyListViewViewController.swift in Sources */,
+				2F70F9451E940FB600FE3862 /* DiaryViewController.swift in Sources */,
 				A64DD30D1E835E0F00411EB6 /* TransitionControllerFirst.swift in Sources */,
 				A64DD2FE1E835DA900411EB6 /* STListViewTableViewController.swift in Sources */,
 				A64DD3031E835DE500411EB6 /* Items.swift in Sources */,
 				A62CD0CF1E833B4C00771675 /* SelfAnalysisMainViewController.swift in Sources */,
 				725B6A6D1E74957600194DC0 /* Resources.swift in Sources */,
 				A62CD0CE1E833B4C00771675 /* depression1ViewController.swift in Sources */,
+				2F70F9491E941C9500FE3862 /* newEntryViewController.swift in Sources */,
 				72B80C781E6E5AF10093CAF5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
