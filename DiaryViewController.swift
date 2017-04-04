@@ -28,6 +28,7 @@ class DiaryViewController: UIViewController, UITableViewDataSource,UITableViewDe
         
         //cell functionality - has a text label - include date as well in future perhaps?
         Cell.textLabel?.text = array1[indexPath.row]
+        Cell.textLabel?.textColor = UIColor.white
         return Cell
     }
     
