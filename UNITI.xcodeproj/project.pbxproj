@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		666AD6B21E931BED0017D6D1 /* mediBkg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 666AD6A91E931BED0017D6D1 /* mediBkg.jpg */; };
+		666AD6B31E931BED0017D6D1 /* mobile-phone-vibrating.png in Resources */ = {isa = PBXBuildFile; fileRef = 666AD6AA1E931BED0017D6D1 /* mobile-phone-vibrating.png */; };
+		666AD6B41E931BED0017D6D1 /* person-silhouette-in-meditation-posture-in-spa.png in Resources */ = {isa = PBXBuildFile; fileRef = 666AD6AB1E931BED0017D6D1 /* person-silhouette-in-meditation-posture-in-spa.png */; };
+		666AD6B51E931BED0017D6D1 /* sitting1.png in Resources */ = {isa = PBXBuildFile; fileRef = 666AD6AC1E931BED0017D6D1 /* sitting1.png */; };
+		666AD6B61E931BED0017D6D1 /* sitting2.png in Resources */ = {isa = PBXBuildFile; fileRef = 666AD6AD1E931BED0017D6D1 /* sitting2.png */; };
+		666AD6B71E931BED0017D6D1 /* standingLeg1.png in Resources */ = {isa = PBXBuildFile; fileRef = 666AD6AE1E931BED0017D6D1 /* standingLeg1.png */; };
+		666AD6B81E931BED0017D6D1 /* standingLeg2.png in Resources */ = {isa = PBXBuildFile; fileRef = 666AD6AF1E931BED0017D6D1 /* standingLeg2.png */; };
+		666AD6B91E931BED0017D6D1 /* stopwatch.png in Resources */ = {isa = PBXBuildFile; fileRef = 666AD6B01E931BED0017D6D1 /* stopwatch.png */; };
+		666AD6BA1E931BED0017D6D1 /* yoga.png in Resources */ = {isa = PBXBuildFile; fileRef = 666AD6B11E931BED0017D6D1 /* yoga.png */; };
+		666AD6BC1E931C140017D6D1 /* armsRaised1.png in Resources */ = {isa = PBXBuildFile; fileRef = 666AD6BB1E931C140017D6D1 /* armsRaised1.png */; };
 		723917111E6E6BE700B880AE /* TimerSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723917101E6E6BE700B880AE /* TimerSecondViewController.swift */; };
 		725B6A5D1E748DA500194DC0 /* Meditation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 725B6A5C1E748DA500194DC0 /* Meditation.storyboard */; };
 		725B6A671E74947400194DC0 /* Tasks.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 725B6A661E74947400194DC0 /* Tasks.storyboard */; };
@@ -81,6 +91,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		666AD6A91E931BED0017D6D1 /* mediBkg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mediBkg.jpg; sourceTree = "<group>"; };
+		666AD6AA1E931BED0017D6D1 /* mobile-phone-vibrating.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mobile-phone-vibrating.png"; sourceTree = "<group>"; };
+		666AD6AB1E931BED0017D6D1 /* person-silhouette-in-meditation-posture-in-spa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "person-silhouette-in-meditation-posture-in-spa.png"; sourceTree = "<group>"; };
+		666AD6AC1E931BED0017D6D1 /* sitting1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sitting1.png; sourceTree = "<group>"; };
+		666AD6AD1E931BED0017D6D1 /* sitting2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sitting2.png; sourceTree = "<group>"; };
+		666AD6AE1E931BED0017D6D1 /* standingLeg1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = standingLeg1.png; sourceTree = "<group>"; };
+		666AD6AF1E931BED0017D6D1 /* standingLeg2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = standingLeg2.png; sourceTree = "<group>"; };
+		666AD6B01E931BED0017D6D1 /* stopwatch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stopwatch.png; sourceTree = "<group>"; };
+		666AD6B11E931BED0017D6D1 /* yoga.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yoga.png; sourceTree = "<group>"; };
+		666AD6BB1E931C140017D6D1 /* armsRaised1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = armsRaised1.png; sourceTree = "<group>"; };
 		723917101E6E6BE700B880AE /* TimerSecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TimerSecondViewController.swift; path = UNITI/TimerSecondViewController.swift; sourceTree = "<group>"; };
 		725B6A5C1E748DA500194DC0 /* Meditation.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Meditation.storyboard; sourceTree = "<group>"; };
 		725B6A661E74947400194DC0 /* Tasks.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Tasks.storyboard; sourceTree = "<group>"; };
@@ -319,6 +339,16 @@
 			children = (
 				960D2DBF1E81FEE700094B04 /* firework.png */,
 				960D2DC11E8203D400094B04 /* person-silhouette-in-meditation-posture-in-spa.png */,
+				666AD6A91E931BED0017D6D1 /* mediBkg.jpg */,
+				666AD6AA1E931BED0017D6D1 /* mobile-phone-vibrating.png */,
+				666AD6AB1E931BED0017D6D1 /* person-silhouette-in-meditation-posture-in-spa.png */,
+				666AD6BB1E931C140017D6D1 /* armsRaised1.png */,
+				666AD6AC1E931BED0017D6D1 /* sitting1.png */,
+				666AD6AD1E931BED0017D6D1 /* sitting2.png */,
+				666AD6AE1E931BED0017D6D1 /* standingLeg1.png */,
+				666AD6AF1E931BED0017D6D1 /* standingLeg2.png */,
+				666AD6B01E931BED0017D6D1 /* stopwatch.png */,
+				666AD6B11E931BED0017D6D1 /* yoga.png */,
 				9696ABAC1E8087270071D8B2 /* mobile-phone-vibrating.png */,
 				9696ABAA1E80853E0071D8B2 /* timer3.jpg */,
 				9696ABA61E8081920071D8B2 /* stopwatch.png */,
@@ -496,6 +526,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A62CD0D81E833B6400771675 /* Screen Shot 2017-03-19 at 8.25.10 PM.png in Resources */,
+				666AD6B31E931BED0017D6D1 /* mobile-phone-vibrating.png in Resources */,
 				963226731E7A03EC0060E199 /* 2.png in Resources */,
 				9696ABAD1E8087270071D8B2 /* mobile-phone-vibrating.png in Resources */,
 				72B80C7F1E6E5AF10093CAF5 /* Assets.xcassets in Resources */,
@@ -505,25 +536,34 @@
 				9696ABA71E8081920071D8B2 /* stopwatch.png in Resources */,
 				A64DD3101E835E2D00411EB6 /* box.png in Resources */,
 				A62CD0DB1E833B6400771675 /* bg_720.jpg in Resources */,
+				666AD6BA1E931BED0017D6D1 /* yoga.png in Resources */,
 				725B6A5D1E748DA500194DC0 /* Meditation.storyboard in Resources */,
 				963226721E7A03EC0060E199 /* 3.png in Resources */,
 				A62CD0DC1E833B6400771675 /* relaxing_nature.jpg in Resources */,
+				666AD6B21E931BED0017D6D1 /* mediBkg.jpg in Resources */,
 				725B6A671E74947400194DC0 /* Tasks.storyboard in Resources */,
 				A62CD0D71E833B6400771675 /* 94-great-atmosphere-nature-landscape-mood-relaxing-water-lake-jasper-national-park-alberta-canada-2.jpg in Resources */,
 				725B6A6F1E74958700194DC0 /* Diary.storyboard in Resources */,
 				A64DD3121E835E3F00411EB6 /* ok.png in Resources */,
+				666AD6B61E931BED0017D6D1 /* sitting2.png in Resources */,
+				666AD6B91E931BED0017D6D1 /* stopwatch.png in Resources */,
 				A64DD31C1E835E6900411EB6 /* edit.png in Resources */,
 				A64DD3191E835E6900411EB6 /* view.png in Resources */,
 				A62CD0DA1E833B6400771675 /* Screen Shot 2017-03-22 at 9.41.01 AM.png in Resources */,
+				666AD6B81E931BED0017D6D1 /* standingLeg2.png in Resources */,
 				963226761E7A03EC0060E199 /* 1.png in Resources */,
 				A64DD3141E835E4A00411EB6 /* leave.png in Resources */,
+				666AD6BC1E931C140017D6D1 /* armsRaised1.png in Resources */,
 				725B6A6B1E74956500194DC0 /* Resources.storyboard in Resources */,
 				A64DD31A1E835E6900411EB6 /* plus.png in Resources */,
+				666AD6B71E931BED0017D6D1 /* standingLeg1.png in Resources */,
 				960D2DC21E8203D400094B04 /* person-silhouette-in-meditation-posture-in-spa.png in Resources */,
 				72B80C7D1E6E5AF10093CAF5 /* Main.storyboard in Resources */,
+				666AD6B41E931BED0017D6D1 /* person-silhouette-in-meditation-posture-in-spa.png in Resources */,
 				963226741E7A03EC0060E199 /* 5.png in Resources */,
 				960D2DC01E81FEE700094B04 /* firework.png in Resources */,
 				9696ABAB1E80853E0071D8B2 /* timer3.jpg in Resources */,
+				666AD6B51E931BED0017D6D1 /* sitting1.png in Resources */,
 				A62CD0CC1E833B4C00771675 /* SelfAnalysis.storyboard in Resources */,
 				A64DD31B1E835E6900411EB6 /* listview_headPhoto.png in Resources */,
 			);
