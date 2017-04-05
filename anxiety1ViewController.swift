@@ -10,7 +10,6 @@ import UIKit
 
 class anxiety1ViewController: UIViewController {
 
-    @IBOutlet weak var Scroll: UIScrollView!
     
     
  
@@ -115,7 +114,7 @@ class anxiety1ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        Scroll.contentSize.height = 1000
+       
         
         
 

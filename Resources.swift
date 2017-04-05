@@ -10,10 +10,23 @@ import UIKit
 
 class Resources: UIViewController {
 
+    @IBOutlet weak var webview: UIWebView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        let url = URL(string: "https://www.sfu.ca/students/health/events/mindfulness-meditation.html")
+        
+        webview.loadRequest(URLRequest(url: url!))
+        
+        
+        
+        
+        
+        
     }
 
     override func didReceiveMemoryWarning() {

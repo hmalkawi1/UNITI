@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Udv-2r-yyQ">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Udv-2r-yyQ">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -17,13 +21,147 @@
                     <view key="view" contentMode="scaleToFill" id="JVq-xO-7g8">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.31660646199999998" green="0.43537038560000002" blue="0.62632566690000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="5.png" translatesAutoresizingMaskIntoConstraints="NO" id="FOv-Wa-hKi">
+                                <rect key="frame" x="0.0" y="64" width="375" height="316"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IPY-gg-0Dv">
+                                <rect key="frame" x="32" y="404" width="343" height="68"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="68" id="gfi-DH-4rg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <state key="normal" title="SFU Medfulness">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="pGT-WG-zJT" kind="show" id="Lvg-QZ-dqF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jZB-f3-zlW">
+                                <rect key="frame" x="16" y="480" width="343" height="68"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="68" id="ePk-Ri-8D6"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <state key="normal" title="Puppy Therapy">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="ntX-o9-lXQ" kind="show" id="Qwx-sl-7T6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qwy-vq-PTA">
+                                <rect key="frame" x="16" y="556" width="343" height="68"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="68" id="K7R-av-TGV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <state key="normal" title="Main Page">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="rgk-cw-Qtr" kind="presentation" id="BhF-6C-2CF"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.16897118089999999" green="0.28437778349999998" blue="0.37678837780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="FOv-Wa-hKi" firstAttribute="top" secondItem="cF1-Zu-eSq" secondAttribute="bottom" id="D8u-Dj-1Nx"/>
+                            <constraint firstItem="nam-mA-odr" firstAttribute="top" secondItem="IPY-gg-0Dv" secondAttribute="bottom" constant="195" id="FMh-7a-afY"/>
+                            <constraint firstItem="jZB-f3-zlW" firstAttribute="top" secondItem="IPY-gg-0Dv" secondAttribute="bottom" constant="8" symbolic="YES" id="Gfp-YU-DCR"/>
+                            <constraint firstItem="qwy-vq-PTA" firstAttribute="trailing" secondItem="jZB-f3-zlW" secondAttribute="trailing" id="Ghi-Q5-rjG"/>
+                            <constraint firstItem="IPY-gg-0Dv" firstAttribute="centerX" secondItem="FOv-Wa-hKi" secondAttribute="centerX" id="HUy-9q-kJv"/>
+                            <constraint firstItem="jZB-f3-zlW" firstAttribute="trailing" secondItem="IPY-gg-0Dv" secondAttribute="trailing" id="KBC-93-8Bb"/>
+                            <constraint firstItem="IPY-gg-0Dv" firstAttribute="top" secondItem="FOv-Wa-hKi" secondAttribute="bottom" constant="24" id="L8l-ZX-rUd"/>
+                            <constraint firstItem="IPY-gg-0Dv" firstAttribute="trailing" secondItem="JVq-xO-7g8" secondAttribute="trailingMargin" id="O1m-zK-WnI"/>
+                            <constraint firstItem="IPY-gg-0Dv" firstAttribute="leading" secondItem="JVq-xO-7g8" secondAttribute="leadingMargin" id="Rv6-Sk-swb"/>
+                            <constraint firstItem="jZB-f3-zlW" firstAttribute="leading" secondItem="IPY-gg-0Dv" secondAttribute="leading" id="YCC-bK-QkM"/>
+                            <constraint firstItem="qwy-vq-PTA" firstAttribute="top" secondItem="jZB-f3-zlW" secondAttribute="bottom" constant="8" symbolic="YES" id="b8w-Nf-ttm"/>
+                            <constraint firstItem="qwy-vq-PTA" firstAttribute="leading" secondItem="jZB-f3-zlW" secondAttribute="leading" id="d34-d3-t8C"/>
+                            <constraint firstItem="FOv-Wa-hKi" firstAttribute="leading" secondItem="JVq-xO-7g8" secondAttribute="leading" id="snD-dF-oIe"/>
+                            <constraint firstAttribute="trailing" secondItem="FOv-Wa-hKi" secondAttribute="trailing" id="u4m-vC-EM5"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="JP6-zS-emC"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pNP-F1-3ZD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1548" y="-270.31484257871068"/>
+        </scene>
+        <!--Resources-->
+        <scene sceneID="DBC-y4-sW6">
+            <objects>
+                <viewController id="pGT-WG-zJT" customClass="Resources" customModule="UNITI" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="v48-A2-LnZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="L4N-j9-4PT"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="VEq-h3-PT1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aCu-3Y-bh5">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="aCu-3Y-bh5" firstAttribute="centerX" secondItem="VEq-h3-PT1" secondAttribute="centerX" id="2JF-h6-Xve"/>
+                            <constraint firstItem="aCu-3Y-bh5" firstAttribute="centerY" secondItem="VEq-h3-PT1" secondAttribute="centerY" id="DV4-NN-gR8"/>
+                            <constraint firstItem="aCu-3Y-bh5" firstAttribute="height" secondItem="VEq-h3-PT1" secondAttribute="height" id="I6G-Uw-F3h"/>
+                            <constraint firstItem="aCu-3Y-bh5" firstAttribute="width" secondItem="VEq-h3-PT1" secondAttribute="width" id="T2M-p2-SBE"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="webview" destination="aCu-3Y-bh5" id="r0c-RW-ngU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yHg-TX-iqg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2341.5999999999999" y="-270.31484257871068"/>
+        </scene>
+        <!--Puppy Therapy-->
+        <scene sceneID="qgC-Su-rXI">
+            <objects>
+                <viewController id="ntX-o9-lXQ" customClass="puppyTherapy" customModule="UNITI" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="NCI-G2-fxm"/>
+                        <viewControllerLayoutGuide type="bottom" id="7fP-gR-b53"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="iAx-jr-JRF">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pdr-lm-GAY">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="pdr-lm-GAY" firstAttribute="height" secondItem="iAx-jr-JRF" secondAttribute="height" id="Q38-g2-JzM"/>
+                            <constraint firstItem="pdr-lm-GAY" firstAttribute="width" secondItem="iAx-jr-JRF" secondAttribute="width" id="RVR-uT-MB6"/>
+                            <constraint firstItem="pdr-lm-GAY" firstAttribute="centerY" secondItem="iAx-jr-JRF" secondAttribute="centerY" id="SHg-YB-mr9"/>
+                            <constraint firstItem="pdr-lm-GAY" firstAttribute="centerX" secondItem="iAx-jr-JRF" secondAttribute="centerX" id="v5p-GW-be1"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="webview" destination="pdr-lm-GAY" id="usd-WI-7oY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Cxl-kA-DPL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1501.5999999999999" y="523.98800599700155"/>
+        </scene>
+        <!--Main-->
+        <scene sceneID="y9t-Dv-g8H">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Front" storyboardName="Main" id="rgk-cw-Qtr" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jWj-c9-n0T" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2061" y="183"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="ULg-Zk-wtW">
@@ -44,4 +182,7 @@
             <point key="canvasLocation" x="608.79999999999995" y="-270.31484257871068"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="5.png" width="3600" height="3600"/>
+    </resources>
 </document>
