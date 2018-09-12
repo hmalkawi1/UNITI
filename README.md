@@ -14,4 +14,4 @@ the use of CBT - ultimately improving one’s overall mental health.
 > git clone https://github.com/SFU-2017-1-cmpt276/ProjectGroup2.git
 ```
 
-#### By Project Group 2 - Shawn, Michael, Homam, Joe, Mozzie
+#### By - Shawn, Michael, Homam, Joe, Mozzie
